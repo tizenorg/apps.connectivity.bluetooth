@@ -1,0 +1,20 @@
+#default include
+org.tizen.bluetooth app.default include
+
+org.tizen.bluetooth org.tizen.indicator rw
+org.tizen.bluetooth sound_server rw
+org.tizen.bluetooth dbus r
+org.tizen.bluetooth org.tizen.clock rx
+org.tizen.bluetooth ail::db rw
+org.tizen.bluetooth sound_server r
+org.tizen.bluetooth svi-data rx
+org.tizen.bluetooth xorg rw
+org.tizen.bluetooth system::use_internet r
+org.tizen.bluetooth syspopup::db rl
+org.tizen.bluetooth isf rwx
+org.tizen.bluetooth immvibed rw
+org.tizen.bluetooth tts-server rx
+org.tizen.app-tray org.tizen.bluetooth rx
+org.tizen.bluetooth org.tizen.setting::system r
+org.tizen.bluetooth org.tizen.bt-connection-popup x
+org.tizen.bluetooth org.tizen.clocksetting rw
