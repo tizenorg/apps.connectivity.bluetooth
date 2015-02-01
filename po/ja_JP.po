@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Bluetoothで端末に接続しました。"
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Bluetoothで端末に接続中..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "接続"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetoothエラー"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetoothが接続されました。"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "端末と接続できません。Bluetoothの接続時間が終了しました。再度実行してください。"
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "ﾘｾｯﾄ"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "このアプリケーションを更新できません。Bluetooth接続が解除されています。"
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gearの接続が解除されたか、モバイル端末の接続範囲外です。"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "%sを起動することができません。Bluetoothの接続が解除されています。"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "スキャン"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "停止"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "ペアリング済みデバイス"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "接続可能デバイス"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "ペアリング済み"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "ペアリング中..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "接続"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "接続中..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "切断中..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "接続を解除"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "ペアリングを解除"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Bluetoothステレオヘッドセットに接続中..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "スキャン中..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "この操作は、次のデバイスとの接続を終了します。"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "%sとの接続を終了します。"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetoothアドレス"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "キャンセル"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "デバイスが見つかりません。"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "やり直しますか？"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PINが​間違って​います。やり直し​ますか？"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "キャンセル"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "ペアリングするには、%2$sで「%1$s」を入力してからEnterキーまたはReturnキーを押してください。"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%sの接続を許可しますか？"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%sを%sから受信しますか？"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%sは既に存在します。上書きしますか？"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s​から​ファイル​を​受信​しますか？"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetoothペアリングの要求"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%sとペアリングするためのPIN（0000または1234）を入力してください。"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "パスキー「%2$s」を確認し、%1$sとペアリングしてください。"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%sの電話帳アクセスを許可します。"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "%sにメッセージへのアクセスを許可しますか？"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "次回から確認しない"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetoothエラーです。再度実行しますか？"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "接続できません。"
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%sとのペアリングが解除されます。"
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "近くにBluetoothデバイスがありません。"
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "この操作を実行できません。Bluetooth接続が解除されました。"
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "このアプリケーションを起動できません。Bluetooth接続が解除されました。"
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%sがGearに接続しようとしています。%sに接続するために、Gearは工場出荷時の設定にリセットされます。"
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "接続"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth接続が解除されました。"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%1$sから%2$sの接続を解除しますか？"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "プロファイル"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "キャンセル"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "電話の音声"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "プロファイルを無効化"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "タップして入力してください。"
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%1$sプロファイルを%2$sから無効にします。"
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "ペアリングの要求"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "ﾒﾃﾞｨｱｵｰﾃﾞｨｵ"
+

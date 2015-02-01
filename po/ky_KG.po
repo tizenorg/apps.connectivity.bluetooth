@@ -1,0 +1,183 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Түзмөгүңүзгө Bluetooth аркылуу туташкан"
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Түзмөгүңүзгө Bluetooth аркылуу туташууда..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Connect"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth error"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth туташты"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Телефонуңузга туташа албады. Bluetooth байланыштын убагы кечиктирилди. Дагы аракет кылыңыз."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Баш. кой"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Бул сунуучуну жаңылатуу мүмкүн эмес. Bluetooth байланышы үзүлгөн."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear менен байланышы үзүлдү, же мобилдик түзмөктүн арадан чыкты"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "%s ачуу мүмкүн эмес. Bluetooth ажыратылган."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Издөө"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Ток."
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Байланышкан түзмөктөр"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Байкалган түзмөктөр"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Байланышкан"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Байланышууда…"
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Туташкан"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Кошулуу..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Байланыш үзүлүүдө..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Үзүүбү?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Байланышты үзүү"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Connecting to Bluetooth stereo headset..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Издөө..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Бул төмөнкү менен болгон байланышты токтотот"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Бул %s менен байланышыңызды үзөт"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth дареги"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "No devices found"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Дагы аракет кылуубу?"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Туура эмес PIN. Кайра кайталайсызбы?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "ОК"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Артка"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Кошоктотуу үчүн %2$s ичине %1$s киргизиңиз, андан соң Кайтарууну же Киргизүүнү таптаңыз"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%s үчүн туташууга уруксат берүүбү?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s'дан %s кабыл алуубу?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s эмитен чыкты. Үстүнөн жазуубу?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s'дан файл кабыл алуубу?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth байланышуу суроосу"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s менен кошоктотууга PIN киргизиңиз (0000 же 1234 колдонуп көрүңүз)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "%1$s менен кошоктотуу үчүн кирүү ачкычы %2$s болгонун ырастоо"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Allow %s phonebook access"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Allow %s to access messages?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Бөлөк сурабоо"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth катасы. Кайра кайталообу?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Туташууга болбоду"
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s will be unpaired."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Эч жакынкы Bluetooth түзмөгү табылган жок"
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Бул иш-аракетти аткаруу мүмкүн эмес. Bluetooth ажыратылган."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Бул сунуучуну ачууга болбоду. Bluetooth ажыратылган."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s Gear'иңизге туташууга аракет кылууда. %s туташууга, Gear заводдогу орнотууларына башынан коюлат."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Туташуу"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth байланышы үзүлдү"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%2$s түзмөгүн %1$s байланыштан ажыратуу керекпи?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Профилдер"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Артка"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "ОК"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Чалуу укмасы"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Профилди иштен чыгар"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Киргизүү үчүн таптаңыз"
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%2$s профили %1$s үчүн иштен чыгарылат."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Байланышуу суроосу"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Медиа укма"
+

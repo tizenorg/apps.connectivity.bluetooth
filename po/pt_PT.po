@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Ligação estabelecida ao seu dispositivo via Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "A estabelecer ligação ao seu dispositivo via Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Ligar"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Erro Bluetooth"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth ligado."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Impossível estabelecer ligação com o telefone. Tempo de ligação Bluetooth esgotado. Tente novamente."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Repor"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Impossível actualizar esta aplicação. O Bluetooth foi desligado."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear desligado ou fora da área de cobertura do dispositivo móvel."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Impossível abrir %s. O Bluetooth foi desligado."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Pesquisar"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Parar"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Dispositivos emparelhados"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Dispositivos disponíveis"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Emparelhado"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "A emparelhar..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Ligado."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "A ligar..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "A desligar..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Desligar?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Desemparelhar"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "A ligar aos auscultadores stereo Bluetooth..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "A procurar..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Isto irá terminar a sua ligação a."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Isto irá terminar a sua ligação a %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Endereço Bluetooth"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Cancelar"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Nenhuns dispositivos encontrados"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Tentar novamente?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN incorrecto. Tente novamente"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Cancelar"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Introduza %1$s em %2$s para emparelhar, em seguida toque em Retrocesso ou Enter."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Permitir que %s estabeleça a ligação?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Receber %s de %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s já existe. Substituir?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Receber ficheiro de %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Pedido de emparelhamento Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Introduza o PIN para emparelhar com %s (tente 0000 ou 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Confirmar que a chave de acesso é %2$s para emparelhar com %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Permitir o acesso à lista telefónica %s"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Permitir que %s aceda às mensagens?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Não voltar a perguntar"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Erro Bluetooth. Tentar novamente?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Impossível ligar."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s será desemparelhado."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Não foram encontrados dispositivos Bluetooth próximos."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Impossível executar esta acção. O Bluetooth foi desligado."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Impossível abrir esta aplicação. O Bluetooth foi desligado."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s está a tentar estabelecer ligação com o seu Gear. Para estabelecer a ligação com %s, serão repostas as definições de fábrica do Gear."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Ligar"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "O Bluetooth foi desligado."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Desligar %2$s da ligação %1$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Perfis"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Cancelar"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Áudio de chamada"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Desactivar perfil"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Toque para introduzir."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "O perfil de %1$s será desactivado para o %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Pedido de emparelhamento"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Áud multméd"
+

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.bluetooth" version="0.0.1" install-location="internal-only">
-	<label>W bluetooth</label>
-	<author email="ty-ace.lee@samsung.com" href="www.samsung.com">Taeyang Lee</author>
+<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.bluetooth" version="0.0.1" install-location="internal-only" support-mode="screen-reader">
+	<label>iW bluetooth</label>
+	<author email="insung.cho@samsung.com" href="www.samsung.com">Insung Cho</author>
 	<description>W bluetooth</description>
 	<ui-application appid="org.tizen.bluetooth" exec="/usr/apps/org.tizen.bluetooth/bin/bluetooth" nodisplay="true" multiple="false" type="capp" taskmanage="false">
 		<icon></icon>
-		<label>BT Connection Popup</label>
-		<label xml:lang="en-us">BT Connection Popup</label>
+		<label>Bluetooth application</label>
+		<label xml:lang="en-us">Bluetooth application</label>
 	</ui-application>
+	<privileges>
+		<privilege>http://tizen.org/privilege/bluetooth.admin</privilege>
+	</privileges>
 </manifest>

@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Verbonden met uw apparaat via Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Verbinding maken met uw apparaat via Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Verbind"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth-fout"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Verbinding met Bluetooth."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Kan geen verbinding maken met uw telefoon. Er is een time-out opgetreden voor de Bluetooth-verbinding. Probeer het opnieuw."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Reset"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Kan deze applicatie niet vernieuwen. Bluetooth-verbinding is verbroken."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Verbinding met Gear verbroken of buiten bereik van mobiel apparaat."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Kan %s niet openen. Bluetooth-verbinding is verbroken."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Scannen"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stoppen"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Gekoppelde apparaten"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Beschikbare apparaten"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Gekoppeld"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Koppelen..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Verbonden."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Verbinden..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Verbinding verbreken..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Verbinding verbreken?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Koppeling opheffen"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Verbinden met Bluetooth-stereoheadset..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Scannen..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Hiermee beëindigt u de verbinding met."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Hiermee beëindigt u de verbinding met %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth-adres"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Annuleren"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Geen apparaten gevonden"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Opnieuw proberen?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN onjuist. Probeer het opnieuw"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Annuleren"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Geef %1$s in op %2$s om te koppelen, en tik dan op Return of Enter."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%s toestaan om te verbinden?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s ontvangen van %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s bestaat al. Overschrijven?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Bestand ontvangen van %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth-koppelverzoek"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Geef pincode in om te koppelen met %s (probeer 0000 of 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Bevestig dat sleutel %2$s is voor koppelen met %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Toegang tot telefoonlijst voor %s toestaan"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Mag %s berichten openen?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Niet meer vragen"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth-fout. Opnieuw proberen?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Verbinding mislukt."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "Koppeling met %s wordt opgeheven."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Geen Bluetooth-apparaten in de buurt gevonden."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Kan deze actie niet uitvoeren. Bluetooth-verbinding is verbroken."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Kan deze applicatie niet openen. Bluetooth-verbinding is verbroken."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s probeert verbinding te maken met Gear. Om verbinding te maken met %s, wordt Gear teruggezet naar de fabrieksinstellingen."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Verbinden"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth-verbinding is verbroken."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Verbinding van %2$s met de %1$s-verbinding verbreken?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Profielen"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Annuleer"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Oproepaudio"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Profiel uitschakelen"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Tik voor invoer."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Het %1$s-profiel wordt uitgeschakeld voor de %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Koppelverzoek"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Media-audio"
+

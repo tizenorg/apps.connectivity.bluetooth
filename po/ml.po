@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "ബ്ലൂടൂത്ത് വഴി നിങ്ങളുടെ സാമഗ്രിയിലേക്ക് കണക്ടുചെയ്തു."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "ബ്ലൂടൂത്ത് വഴി നിങ്ങളുടെ സാമഗ്രിയിലേക്ക് കണക്ടുചെയ്യുന്നു..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "ബന്ധിപ്പിക്കുക"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "ബ്ലൂടൂത്ത് തെറ്റ്"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "ബ്ലൂടൂത്ത് ബന്ധിപ്പിച്ചു."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "നിങ്ങളുടെ ഫോണുമായി ബന്ധിപ്പിക്കാനായില്ല. ബ്ലൂടൂത്ത് കണക്ഷന്‍ സമയപരിധി കഴിഞ്ഞു. വീണ്ടും ശ്രമിക്കുക."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "പുനഃക്രമീകരിക്കുക"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ഈ ആപ്ലിക്കേഷൻ പുതുക്കിയെടുക്കാനാവില്ല. ബ്ലൂടൂത്ത് വിച്ഛേദിക്കപ്പെട്ടു."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "ഗിയർ വിച്ഛേദിക്കപ്പെട്ടു അല്ലെങ്കിൽ മൊബൈൽ ഉപകരണത്തിന്‍റെ പ്രവർത്തന വ്യാപ്തിക്ക് പുറത്താണ്"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "%s തുറക്കാനാകുന്നില്ല. ബ്ലൂടൂത്ത് വിച്ഛേദിച്ചു."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "സ്കാന്‍ ചെയ്യുക"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "നിര്‍ത്തുക"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "ജോടിയാക്കിയ ഉപകരണം"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "ലഭ്യമായ സാമഗ്രികള്‍"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "ജോടിയാക്കി"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "ജോടിയാക്കുന്നു..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "ബന്ധിപ്പിച്ചു."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "ബന്ധിപ്പിക്കുന്നു..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "വിച്ഛേദിക്കുന്നു..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "വിച്ഛേദിക്കണോ?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "പെയറിംഗ് നീക്കുക"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "ബ്ലൂടൂത്ത് സ്‌റ്റീരിയോ ഹെഡ്‌സെറ്റിലേക്ക് ബന്ധിപ്പിക്കുന്നു..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "സ്‌കാന്‍‌ ചെയ്യുന്നു..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "ഇത് ഇനിപ്പറയുന്നതുമായുള്ള നിങ്ങളുടെ കണക്ഷന്‍ അവസാനിപ്പിക്കും."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "ഇത് %s-മായുള്ള നിങ്ങളുടെ കണക്ഷനെ അവസാനിപ്പിക്കും."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "ബ്ലൂടൂത്ത് വിലാസം"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "റദ്ദാക്കു."
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "ഉപകരണങ്ങൾ ഒന്നും കണ്ടെത്തിയില്ല"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "വീണ്ടും ശ്രമിക്കണോ?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "ശരി"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "തെറ്റായ പിന്‍ . വീണ്ടും ശ്രമിക്കുക"
+
+msgid "IDS_ST_SK_OK"
+msgstr "ശരി"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "റദ്ദാക്കു."
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "പെയര്‍ ചെയ്യുന്നതിന് %2$s-ല്‍ %1$s നല്‍കുക, എന്നിട്ട് മടങ്ങുക അല്ലെങ്കില്‍ പ്രവേശിക്കുക എന്നതില്‍ തട്ടുക."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "ബന്ധിപ്പിക്കുന്നതിന് %s നെ അനുവദിക്കണോ?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s-ല്‍ നിന്നും %s സ്വീകരിക്കുക?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s ഇതിനകം നിലവിലുണ്ട്.മാറ്റിയെഴുതണോ ചെയ്യണമോ?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s ല്‍ നിന്നും ഫയല്‍ സ്വീകരിക്കണോ?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "ബ്ലുടൂത്ത്‌ പെയറിംഗ് അഭ്യര്‍ത്ഥന"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s-മായി പെയര്‍ ചെയ്യുന്നതിന് PIN നല്‍കുക. (0000 അഥവാ 1234 ശ്രമിക്കുക)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "%1$s-മായി പെയര്‍ ചെയ്യുന്നതിന് %2$s പാസ്‍കീ സ്ഥിരീകരിക്കുക."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%s-ന് ഫോണ്‍ബുക്ക്‌ ആക്സസ്സ് അനുവദിക്കുക"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "മെസ്സേജുകള്‍ ആക്സസ്സ് ചെയ്യുന്നതിന് %s-നെ അനുവദിക്കണമോ?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "വീണ്ടും ചോദിക്കരുത്‌"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "ബ്ലുടൂത്ത്‌ പിശക്. വീണ്ടും ശ്രമിക്കണമോ?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "കണക്റ്റ് ചെയ്യാനാവില്ല."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s വേർപെടുത്തപ്പെടും."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "സമീപ ബ്ലൂടൂത്ത് സാമഗ്രികള്‍ ഒന്നും കണ്ടെത്തിയില്ല."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ഈ നടപടി നടപ്പാക്കാനാകുന്നില്ല. ബ്ലൂടൂത്ത് വിച്ഛേദിക്കപ്പെട്ടു."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ഈ ആപ്ലിക്കേഷൻ തുറക്കാനാകുന്നില്ല. ബ്ലൂടൂത്ത് വിച്ഛേദിക്കപ്പെട്ടു."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "നിങ്ങളുടെ ഗിയറിലേക്ക് ബന്ധിപ്പിക്കാൻ %s ശ്രമിക്കുകയാണ്. %s-ൽ ബന്ധിപ്പിക്കുന്നതിനായി, ഗിയർ അതിന്‍റെ ഫാക്ടറി ക്രമീകരണങ്ങളിലേക്ക് പുനഃക്രമീകരിക്കപ്പെടുന്നതാണ്."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "ബന്ധിപ്പിക്കുക"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ബ്ലൂടൂത്ത് വിച്ഛേദിച്ചു."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%1$s കണക്ഷനിൽ നിന്ന് %2$s-നെ വിച്ഛേദിക്കട്ടെ?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "പ്രൊഫൈലുകള്‍‌"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "റദ്ദാക്കുക"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "ശരി"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "കോള്‍ ഓഡിയോ"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "പ്രൊഫൈൽ അപ്രാപ്തമാക്കുക"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "നല്‍കുന്നതിന് തട്ടുക."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%2$s-നായി %1$s പ്രൊഫൈൽ അപ്രാപ്തമാക്കപ്പെടും."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "പെയറിംഗ് അഭ്യര്‍ത്ഥന"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "മീഡിയ ഓഡിയോ"
+

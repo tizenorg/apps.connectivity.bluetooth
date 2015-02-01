@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Đã kết nối với thiết bị của bạn qua Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Đang kết nối với thiết bị của bạn qua Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Kết nối"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Lỗi Bluetooth"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Đã kết nối Bluetooth."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Không thể kết nối với điện thoại của bạn. Đã hết thời gian kết nối Bluetooth. Hãy thử lại."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Đặt lại"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Không thể cập nhật ứng dụng này. Bluetooth đã bị ngắt kết nối."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear đã bị ngắt kết nối hoặc nằm ngoài phạm vi của thiết bị di động"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Không thể mở %s. Kết nối Bluetooth đã tắt."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Dò"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Dừng"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Các thiết bị đã ghép đôi"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Các thiết bị hiện có"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Đã ghép đôi"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Đang ghép đôi..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Đã kết nối."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Đang kết nối..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Ngắt kết nối..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Ngắt kết nối?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Hủy ghép đôi"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Đang kết nối tới bộ tai nghe âm thanh nổi Bluetooth..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Đang dò..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Việc này sẽ ngắt kết nối của bạn với."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Việc này sẽ ngắt kết nối của bạn với %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Địa chỉ Bluetooth"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Hủy"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Không tìm thấy thiết bị nào"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Thử lại?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN không chính xác. Thử lại?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Hủy"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Nhập %1$s trên %2$s để ghép đôi, sau đó chạm vào Trở lại hoặc Enter."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Cho phép %s kết nối?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Nhận %s từ %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s đã tồn tại. Ghi đè lên?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Nhận file từ %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Yêu cầu kết nối Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Nhập mã PIN để ghép đôi với %s (thử 0000 hoặc 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Xác nhận mật mã %2$s để ghép đôi với %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Cho phép %s truy cập danh bạ"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Cho phép %s truy cập tin nhắn?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Không hỏi lại"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Lỗi Bluetooth. Thử lại?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Không thể kết nối."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s sẽ bị hủy ghép đôi."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Không tìm thấy thiết bị Bluetooth ở gần."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Không thể thực hiện hành động này. Bluetooth đã bị ngắt kết nối."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Không thể mở ứng dụng này. Bluetooth đã bị ngắt kết nối."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s đang cố kết nối với Gear của bạn. Để kết nối với %s, Gear sẽ được trả về cài đặt gốc."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Kết nối"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Đã ngắt kết nối Bluetooth."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Ngắt %2$s khỏi kết nối %1$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Cấu hình"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Thoát"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Âm thanh cuộc gọi"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Tắt cấu hình"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Chạm để nhập."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Cấu hình %1$s sẽ bị tắt trên %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Yêu cầu Kết nối"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Âm thanh media"
+

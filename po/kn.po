@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "ಬ್ಲೂಟೂಥ್ ಮೂಲಕ ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಸಂಪರ್ಕಿಸಲ್ಪಟ್ಟಿದೆ."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "ಬ್ಲೂಟೂಥ್ ಮೂಲಕ ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಸಂಪರ್ಕಿಸುತ್ತಿದೆ..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "ಸಂಪರ್ಕಿಸು"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "ಬ್ಲೂಟೂಥ್ ದೋಷ"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "ಬ್ಲೂಟೂಥ್ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "ನಿಮ್ಮ ಫೋನ್ ಸಂಪರ್ಕಿಸಲು ಅಸಮರ್ಥ. ಬ್ಲೂಟೂಥ್ ಸಂಪರ್ಕ ಸಮಯ ಮುಗಿದಿದೆ. ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "ಮರುಹೊಂದಿಸಿ"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ಈ ಅನ್ವಹಿಸುವಿಕೆ ತಾಜಾಗೊಳಿಸಲು ಅಸಮರ್ಥ. ಬ್ಲೂಟೂಥ್ ಸಂಪರ್ಕ ಕಳೆದುಕೊಂಡಿದೆ."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "ಗೇರ್ ಸಂಪರ್ಕಕಡಿತಗೊಂಡಿದೆ ಅಥವಾ ಮೊಬೈಲ್ ಸಾಧನದ ವ್ಯಾಪ್ತಿಯಲ್ಲಿಲ್ಲ"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "%s ತೆರೆಯಲು ಅಸಮರ್ಥ. ಬ್ಲೂಟೂಥ್ ಅನ್ನು ಸಂಪರ್ಕಕಡಿತಗೊಳಿಸಲಾಗಿದೆ."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "ಸ್ಕ್ಯಾನ್"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "ನಿಲ್ಲಿಸು"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "ಜೊತೆ ಮಾಡಿದ ಸಾಧನಗಳು"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "ಲಭ್ಯ ಸಾಧನಗಳು"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "ಜೊತೆ ಮಾಡಿದ"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "ಜೊತೆ ಮಾಡಲಾಗುತ್ತಿದೆ..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "ಸಂಪರ್ಕಿಸಲಾಗಿದೆ."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "ಸಂಪರ್ಕಿಸ..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "ಸಂಪರ್ಕ ಕಡಿತವಾಗುತ್ತಿದೆ..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗಿದೆ?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "ಜೋಡಿಯಾಗಿಲ್ಲ"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "ಬ್ಲೂಟೂತ್ ಸ್ಟಿರಿಯೊ ಹೆಡ್‌ಸೆಟ್‌ಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "ಇದು ನಿಮ್ಮ ದೊಂದಿಗಿನ ಸಂಪರ್ಕವನ್ನು ಕೊನೆಗೊಳಿಸುವುದು."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "%sನೊಂದಿಗೆ ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ಮುಕ್ತಾಯಗೊಳಿಸುತ್ತದೆ."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "ಬ್ಲೂಟೂತ್ ವಿಳಾಸ"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "ರದ್ದು"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "ಸಾಧನಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "ಪುನಃ ಪ್ರಯತ್ನಿಸಲೆ?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "ಸರಿ"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "ಪಿನ್ ತಪ್ಪಾಗಿದೆ. ಪುನಃ ಪ್ರಯತ್ನಿಸಲೆ?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "ಸರಿ"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "ರದ್ದು"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "ಜೋಡಿ ಮಾಡಲು %2$s ಮೇಲೆ %1$s ನಮೂದಿಸಿ, ನಂತರ ಹಿಂದಿರುಗಿ ತಟ್ಟಿ ಅಥವಾ ನಮೂದಿಸಿ."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%s ಗೆ ಸಂಪರ್ಕಿಸುವುದಕ್ಕೆ ಒಪ್ಪಿಗೆಯೇ?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s ನಿಂದ %s ಸ್ವೀಕರಿಸುವುದೆ?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ಓವರ್ ರೈಟ್ ಮಾಡುವುದೆ?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s ನಿಂದ ಒಂದು ಫೈಲ್ ಪಡೆಯಲೆ?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "ಬ್ಲೂಟೂತ್ ಜೋಡಣೆಯ ಕೋರಿಕೆ"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s ಜೊತೆ ಜೋಡಿ ಮಾಡಲು PIN ನಮೂದಿಸಿ (0000 ಅಥವಾ 1234 ಪ್ರಯತ್ನಿಸಿ)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "%1$s ನೊಂದಿಗೆ ಜೋಡಿ ಮಾಡಲು %2$s ಖಚಿತ ಪಾಸ್‌ಕೀ ಆಗಿದೆ."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%s ಪೋನ್‍ಪುಸ್ತಕ ಪ್ರವೇಶ ಅನುಮತಿಸಿ"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "ಸಂದೇಶಗಳನ್ನು ಪ್ರವೇಶಿಸಲು %s ಅನುಮತಿಸುವುದೆ?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "ಮತ್ತೊಮ್ಮೆ ಕೇಳಬೇಡಿ"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "ಬ್ಲೂಟೂತ್ ದೋಷ. ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸುವುದೆ?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%sನ ಜೋಡಣೆ ತೆಗೆಯಲಾಗುವುದು."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "ಹತ್ತಿರದ ಬ್ಲೂಟೂತ್ ಸಾಧನಗಳು ಕಾಣುತ್ತಿಲ್ಲ."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ಈ ಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಬ್ಲೂಟೂತ್ ಅನ್ನು ಸಂಪರ್ಕಕಡಿತಗೊಳಿಸಲಾಗಿದೆ."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ಈ ಅನ್ವಹಿಸುವಿಕೆ ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಬ್ಲೂಟೂತ್‌ನ್ನು ಸಂಪರ್ಕಕಡಿತಗೊಳಿಸಲಾಗಿದೆ."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s ನಿಮ್ಮ ಗೇರ್‌ಗೆ ಸಂಪರ್ಕಗೊಳ್ಳುವುದಕ್ಕೆ ಪ್ರಯತ್ನಿಸುತ್ತಿದೆ. %sಗೆ ಸಂಪರ್ಕಿಸಲು, ಗೇರ್ ಅನ್ನು ಅದರ ಫ್ಯಾಕ್ಟರಿ ಸಂಯೋಜನೆಗಳಿಗೆ ಮರುನಿಗದಿಗೊಳಿಸಲಾಗುವುದು."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "ಜೋಡಿಸು"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ಬ್ಲೂಟೂತ್ ಅನ್ನು ಸಂಪರ್ಕಕಡಿತಗೊಳಿಸಲಾಗಿದೆ."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%2$s ಅನ್ನು %1$s ಸಂಪರ್ಕದಿಂದ ಸಂಪರ್ಕ ತಪ್ಪಿಸುವುದೇ?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "ಪ್ರೊಫೈಲ್‌ಗಳು"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "ರದ್ದು"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "ಓಕೆ"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "ಕರೆ ಆಡಿಯೊ"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "ಪ್ರೊಫೈಲ್ ನಿಶಕ್ತಗೊಳಿಸಿ"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "ನಮೂದಿಸಲು ತಟ್ಟಿ."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%1$s ಪ್ರೊಫೈಲ್ ಅನ್ನು %2$s ಗೆ ನಿಶಕ್ತಗೊಳಿಸಲಾಗುವುದು."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "ಜೋಡಿಯಾಗಿಸುವ ಕೋರಿಕೆ"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "ಮೀಡಿಯಾ ಆಡಿಯೋ"
+

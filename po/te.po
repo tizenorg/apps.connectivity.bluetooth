@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "బ్లూటూత్ ద్వారా మీ పరికరానికి అనుసంధానించబడింది."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "బ్లూటూత్ ద్వారా మీ పరికరానికి అనుసంధానిస్తుంది..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "అనుసంధానించు"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "బ్లూటూత్ దోషం"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "బ్లూటూత్ అనుసంధానించబడింది."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "మీ పోన్‌కు అనుసంధానించలేరు. బ్లూటూత్ అనుసంధాన సమయం గడువు ముగిసింది. మళ్లీ ప్రయత్నించండి."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "రీసెట్"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ఈ అప్లికేషన్‌ని రీఫ్రెష్ చేయడం సాధ్యం కాదు. బ్లూటూత్ డిస్‌కనెక్ట్ చేయబడింది."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "గేర్ డిస్‌కనెక్ట్ చేయబడింది లేదా మొబైల్ పరికరం పరిధిలో లేదు"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "%sను తెరవలేరు. బ్లూటూత్ అనుసంధానం తొలగించబడింది."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "స్క్యాన్"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "ఆపు"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "జత చేయబడిన పరికరాలు"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "లభ్యంలో ఉన్న పరికరాలు"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "జత చేయబడింది"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "జత చేస్తోంది..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "కనెక్టయింది."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "కనెక్ట్ అవుతోంది..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "డిస్కనెక్ట్ అవుతోంది..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "డిస్కనెక్ట్ చేయాలా?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "అన్‌పెయిర్"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Bluetooth స్టీరియో హెడ్‌సెట్‌కు కనెక్ట్ అవుతోంది..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "స్కానింగ్ చేస్తోంది..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "ఇది మీ కనెక్షన్ ని ముగిస్తుంది."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "ఇది %sతో మీ అనుసంధానం ముగుస్తుంది."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "బ్లూటూత్ చిరునామా"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "రద్దు"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "పరికరాలు కనుగొనబడలేదు"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "మళ్ళీ ప్రయత్నించాలా?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "సరే"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "తప్పు PIN. మళ్ళీ ప్రయత్నించు"
+
+msgid "IDS_ST_SK_OK"
+msgstr "సరే"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "రద్దు"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "జత కూర్చడం కు %2$s లో %1$s నమోదు చేయండి, ఆపై రిటర్న్ లేదా నమోదు నొక్కండి."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "కనెక్ట్ అవ్వడానికి %sను అనుమతించాలా?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s నపండి %s అందుకోవాలా?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s ఇప్పటికే ఉంది. ఓవర్‌రైట్ చేయాలా?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s నుండి ఫైల్ అందుకోవాలా?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "బ్లూటూత్ జత అభ్యర్థన"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s తో పెయిర్ చెయ్యడానికి PIN ను నమోదు చెయ్యండి (0000 లేక 1234 కు ప్రయత్నించండి)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "%1$s తో జత చేసేందుకు పాస్‌కీ %2$sను ధృవీకరించండి."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%s ఫోన్‌పుస్తకం యాక్సెస్‌ను అనుమతించు"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "పరిచయాలను యాక్సెస్ చెయ్యడానికి %s అనుమతించాలా?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "మళ్లీ అడగవద్దు"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "బ్లూటూత్‌ లోపం. మళ్ళీ ప్రయత్నించవచ్చా?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "కనెక్ట్ చేయడం సాధ్యం కాదు."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s జత తీసివేయబడుతుంది."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "దగ్గరలో ఏ బ్లూటుత్ పరికరాలు కనుగొనబడలేవు."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ఈ చర్యను అమలు చేయడం సాధ్యం కాదు. బ్లూటూత్ అనుసంధానం తొలగించబడింది."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ఈ అనువర్తనాన్ని తెరవడం సాధ్యం కాదు. బ్లూటూత్ అనుసంధానం తొలగించబడింది."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s మీ గేర్‌కు అనుసంధానించడానికి ప్రయత్నిస్తుంది. %sకు అనుసంధానించడానికి, గేర్ దాని ఫ్యాక్టరీ సెట్టింగ్‌లకు రీసెట్ చేయబడుతుంది."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "కనెక్ట్"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "బ్లూటూత్ అనుసంధానం తొలగించబడింది."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%1$s కనెక్షన్ నుండి %2$sని డిస్‌కనెక్ట్ చేయాలా?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "ప్రొఫైళ్లు"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "రద్దు"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "సరే"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "కాల్ ఆడియో"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "ప్రొఫైల్‌ని నిలిపివేయి"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "‌నమోదు చేయుటకు నొక్కండి."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%1$s ప్రొఫైల్ %2$s కోసం నిలిపివేయబడుతుంది."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "అభ్యర్థన జత"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "మీడియా ఆడియో"
+

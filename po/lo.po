@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "ເຊື່ອມຕໍ່ກັບເຄື່ອງຂອງທ່ານຜ່ານບລູທູດແລ້ວ."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "ກໍາລັງເຊື່ອມຕໍ່ກັບເຄື່ອງຂອງທ່ານຜ່ານບລູທູດ..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "​ເຊື່​ອມຕໍ່"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "ບລູທູດຂັດຂ້ອງ"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "ບລູທູດເຊື່ອມຕໍ່ແລ້ວ."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ໃສ່ໂທລະສັບຂອງທ່ານໄດ້. ການເຊື່ອມຕໍ່ບລູທູດໝົດເວລາ. ລອງໃໝ່ອີກ."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "ຕັ້ງຄ່າ​ຄືນ​ໃໝ່"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ບໍ່ສາມາດຣີເຟຣຊແອພພລິເຄຊັນນີ້ໄດ້. ບລູທູດຖືກຕັດເຊື່ອມຕໍ່."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "ເກຍຖືກຕັດເຊື່ອມຕໍ່ ຫຼືຢູ່ນອກເຂດໂທລະສັບມືຖື"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ບໍ່ສາມາດເປີດ %s ໄດ້. ບລູທູດຖືກຕັດເຊື່ອມຕໍ່."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "ສະແກນ"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "ຢຸດ"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "ເຄື່ອງໄດ້ຈັບຄູ່ແລ້ວ"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "ເຄື່ອງທີ່ໃຊ້ງານໄດ້"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "ໄດ້ຈັບຄູ່ແລ້ວ"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "ກໍາລັງຈັບຄູ່..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "ເຊື່ອມຕໍ່ແລ້ວ."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "ກໍາລັງເຊື່ອມຕໍ່..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "ກຳລັງຕັດການເຊື່ອມຕໍ່..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "ປິດການເຊື່ອມຕໍ່ບໍ່?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "ແຍກຄູ່"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Connecting to Bluetooth stereo headset..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "ກໍາລັງສະແກນ..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "ອັນນີ້ຈະສິ້ນສຸດການເຊື່ອມຕໍ່ຂອງທ່ານດ້ວຍ."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "ການປິດເຊື່ອມຕໍ່ຈະຈົບການເຊື່ອມຕໍ່ຂອງທ່ານກັບ %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "ທີ່ຢູ່ບລູທູດ"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "ຍົກເລີກ"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "ບໍ່ພົບອຸປະກອນ"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "ລອງໃໝ່ບໍ?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "ຕົກລົງ"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN ບໍ່​ຖືກຕ້ອງ. ລອງໃໝ່ບໍ?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "ຕົກລົງ"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "ຍົກເລີກ"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "ໃສ່ %1$s ໃນ %2$s ເພື່ອຈັບຄູ່, ຈາກນັ້ນແຕະປຸ່ມກັບຄືນ ຫຼືເອັນເທີ."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "ອະນຸຍາດໃຫ້ %s ເຊື່ອມຕໍ່?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "ຮັບ %s ຈາກ %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s already exists. Overwrite?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "ຮັບໄຟລ໌ຈາກ %s ບໍ?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "ຂໍຈັບຄູ່ບລູທູດ"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "ໃສ່ລະຫັດ PIN ເພື່ອຈັບຄູ່ກັບ %s (ລອງ 0000 ຫຼື 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "ຢືນຢັນລະຫັດຜ່ານແມ່ນ %2$s ເພື່ອຈັບຄູ່ກັບ %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "ອະນຸຍາດການເຂົ້າໃຊ້ປຶ້ມໂທລະສັບ %s"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Allow %s to access messages?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "ຢ່າຖາມອີກ"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "ບລູທູດຂັດຂ້ອງ. ລອງໃໝ່ອີກບໍ?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ໄດ້."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s ຈະຖືກແຍກຄູ່."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "ບໍ່ພົບເຄື່ອງບລູທູດທີ່ຢູ່ໃກ້ຄຽງ."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ບໍ່ສາມາດປະຕິບັດການດໍາເນີນການນີ້ໄດ້. ບລູທູດຕັດເຊື່ອມຕໍ່ແລ້ວ."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ບໍ່ສາມາດເປີດແອພພລິເຄຊັນນີ້ໄດ້. ບລູທູດຕັດເຊື່ອມຕໍ່ແລ້ວ."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s ພະຍາຍາມເຊື່ອມຕໍ່ກັບເກຍຂອງທ່ານ. ເພື່ອເຊື່ອມຕໍ່ກັບ %s, ເກຍຈະຖືກຕັ້ງຄ່າຄືນໃໝ່ໄປເປັນການຕັ້ງຄ່າໂຮງງານ."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "ເຊື່ອມຕໍ່"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ບລູທູດຖືກຕັດ."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "ຕັດເຊື່ອມຕໍ່ %2$s ຈາກການເຊື່ອມຕໍ່ %1$s ບໍ?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "ຮູບແບບ"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "ຍົກເລີກ"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "ຕົກລົງ"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "ສຽງການໂທ"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "ປິດໃຊ້ງານໂປຣໄຟລ໌"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "ແຕະເພື່ອໃສ່ເຂົ້າໄປ."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "ໂປຣໄຟລ໌ %1$s ຈະຖືກປິດໃຊ້ງານສໍາລັບ %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "ສະເໜີຂໍຈັບຄູ່"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "ສຽງມີເດຍ"
+

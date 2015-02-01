@@ -8,5 +8,8 @@
 	</define>
 	<assign>
 		<filesystem path="/usr/share/locale/*" label="_" />
+		<filesystem path="/usr/apps/org.tizen.bluetooth/shared/res/*" label="_" />
+		<filesystem path="/usr/apps/org.tizen.bluetooth/shared/res/tables/org.tizen.bluetooth_ChangeableColorTable.xml" label="_"/>
+		<filesystem path="/usr/apps/org.tizen.bluetooth/shared/res/tables/org.tizen.bluetooth_FontInfoTable.xml" label="_"/>
 	</assign>
 </manifest>

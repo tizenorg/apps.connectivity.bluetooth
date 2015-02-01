@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Pripojené k vášmu zariadeniu cez Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Pripája sa k vášmu zariadeniu cez Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Pripoj."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Chyba Bluetooth"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Pripojené cez Bluetooth."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Nedá sa pripojiť k vášmu telefónu. Uplynul časový limit spojenia Bluetooth. Skúste to znova."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Vynul."
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Táto aplikácia sa nedá obnoviť. Spojenie Bluetooth bolo odpojené."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Hodinky Gear sú odpojené alebo mimo dosahu mobilného zariadenia."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "%s sa nedá otvoriť. Spojenie Bluetooth bolo odpojené."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Vyhľadať"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stop"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Spárované zariadenia"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Dostupné zariadenia"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Spárované"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Párovanie..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Pripojené."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Pripájanie..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Odpájanie..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Odpojiť?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Zrušiť párovanie"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Pripája sa k stereo Bluetooth headsetu..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Hľadanie..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Týmto sa ukončí vaše spojenie so zariadením."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Týmto sa ukončí pripojenie k zariadeniu %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Adresa rozhrania Bluetooth"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Zrušiť"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Nenašli sa žiadne zariadenia"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Opakovať akciu?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Nesprávny PIN. Skúste to znova"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Zrušiť"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Zadajte %1$s v zariadení %2$s na spárovanie a potom ťuknite na tlačidlo Return alebo Enter."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Povoliť zariadeniu %s pripojenie?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Prijať %s zo zariadenia %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s už existuje. Prepísať?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Prijať súbor zo zariadenia %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Požiadavka na párovanie Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Zadajte PIN na spárovanie so zariadením %s (skúste 0000 alebo 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Potvrďte prístupový kľúč %2$s na spárovanie so zariadením %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Povoliť zariadeniu %s prístup k telefónnemu zoznamu"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Povoliť zariadeniu %s prístup k správam?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Už sa nepýtať"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Chyba spojenia Bluetooth. Skúsiť znova?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Nedá sa spojiť."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "Spárovanie so zariadením %s sa zruší."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Nenašli sa žiadne blízke zariadenia Bluetooth."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Táto akcia sa nedá vykonať. Spojenie Bluetooth bolo odpojené."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Táto aplikácia sa nedá otvoriť. Spojenie Bluetooth bolo odpojené."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "Zariadenie %s sa pokúša o pripojenie k vašim hodinkám Gear. Ak sa chcete pripojiť k zariadeniu %s, obnovia sa predvolené nastavenia hodiniek Gear od výrobcu."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Pripojiť"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Spojenie Bluetooth bolo odpojené."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Odpojiť %2$s od pripojenia %1$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Profily"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Zrušiť"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Zvuk hovorov"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Vypnutie profilu"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Ťuknutím zadajte."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Profil %1$s sa vypne pre zariadenie %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Požiadavka na párovanie"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Zvuk médií"
+

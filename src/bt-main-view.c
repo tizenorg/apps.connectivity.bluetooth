@@ -1,25 +1,19 @@
 /*
-* bluetooth
-*
-* Copyright 2012 Samsung Electronics Co., Ltd
-*
-* Contact: Hocheol Seo <hocheol.seo@samsung.com>
-*           Injun Yang <injun.yang@samsung.com>
-*           Seungyoun Ju <sy39.ju@samsung.com>
-*
-* Licensed under the Flora License, Version 1.1 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.tizenopensource.org/license
-*
-* Unless required by applicable law or agreed to in writing,
-* software distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
+ * Copyright (c) 2000-2014 Samsung Electronics Co., Ltd.
+ *
+ * Licensed under the Flora License, Version 1.1 (the License);
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://floralicense.org/license/
+
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an AS IS BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 
 
 #include "bt-main.h"
@@ -30,9 +24,12 @@
 #include "bt-type-define.h"
 #include "bt-dbus-method.h"
 #include "bt-popup.h"
+#include "bt-profile-view.h"
 #include <syspopup_caller.h>
+#include <utilX.h>
 
 #define BT_AUTO_CONNECT_SYSPOPUP_MAX_ATTEMPT 3
+#define BT_CTXPOPUP_HEIGHT 128
 
 static Eina_Bool __pop_cb(void *data, Elm_Object_Item *it)
 {
@@ -40,13 +37,6 @@ static Eina_Bool __pop_cb(void *data, Elm_Object_Item *it)
 	_bt_destroy_app(data);
 	FN_END;
 	return EINA_FALSE;
-}
-
-static void __destory_app_cb(void *data, Evas_Object *obj, void *event_info)
-{
-	FN_START;
-	_bt_destroy_app(data);
-	FN_END;
 }
 
 Evas_Object* _bt_create_win(const char *name)
@@ -83,6 +73,24 @@ static Evas_Object* __create_bg(Evas_Object *parent)
 	return bg;
 }
 
+void _bt_set_win_level(void *data)
+{
+	FN_START;
+	bt_app_data_t *ad = NULL;
+	Ecore_X_Window xwin;
+
+	ad = (bt_app_data_t *)data;
+
+	/* Get x-window */
+	xwin = elm_win_xwindow_get(ad->window);
+
+	/* Set Notification window */
+	ecore_x_netwm_window_type_set(xwin, ECORE_X_WINDOW_TYPE_NOTIFICATION);
+	utilx_set_system_notification_level(ecore_x_display_get(), xwin, UTILX_NOTIFICATION_LEVEL_HIGH);
+	FN_END;
+	return;
+}
+
 static void __bt_scan_btn_cb(void *data, Evas_Object *obj,
 					void *event_info)
 {
@@ -101,28 +109,19 @@ static void __bt_scan_btn_cb(void *data, Evas_Object *obj,
 			ERR("Discovery Stop failed");
 			return;
 		}
-		ad->op_status = BT_ACTIVATED;
-		elm_object_text_set(ad->scan_btn, STR_SCAN);
-
+		if (!elm_object_disabled_get(ad->scan_btn))
+			elm_object_disabled_set(ad->scan_btn, EINA_TRUE);
 	} else {
-		_bt_hide_no_devices(ad);
-
-		ret = bt_adapter_start_discover_devices
-			(BT_ADAPTER_DEVICE_DISCOVERY_BREDR);
+		ret = bt_adapter_start_device_discovery();
 		if (ret != BT_ERROR_NONE && ret != BT_ERROR_NOW_IN_PROGRESS){
 			ERR("Discovery start failed");
 			return;
 		}
-		ad->op_status = BT_SEARCHING;
-		_bt_lock_display();
-		elm_object_text_set(ad->scan_btn, STR_STOP);
 
-		_bt_remove_all_searched_devices_item(ad);
-
-		if (ad->searched_title_item == NULL)
-			_bt_create_group_title_item(ad, GROUP_SEARCH);
-
-		_bt_update_genlist_item(ad->searched_title_item);
+		if (!elm_object_disabled_get(ad->scan_btn)) {
+			DBG("disable scan button!");
+			elm_object_disabled_set(ad->scan_btn, EINA_TRUE);
+		}
 	}
 
 	FN_END;
@@ -199,7 +198,7 @@ static char *__bt_paired_title_text_get(void *data, Evas_Object *obj,
 					    const char *part)
 {
 	retv_if(!part, NULL);
-	DBG("part : %s", part);
+	INFO("part : %s", part);
 
 	if (g_strcmp0(part, "elm.text") != 0) {
 		ERR("It is not in elm.text part");
@@ -220,7 +219,7 @@ static Evas_Object *__bt_search_title_icon_get(void *data, Evas_Object *obj,
 		return NULL;
 
 	ad = (bt_app_data_t *)data;
-	DBG("op_status : %d", ad->op_status);
+	INFO("op_status : %d", ad->op_status);
 	if (ad->op_status == BT_SEARCHING) {
 		progressbar = elm_progressbar_add(obj);
 		elm_object_style_set(progressbar, "process/groupindex");
@@ -252,19 +251,24 @@ static void __bt_unpair_icon_sel_cb(void *data, Evas_Object *obj,
 	if (ad == NULL)
 		return;
 
-	DBG("op_status : %d", ad->op_status);
+	INFO("op_status : %d", ad->op_status);
 	if (ad->op_status == BT_UNPAIRING) {
 		DBG("Unpairing... Skip the click event");
 		return;
 	}
 
-	if (dev->name)
-		DBG("Selected dev : %s", dev->name);
+	INFO("Selected device : %s", dev->name);
 	DBG("%2.2X:%2.2X:%2.2X:%2.2X:%2.2X:%2.2X", dev->bd_addr[0],
 	       dev->bd_addr[1], dev->bd_addr[2], dev->bd_addr[3],
 	       dev->bd_addr[4], dev->bd_addr[5]);
 
+#ifdef TELEPHONY_DISABLED
+	DBG("B2");
 	_bt_create_unpair_query_popup(dev);
+#else
+	DBG("B2-3G");
+	_bt_create_profile_view(dev);
+#endif
 
 	FN_END
 }
@@ -282,9 +286,6 @@ static Evas_Object *__bt_dev_item_icon_get(void *data, Evas_Object *obj,
 
 	dev = (bt_dev_t *)data;
 
-	DBG("status : %d", dev->status);
-	DBG("part : %s", part);
-
 	if (g_strcmp0(part, "elm.icon") != 0)
 		return NULL;
 
@@ -297,6 +298,10 @@ static Evas_Object *__bt_dev_item_icon_get(void *data, Evas_Object *obj,
 
 	if (dev->status == BT_CONNECTING || dev->status == BT_DISCONNECTING) {
 		elm_object_disabled_set(btn, EINA_TRUE);
+		ea_theme_object_color_set(icon, "AO015D");
+	} else {
+		elm_object_disabled_set(btn, EINA_FALSE);
+		ea_theme_object_color_set(icon, "AO015");
 	}
 	elm_object_part_content_set(btn, "icon", icon);
 	evas_object_size_hint_align_set(btn, EVAS_HINT_FILL, EVAS_HINT_FILL);
@@ -318,7 +323,7 @@ static gboolean __bt_is_connectable_device(bt_dev_t *dev)
 	FN_START;
 
 	bt_device_info_s *device_info = NULL;
-	retv_if(dev == NULL, FALSE);
+	retvm_if(dev == NULL, FALSE, "dev is NULL");
 
 	if (dev->service_list == 0) {
 		if (bt_adapter_get_bonded_device_info
@@ -327,6 +332,7 @@ static gboolean __bt_is_connectable_device(bt_dev_t *dev)
 			if (device_info)
 				bt_adapter_free_device_info(device_info);
 
+			ERR("No service list. Unable to get bonded device info");
 			return FALSE;
 		}
 		_bt_util_get_service_mask_from_uuid_list
@@ -336,7 +342,7 @@ static gboolean __bt_is_connectable_device(bt_dev_t *dev)
 		bt_adapter_free_device_info(device_info);
 
 		if (dev->service_list == 0) {
-			DBG("No service list");
+			ERR("No service list");
 			return FALSE;
 		}
 	}
@@ -354,31 +360,56 @@ static gboolean __bt_is_connectable_device(bt_dev_t *dev)
 	return FALSE;
 }
 
+char* __bt_convert_rgba_to_hex(int r, int g, int b, int a)
+{
+	int hexcolor = 0;
+	char* string = NULL;
+
+	string = g_try_malloc0(sizeof(char )* 255);
+
+	hexcolor = (r << 24) + (g << 16) + (b << 8) + a;
+	sprintf(string, "%08x", hexcolor );
+
+	return string;
+}
+
 static char *__bt_dev_item_text_get(void *data, Evas_Object *obj,
 					  const char *part)
 {
-	char buf[BT_GLOBALIZATION_STR_LENGTH] = { 0 };
+	char *buf = NULL;
 	bt_dev_t *dev = NULL;
-	char *str = NULL;
+	char *str = STR_PAIRED;
+	int r = 0, g = 0, b = 0, a = 0;
 
-	if (data == NULL)
-		return NULL;
+	retv_if(!data, NULL);
 
 	dev = (bt_dev_t *)data;
 	DBG("part : %s", part);
 
 	if (!strcmp(part, "elm.text") || !strcmp(part, "elm.text.1")) {
-		g_strlcpy(buf, dev->name, BT_GLOBALIZATION_STR_LENGTH);
-		DBG("label : %s", buf);
+		str = elm_entry_utf8_to_markup(dev->name);
+		INFO("Label : %s", str);
+
+		return str;
 	} else if (!strcmp(part, "elm.text.2")) {
-		DBG("status : %d", dev->status);
+		bt_app_data_t *ad = (bt_app_data_t *)dev->ad;
+		retvm_if(!ad, NULL, "ad is NULL");
+
+		INFO("dev status : %d, is_connected : %d", dev->status, dev->is_connected);
 		if (dev->status == BT_IDLE) {
 			if (__bt_is_connectable_device(dev) == FALSE)
 				str = STR_PAIRED;
 			else {
-				if (dev->connected_mask > 0)
-					str = STR_CONNECTED;
-				else
+				if (dev->is_connected > 0) {
+					if (ad->launch_mode == BT_LAUNCH_CONNECT_HEADSET) {
+						if (dev->connected_mask & BT_STEREO_HEADSET_CONNECTED)
+							str = STR_CONNECTED;
+					} else if (ad->launch_mode == BT_LAUNCH_CALL) {
+						if (dev->connected_mask & BT_HEADSET_CONNECTED)
+							str = STR_CONNECTED;
+					} else
+						str = STR_CONNECTED;
+				} else
 					str = STR_PAIRED;
 			}
 		} else if (dev->status == BT_DEV_PAIRING)
@@ -388,9 +419,16 @@ static char *__bt_dev_item_text_get(void *data, Evas_Object *obj,
 		else if (dev->status == BT_DISCONNECTING)
 			str = STR_DISCONNECTING;
 
-		snprintf(buf, sizeof(buf)-1, "<font_size=24><color=#FF9000>%s</color></font_size>", str);
+		INFO("Sub label : %s", str);
+
+		ea_theme_color_get("AT013",&r, &g, &b, &a,
+					NULL, NULL, NULL, NULL,
+					NULL, NULL, NULL, NULL);
+		buf = g_strdup_printf("<color=#%s>%s</color>",
+			__bt_convert_rgba_to_hex(r, g, b, a)
+			, str);
 	}
-	return strdup(buf);
+	return buf;
 }
 
 static void __bt_set_genlist_itc(bt_app_data_t *ad)
@@ -490,15 +528,19 @@ static void __bt_clear_genlist(bt_app_data_t *ad)
 	ret_if(!ad);
 	ret_if(!ad->main_genlist);
 
-	_bt_remove_group_title_item(ad, GROUP_SEARCH);
-	_bt_remove_group_title_item(ad, GROUP_PAIR);
+	elm_genlist_clear(ad->main_genlist);
+
+
+	evas_object_del(ad->main_genlist);
 
 	__bt_release_genlist_itc(ad);
 
-	elm_genlist_clear(ad->main_genlist);
-	evas_object_del(ad->main_genlist);
+	ad->paired_title_item = NULL;
+	ad->searched_title_item = NULL;
+	ad->paired_item = NULL;
+	ad->searched_item = NULL;
 	ad->main_genlist = NULL;
-
+	FN_END;
 }
 
 void _bt_show_no_devices(bt_app_data_t *ad)
@@ -535,30 +577,46 @@ int _bt_initialize_view(bt_app_data_t *ad)
 	Elm_Object_Item *navi_it;
 
 	retvm_if(ad == NULL, -1,  "ad is NULL!");
-	retvm_if(ad->window == NULL, -1,  "->window is NULL!");
+	retvm_if(ad->window == NULL, -1,  "window is NULL!");
 
-	ad->bg = __create_bg(ad->window);
-	retvm_if(ad->bg == NULL, -1,  "fail to create bg!");
+	if (ad->launch_mode == BT_LAUNCH_CALL)
+		_bt_set_win_level(ad);
 
-	ad->layout_main = __create_layout_main(ad->bg);
-	retvm_if(ad->layout_main == NULL, -1,  "fail to create layout_main!");
+	if (ad->bg == NULL) {
+		ad->bg = __create_bg(ad->window);
+		retvm_if(ad->bg == NULL, -1,  "fail to create bg!");
+	}
+	if (ad->layout_main == NULL) {
+		ad->layout_main = __create_layout_main(ad->bg);
+		retvm_if(ad->layout_main == NULL, -1,  "fail to create layout_main!");
+	}
+	if (ad->navi == NULL) {
+		ad->navi = elm_naviframe_add(ad->layout_main);
+		retvm_if(ad->navi == NULL, -1,  "fail to create naviframe!");
+		elm_object_part_content_set(ad->layout_main, "elm.swallow.content", ad->navi);
+		ea_object_event_callback_add(ad->navi, EA_CALLBACK_BACK,
+		ea_naviframe_back_cb, NULL);
 
-	ad->navi = elm_naviframe_add(ad->layout_main);
-	retvm_if(ad->navi == NULL, -1,  "fail to create naviframe!");
-	elm_object_part_content_set(ad->layout_main, "elm.swallow.content", ad->navi);
-	ea_object_event_callback_add(ad->navi, EA_CALLBACK_BACK,
-		__destory_app_cb, ad);
-	evas_object_show(ad->navi);
+		evas_object_show(ad->navi);
+	}
 
-	ad->layout_btn = __create_nocontents_button_layout(ad->layout_main);
-	retvm_if(ad->layout_btn == NULL, -1,  "fail to create layout_btn!");
+	if (ad->layout_btn == NULL) {
+		ad->layout_btn = __create_nocontents_button_layout(ad->layout_main);
+		retvm_if(ad->layout_btn == NULL, -1,  "fail to create layout_btn!");
+		navi_it = elm_naviframe_item_push(ad->navi, NULL, NULL, NULL, ad->layout_btn, NULL);
+		ad->navi_item = navi_it;
+		elm_naviframe_item_title_enabled_set(navi_it, EINA_FALSE, EINA_FALSE);
+		elm_naviframe_item_pop_cb_set(navi_it, __pop_cb, ad);
+	}
 
-	ad->scan_btn = __bt_create_scan_btn(ad);
-	retvm_if(ad->scan_btn == NULL, -1,  "fail to create scan_btn!");
+	if (ad->scan_btn == NULL) {
+		ad->scan_btn = __bt_create_scan_btn(ad);
+		retvm_if(ad->scan_btn == NULL, -1,  "fail to create scan_btn!");
+	}
 
 	if (ad->op_status == BT_ACTIVATING) {
-		_bt_show_no_devices(ad);
-		elm_object_disabled_set(ad->scan_btn, EINA_TRUE);
+		if (ad->scan_btn)
+			elm_object_disabled_set(ad->scan_btn, EINA_TRUE);
 	} else {
 		ad->main_genlist = _bt_create_list_view(ad);
 		elm_object_part_content_set(ad->layout_btn, "elm.swallow.content",
@@ -567,11 +625,6 @@ int _bt_initialize_view(bt_app_data_t *ad)
 	}
 
 	evas_object_show(ad->window);
-
-	navi_it = elm_naviframe_item_push(ad->navi, NULL, NULL, NULL, ad->layout_btn, NULL);
-	ad->navi_item = navi_it;
-	elm_naviframe_item_title_enabled_set(navi_it, EINA_FALSE, EINA_FALSE);
-	elm_naviframe_item_pop_cb_set(navi_it, __pop_cb, ad);
 
 	FN_END;
 	return 0;
@@ -631,7 +684,7 @@ static bool __bt_cb_adapter_bonded_device(bt_device_info_s *device_info,
 
 	dev = _bt_create_paired_device_info(device_info);
 	retv_if (!dev, false);
-
+	INFO("[%s] is_connected : %d", device_info->remote_name, device_info->is_connected);
 	dev->ad = (void *)ad;
 
 	service_class = dev->service_class;
@@ -639,24 +692,35 @@ static bool __bt_cb_adapter_bonded_device(bt_device_info_s *device_info,
 	if (_bt_is_matched_profile(ad->search_type,
 					dev->major_class,
 					service_class) == TRUE) {
+
+		if (ad->launch_mode == BT_LAUNCH_CONNECT_HEADSET &&
+			!(service_class & BT_COD_SC_RENDERING)) {
+			DBG("Play via BT. A2DP is not supported");
+			free(dev);
+			return true;
+		}
+
 		if (dev->service_list & BT_SC_HFP_SERVICE_MASK ||
 		    dev->service_list & BT_SC_HSP_SERVICE_MASK ||
 		    dev->service_list & BT_SC_A2DP_SERVICE_MASK) {
-			connected = _bt_is_profile_connected(BT_HEADSET_CONNECTED,
-							     ad->conn, dev->bd_addr);
+			connected = _bt_util_is_profile_connected(BT_HEADSET_CONNECTED,
+							dev->bd_addr);
 			dev->connected_mask |= connected ? BT_HEADSET_CONNECTED : 0x00;
 
 			connected =
-			    _bt_is_profile_connected(BT_STEREO_HEADSET_CONNECTED,
-						     ad->conn, dev->bd_addr);
+					_bt_util_is_profile_connected(BT_STEREO_HEADSET_CONNECTED,
+							dev->bd_addr);
 			dev->connected_mask |=
 			    connected ? BT_STEREO_HEADSET_CONNECTED : 0x00;
+			if (dev->connected_mask == 0x00)
+			        dev->is_connected = 0;
+			else
+			        dev->is_connected = 1;
 		}
 
 		if (_bt_add_paired_device_item(ad, dev) != NULL) {
 			ad->paired_device =
 				eina_list_append(ad->paired_device, dev);
-			_bt_update_device_list(ad);
 		}
 	} else {
 		ERR("Device class and search type do not match");
@@ -690,16 +754,24 @@ static bool __bt_cb_adapter_create_paired_device_list
 	if (_bt_is_matched_profile(ad->search_type,
 					dev->major_class,
 					service_class) == TRUE) {
+
+		if (ad->launch_mode == BT_LAUNCH_CONNECT_HEADSET &&
+			!(service_class & BT_COD_SC_RENDERING)) {
+			DBG("Play via BT.  A2DP is not supported");
+			free(dev);
+			return true;
+		}
+
 		if (dev->service_list & BT_SC_HFP_SERVICE_MASK ||
 		    dev->service_list & BT_SC_HSP_SERVICE_MASK ||
 		    dev->service_list & BT_SC_A2DP_SERVICE_MASK) {
-			connected = _bt_is_profile_connected(BT_HEADSET_CONNECTED,
-							     ad->conn, dev->bd_addr);
+			connected = _bt_util_is_profile_connected(BT_HEADSET_CONNECTED,
+							dev->bd_addr);
 			dev->connected_mask |= connected ? BT_HEADSET_CONNECTED : 0x00;
 
 			connected =
-			    _bt_is_profile_connected(BT_STEREO_HEADSET_CONNECTED,
-						     ad->conn, dev->bd_addr);
+					_bt_util_is_profile_connected(BT_STEREO_HEADSET_CONNECTED,
+							dev->bd_addr);
 			dev->connected_mask |=
 			    connected ? BT_STEREO_HEADSET_CONNECTED : 0x00;
 		}
@@ -811,6 +883,15 @@ static void __bt_paired_item_sel_cb(void *data, Evas_Object *obj,
 	ret_if(ad->waiting_service_response == TRUE);
 	ret_if(ad->op_status == BT_PAIRING);
 
+	dev = _bt_get_dev_info(ad->paired_device, item);
+	retm_if(dev == NULL, "Invalid argument: device info is NULL");
+	if(dev->is_longpressed) {
+		dev->is_longpressed = FALSE;
+		return;
+	}
+	retm_if(dev->status != BT_IDLE,
+		"Connecting / Disconnecting is in progress");
+
 	if (ad->op_status == BT_SEARCHING) {
 		ret = bt_adapter_stop_device_discovery();
 		if (ret != BT_ERROR_NONE) {
@@ -818,11 +899,6 @@ static void __bt_paired_item_sel_cb(void *data, Evas_Object *obj,
 			return;
 		}
 	}
-
-	dev = _bt_get_dev_info(ad->paired_device, item);
-	retm_if(dev == NULL, "Invalid argument: device info is NULL");
-	retm_if(dev->status != BT_IDLE,
-		"Connecting / Disconnecting is in progress");
 
 	if ((ad->waiting_service_response) && (dev->service_list == 0)) {
 		ERR("No service");
@@ -854,14 +930,27 @@ static void __bt_paired_item_sel_cb(void *data, Evas_Object *obj,
 		}
 	}
 
-	if (dev->connected_mask == 0) {
-		/* Not connected case */
-		_bt_connect_device(ad, dev);
-	} else {
-		/* connected case */
-		DBG("Disconnect ??");
 
-		_bt_create_disconnection_query_popup(dev);
+	if (ad->launch_mode == BT_LAUNCH_CONNECT_HEADSET) {
+		if (dev->connected_mask & BT_STEREO_HEADSET_CONNECTED)
+			_bt_create_disconnection_query_popup(dev);
+		else
+			_bt_connect_device(ad, dev);
+	} else if (ad->launch_mode == BT_LAUNCH_CALL) {
+		if (dev->connected_mask & BT_HEADSET_CONNECTED)
+			_bt_create_disconnection_query_popup(dev);
+		else
+			_bt_connect_device(ad, dev);
+	} else {
+		if (dev->connected_mask == 0) {
+			/* Not connected case */
+			_bt_connect_device(ad, dev);
+		} else {
+			/* connected case */
+			DBG("Disconnect ??");
+
+			_bt_create_disconnection_query_popup(dev);
+		}
 	}
 
 	FN_END;
@@ -891,6 +980,10 @@ static void __bt_searched_item_sel_cb(void *data, Evas_Object *obj,
 	dev = _bt_get_dev_info(ad->searched_device,
 				    (Elm_Object_Item *) event_info);
 	retm_if(dev == NULL, "Invalid argument: device info is NULL");
+	if(dev->is_longpressed) {
+		dev->is_longpressed = FALSE;
+		return;
+	}
 
 	ad->searched_item = item;
 
@@ -906,6 +999,11 @@ static void __bt_searched_item_sel_cb(void *data, Evas_Object *obj,
 			ERR("Fail to stop discovery");
 	}
 
+	if (ad->launch_mode == BT_LAUNCH_PICK) {
+		_bt_destroy_app(ad);
+		return;
+	}
+
 	if (bt_device_create_bond(dev->addr_str) == BT_ERROR_NONE) {
 		dev->status = BT_DEV_PAIRING;
 		ad->op_status = BT_PAIRING;
@@ -913,10 +1011,42 @@ static void __bt_searched_item_sel_cb(void *data, Evas_Object *obj,
 		elm_genlist_item_item_class_update(dev->genlist_item,
 				ad->searched_pairing_itc);
 		_bt_update_genlist_item(item);
-		elm_object_disabled_set(ad->scan_btn, EINA_TRUE);
+		if (ad->scan_btn)
+			elm_object_disabled_set(ad->scan_btn, EINA_TRUE);
+	}
+	else {
+		ad->searched_item = NULL;
 	}
 
 	FN_END;
+}
+
+static bool __bt_is_profile_connected(bt_app_data_t *ad,
+						bt_audio_profile_type_e profile)
+{
+	FN_START;
+	retv_if(!ad, FALSE);
+	retv_if(!ad->paired_device, FALSE);
+
+	bt_dev_t *dev = NULL;
+	Eina_List *l = NULL;
+
+	EINA_LIST_FOREACH(ad->paired_device, l, dev) {
+		if (!dev)
+			continue;
+		if (profile == BT_AUDIO_PROFILE_TYPE_HSP_HFP) {
+			if (dev->connected_mask & BT_HEADSET_CONNECTED) {
+				return TRUE;
+			}
+		} else if (profile == BT_AUDIO_PROFILE_TYPE_A2DP) {
+			if (dev->connected_mask & BT_STEREO_HEADSET_CONNECTED) {
+				return TRUE;
+			}
+		}
+	}
+
+	return FALSE;
+
 }
 
 void _bt_connect_device(bt_app_data_t *ad, bt_dev_t *dev)
@@ -925,20 +1055,93 @@ void _bt_connect_device(bt_app_data_t *ad, bt_dev_t *dev)
 
 	retm_if(ad == NULL, "ad is NULL");
 	retm_if(dev == NULL, "dev is NULL");
+	int headset_type = BT_AUDIO_PROFILE_TYPE_ALL;
 
+	INFO("Request connection");
+
+#ifdef TELEPHONY_DISABLED //B2
+	DBG("B2");
 	if (dev->service_list & BT_SC_A2DP_SERVICE_MASK) {
 		if (bt_audio_connect(dev->addr_str,
 				     BT_AUDIO_PROFILE_TYPE_A2DP) ==
 		    BT_ERROR_NONE) {
 			ad->connect_req = TRUE;
 			dev->status = BT_CONNECTING;
+			ad->connect_req_item = dev;
+			_bt_util_disable_genlist_items(ad, EINA_TRUE);
 			_bt_lock_display();
 		} else {
 			ERR("Fail to connect Headset device");
 		}
 	}
+#else	//B2 3G
+	DBG("B2 3G");
+	if ((dev->service_list & BT_SC_HFP_SERVICE_MASK) ||
+	    (dev->service_list & BT_SC_HSP_SERVICE_MASK)) {
+		/* Connect the  Headset */
+		if (dev->service_list & BT_SC_A2DP_SERVICE_MASK)
+		{
+			if (ad->launch_mode == BT_LAUNCH_CONNECT_HEADSET) {
+				if (__bt_is_profile_connected(ad, BT_AUDIO_PROFILE_TYPE_HSP_HFP)) {
+					INFO("HFP is already connected, connect A2DP only!");
+					headset_type = BT_AUDIO_PROFILE_TYPE_A2DP;
+				} else {
+					INFO("Connect ALL profiles!");
+					headset_type = BT_AUDIO_PROFILE_TYPE_ALL;
+				}
+			} else if (ad->launch_mode == BT_LAUNCH_CALL) {
+				if (__bt_is_profile_connected(ad, BT_AUDIO_PROFILE_TYPE_A2DP)) {
+					INFO("A2DP is already connected, connect HFP only!");
+					headset_type = BT_AUDIO_PROFILE_TYPE_HSP_HFP;
+				} else {
+					INFO("Connect ALL profiles!");
+					headset_type = BT_AUDIO_PROFILE_TYPE_ALL;
+				}
+			} else {
+				if (!(dev->connected_mask & BT_HEADSET_CONNECTED) &&
+					!(dev->connected_mask & BT_STEREO_HEADSET_CONNECTED))
+					headset_type = BT_AUDIO_PROFILE_TYPE_ALL;
+				else if (dev->connected_mask & BT_HEADSET_CONNECTED)
+					headset_type = BT_AUDIO_PROFILE_TYPE_A2DP;
+				else
+					headset_type = BT_AUDIO_PROFILE_TYPE_HSP_HFP;
+			}
+		} else
+			headset_type = BT_AUDIO_PROFILE_TYPE_HSP_HFP;
+
+		INFO("Connection type = %d", headset_type);
+		INFO("HFP connection status: %d", dev->connected_mask & BT_HEADSET_CONNECTED ? 1 : 0);
+		INFO("A2DP connection status: %d", dev->connected_mask & BT_STEREO_HEADSET_CONNECTED ? 1 : 0);
+
+		if (bt_audio_connect(dev->addr_str,
+				     headset_type) == BT_ERROR_NONE) {
+			ad->connect_req = TRUE;
+			dev->status = BT_CONNECTING;
+			ad->connect_req_item = dev;
+			_bt_util_disable_genlist_items(ad, EINA_TRUE);
+			if (ad->scan_btn)
+				elm_object_disabled_set(ad->scan_btn, EINA_TRUE);
+			_bt_lock_display();
+		} else {
+			ERR("Fail to connect Headset device");
+		}
+	} else if (dev->service_list & BT_SC_A2DP_SERVICE_MASK) {
+		if (bt_audio_connect(dev->addr_str,
+				     BT_AUDIO_PROFILE_TYPE_A2DP) ==
+		    BT_ERROR_NONE) {
+			ad->connect_req = TRUE;
+			dev->status = BT_CONNECTING;
+			ad->connect_req_item = dev;
+			_bt_util_disable_genlist_items(ad, EINA_TRUE);
+			_bt_lock_display();
+		} else {
+			ERR("Fail to connect Headset device");
+		}
+	}
+#endif
+
 	if (dev->genlist_item)
-	_bt_update_genlist_item((Elm_Object_Item *) dev->genlist_item);
+		_bt_update_genlist_item((Elm_Object_Item *) dev->genlist_item);
 
 	FN_END;
 }
@@ -950,21 +1153,51 @@ void _bt_disconnect_device(bt_app_data_t *ad, bt_dev_t *dev)
 	ret_if(ad == NULL);
 	ret_if(dev == NULL);
 
-	if (_bt_is_profile_connected
-		(BT_STEREO_HEADSET_CONNECTED, ad->conn,
-		 dev->bd_addr) == TRUE) {
-		DBG("Disconnecting AV service");
+#ifdef TELEPHONY_DISABLED //B2
+	DBG("B2");
+	if (dev->service_list & BT_SC_A2DP_SERVICE_MASK) {
 		if (bt_audio_disconnect(dev->addr_str,
-					BT_AUDIO_PROFILE_TYPE_A2DP) ==
+				     BT_AUDIO_PROFILE_TYPE_A2DP) ==
 		    BT_ERROR_NONE) {
-			ad->connect_req = TRUE;
+			ad->disconnect_req = true;
 			dev->status = BT_DISCONNECTING;
+			ad->connect_req_item = dev;
+			_bt_util_disable_genlist_items(ad, EINA_TRUE);
+			_bt_lock_display();
 		} else {
 			ERR("Fail to connect Headset device");
 		}
 	}
-
-	_bt_update_genlist_item((Elm_Object_Item *) dev->genlist_item);
+#else	//B2 3G
+	DBG("B2 3G");
+	if (_bt_util_is_profile_connected(BT_HEADSET_CONNECTED,
+						dev->bd_addr) == TRUE) {
+		DBG("Disconnecting AG service");
+		if (bt_audio_disconnect(dev->addr_str,
+					BT_AUDIO_PROFILE_TYPE_ALL) ==
+					BT_ERROR_NONE) {
+			ad->disconnect_req = true;
+			dev->status = BT_DISCONNECTING;
+			ad->connect_req_item = dev;
+			_bt_util_disable_genlist_items(ad, EINA_TRUE);
+		}
+	} else if (_bt_util_is_profile_connected(BT_STEREO_HEADSET_CONNECTED,
+						dev->bd_addr) == TRUE) {
+		DBG("Disconnecting AV service");
+		if (bt_audio_disconnect(dev->addr_str,
+					BT_AUDIO_PROFILE_TYPE_A2DP) ==
+					BT_ERROR_NONE) {
+			ad->disconnect_req = true;
+			dev->status = BT_DISCONNECTING;
+			ad->connect_req_item = dev;
+			_bt_util_disable_genlist_items(ad, EINA_TRUE);
+		}
+	} else {
+		ERR("Fail to connect Headset device");
+	}
+#endif
+	if (dev->genlist_item)
+		_bt_update_genlist_item((Elm_Object_Item *) dev->genlist_item);
 
 	FN_END;
 }
@@ -1119,7 +1352,7 @@ void _bt_remove_all_searched_devices_item(bt_app_data_t *ad)
 
 	EINA_LIST_FOREACH_SAFE(ad->searched_device, l, l_next, dev) {
 		ad->searched_device =
-		    eina_list_remove_list(ad->searched_device, l);
+			eina_list_remove_list(ad->searched_device, l);
 		_bt_util_free_device_item(dev);
 	}
 
@@ -1127,11 +1360,65 @@ void _bt_remove_all_searched_devices_item(bt_app_data_t *ad)
 	return;
 }
 
-Elm_Object_Item *_bt_add_paired_device_item(bt_app_data_t *ad, bt_dev_t *dev)
+void _bt_sort_paired_devices(bt_app_data_t *ad, bt_dev_t *dev,
+		int connected)
 {
 	FN_START;
 
-	Elm_Object_Item *git;
+	bt_dev_t *item = NULL;
+	Elm_Object_Item *git = NULL;
+	Eina_List *l = NULL;
+	Eina_List *l_next = NULL;
+
+	retm_if(ad == NULL, "Invalid argument: ugd is NULL");
+	retm_if(dev == NULL, "Invalid argument: dev is NULL");
+
+	dev->ad = ad;
+	EINA_LIST_FOREACH_SAFE(ad->paired_device, l, l_next, item) {
+		if (item && (item == dev)) {
+			if (connected) {
+				elm_object_item_del(item->genlist_item);
+				git = elm_genlist_item_insert_after(ad->main_genlist,
+						ad->device_itc, dev, NULL,
+						ad->paired_title_item,
+						ELM_GENLIST_ITEM_NONE,
+						__bt_paired_item_sel_cb, ad);
+				dev->genlist_item = git;
+				break;
+			} else {
+				if (ad->searched_title_item) {
+					elm_object_item_del(item->genlist_item);
+					git = elm_genlist_item_insert_before(ad->main_genlist,
+							ad->device_itc, dev, NULL,
+							ad->searched_title_item,
+							ELM_GENLIST_ITEM_NONE,
+							__bt_paired_item_sel_cb,
+							ad);
+					dev->genlist_item = git;
+					break;
+				} else {
+					elm_object_item_del(item->genlist_item);
+					git = elm_genlist_item_append(ad->main_genlist,
+							ad->device_itc, dev, NULL,
+							ELM_GENLIST_ITEM_NONE,
+							__bt_paired_item_sel_cb,
+							ad);
+					dev->genlist_item = git;
+					break;
+				}
+			}
+		}
+	}
+
+	FN_END;
+	return;
+}
+Elm_Object_Item *_bt_add_paired_device_item_on_bond(bt_app_data_t *ad,
+					bt_dev_t *dev)
+{
+	FN_START;
+
+	Elm_Object_Item *git = NULL;
 
 	retvm_if(ad == NULL, NULL, "Invalid argument: ad is NULL");
 	retvm_if(dev == NULL, NULL, "Invalid argument: dev is NULL");
@@ -1140,10 +1427,208 @@ Elm_Object_Item *_bt_add_paired_device_item(bt_app_data_t *ad, bt_dev_t *dev)
 		_bt_create_group_title_item(ad, GROUP_PAIR);
 
 	/* Add the device item in the list */
-	git = elm_genlist_item_insert_after(ad->main_genlist, ad->device_itc,
-					    dev, NULL, ad->paired_title_item,
-					    ELM_GENLIST_ITEM_NONE,
-					    __bt_paired_item_sel_cb, ad);
+	if (ad->paired_device == NULL) {
+		git = elm_genlist_item_insert_after(ad->main_genlist,
+					ad->device_itc, dev, NULL,
+					ad->paired_title_item,
+					ELM_GENLIST_ITEM_NONE,
+					__bt_paired_item_sel_cb, ad);
+	} else {
+		bt_dev_t *item_dev = NULL;
+		Elm_Object_Item *item = NULL;
+		Elm_Object_Item *next = NULL;
+
+		item = elm_genlist_item_next_get(ad->paired_title_item);
+
+		while (item != NULL || item != ad->searched_title_item) {
+			item_dev = _bt_get_dev_info(ad->paired_device, item);
+
+			if (item_dev && item_dev->is_connected > 0) {
+				next = elm_genlist_item_next_get(item);
+				if (next == NULL || next == ad->searched_title_item) {
+					git = elm_genlist_item_insert_after(ad->main_genlist,
+							ad->device_itc, dev,
+							NULL, item,
+							ELM_GENLIST_ITEM_NONE,
+							__bt_paired_item_sel_cb,
+							ad);
+					break;
+				}
+				item = next;
+			} else {
+				git = elm_genlist_item_insert_before(ad->main_genlist,
+						ad->device_itc, dev,
+						NULL, item,
+						ELM_GENLIST_ITEM_NONE,
+						__bt_paired_item_sel_cb, ad);
+				break;
+			}
+		}
+	}
+
+	dev->genlist_item = git;
+	dev->status = BT_IDLE;
+	dev->ad = (void *)ad;
+	dev->is_bonded = TRUE;
+
+	FN_END;
+
+	return git;
+}
+
+static void __bt_ctxpopup_cb(void *data, Evas_Object *obj, void *event_info)
+{
+	FN_START;
+	const char *label = elm_object_item_text_get((Elm_Object_Item *) event_info);
+	if(label) fprintf(stderr, "text(%s) is clicked\n", label);
+
+	Evas_Object *icon = elm_object_item_content_get((Elm_Object_Item *) event_info);
+	if(icon) fprintf(stderr, "icon is clicked\n");
+	FN_END;
+}
+
+static Eina_Bool __bt_ctxpopup_timer_cb(void *data)
+{
+	FN_START;
+	bt_app_data_t *ad = (bt_app_data_t *)data;
+	retv_if(!ad || !ad->ctxpopup_timer || !ad->ctxpopup, EINA_FALSE);
+
+	ad->ctxpopup_timer = NULL;
+	elm_ctxpopup_dismiss(ad->ctxpopup);
+	FN_END;
+	return EINA_FALSE;
+}
+
+static void __bt_move_ctxpopup(Evas_Object *ctxpopup, Elm_Object_Item *item)
+{
+	FN_START;
+	ret_if(!ctxpopup || !item);
+
+	Evas_Coord x, y, w, h;
+	Evas_Object *track = elm_object_item_track(item);
+
+	evas_object_geometry_get(track, &x, &y, &w, &h);
+
+	elm_object_item_untrack(item);
+	DBG("x : %d, y : %d, w : %d, h : %d", x, y, w, h);
+	evas_object_move(ctxpopup, (w / 2), (y - BT_CTXPOPUP_HEIGHT >= 0) ? (y - BT_CTXPOPUP_HEIGHT) : (y + h));
+
+	FN_END;
+}
+
+static void __bt_dismissed_cb(void *data, Evas_Object *obj, void *event_info)
+{
+	FN_START;
+	bt_app_data_t *ad = (bt_app_data_t *)data;
+	ret_if(!ad);
+
+	evas_object_smart_callback_del(ad->ctxpopup,"dismissed", __bt_dismissed_cb);
+	evas_object_del(ad->ctxpopup);
+	ad->ctxpopup = NULL;
+	FN_END;
+}
+
+static void __bt_create_ctxpopup_help(void *data, Evas_Object *obj, void *event_info)
+{
+	FN_START;
+	bt_app_data_t *ad = (bt_app_data_t *)data;
+	Evas_Object *ctxpopup = NULL;
+	Elm_Object_Item *item = NULL;
+	const Elm_Genlist_Item_Class *itc = NULL;
+	bt_dev_t *dev = NULL;
+
+	ret_if(!ad);
+
+	item = (Elm_Object_Item *)event_info;
+
+	itc = elm_genlist_item_item_class_get(item);
+	dev = elm_object_item_data_get(item);
+	retm_if(dev == NULL, "Invalid argument: device info is NULL");
+	dev->is_longpressed = TRUE;
+
+	ret_if(g_strcmp0(itc->item_style, "2text.1icon.divider") &&
+		g_strcmp0(itc->item_style, "1text"));
+
+	if(ad->ctxpopup) {
+		evas_object_del(ad->ctxpopup);
+		ad->ctxpopup = NULL;
+	}
+
+	ctxpopup = elm_ctxpopup_add(ad->navi);
+	elm_object_style_set(ctxpopup, "help");
+	ea_object_event_callback_add(ctxpopup, EA_CALLBACK_BACK, ea_ctxpopup_back_cb, NULL);
+	evas_object_smart_callback_add(ctxpopup, "dismissed", __bt_dismissed_cb, ad);
+
+	elm_ctxpopup_item_append(ctxpopup, elm_object_item_part_text_get(
+			item, !g_strcmp0(itc->item_style, "1text") ?
+			"elm.text" : "elm.text.1"),
+			NULL, __bt_ctxpopup_cb, NULL);
+	elm_ctxpopup_direction_priority_set(ctxpopup, ELM_CTXPOPUP_DIRECTION_DOWN,
+						ELM_CTXPOPUP_DIRECTION_DOWN,
+						ELM_CTXPOPUP_DIRECTION_DOWN,
+						ELM_CTXPOPUP_DIRECTION_DOWN);
+	ad->ctxpopup = ctxpopup;
+
+	if (ad->ctxpopup_timer) {
+		ecore_timer_del(ad->ctxpopup_timer);
+		ad->ctxpopup_timer = NULL;
+	}
+	ad->ctxpopup_timer = ecore_timer_add(2.0, __bt_ctxpopup_timer_cb, ad);
+
+	__bt_move_ctxpopup(ctxpopup, item);
+	evas_object_show(ctxpopup);
+	FN_END;
+}
+
+Elm_Object_Item *_bt_add_paired_device_item(bt_app_data_t *ad,
+					bt_dev_t *dev)
+{
+	FN_START;
+
+	Elm_Object_Item *git = NULL;
+
+	retvm_if(ad == NULL, NULL, "Invalid argument: ad is NULL");
+	retvm_if(dev == NULL, NULL, "Invalid argument: dev is NULL");
+
+	if (ad->paired_title_item == NULL)
+		_bt_create_group_title_item(ad, GROUP_PAIR);
+
+	DBG("dev->status %d", dev->status);
+
+	/* Add the device item in the list */
+	if (ad->paired_device == NULL) {
+		git = elm_genlist_item_insert_after(ad->main_genlist,
+						ad->device_itc, dev, NULL,
+						ad->paired_title_item,
+						ELM_GENLIST_ITEM_NONE,
+						__bt_paired_item_sel_cb, ad);
+	} else {
+		if (dev->is_connected > 0) {
+			git = elm_genlist_item_insert_after(ad->main_genlist,
+						ad->device_itc, dev, NULL,
+						ad->paired_title_item,
+						ELM_GENLIST_ITEM_NONE,
+						__bt_paired_item_sel_cb, ad);
+		} else {
+			Elm_Object_Item *item = NULL;
+			Elm_Object_Item *next = NULL;
+
+			item = elm_genlist_item_next_get(ad->paired_title_item);
+
+			while (item != NULL || item != ad->searched_title_item) {
+				next = elm_genlist_item_next_get(item);
+				if (next == NULL || next == ad->searched_title_item) {
+					git = elm_genlist_item_insert_after(ad->main_genlist,
+							ad->device_itc, dev,
+							NULL, item,
+							ELM_GENLIST_ITEM_NONE,
+							__bt_paired_item_sel_cb, ad);
+					break;
+				}
+				item = next;
+			}
+		}
+	}
 
 	dev->genlist_item = git;
 	dev->status = BT_IDLE;
@@ -1167,10 +1652,54 @@ Elm_Object_Item *_bt_add_searched_device_item(bt_app_data_t *ad, bt_dev_t *dev)
 	if (ad->searched_title_item == NULL)
 		_bt_create_group_title_item(ad, GROUP_SEARCH);
 
-	git = elm_genlist_item_append(ad->main_genlist,
-				ad->searched_itc, dev, NULL,
-				ELM_GENLIST_ITEM_NONE,
-				__bt_searched_item_sel_cb, ad);
+	retvm_if(ad->searched_title_item == NULL, NULL,
+		 "Fail to add searched title genlist item");
+
+	/* Searched device Item */
+	if (ad->searched_device == NULL) {
+		git =
+		    elm_genlist_item_insert_after(ad->main_genlist,
+						  ad->searched_itc, dev, NULL,
+						  ad->searched_title_item,
+						  ELM_GENLIST_ITEM_NONE,
+						  __bt_searched_item_sel_cb,
+						  ad);
+	} else {
+		bt_dev_t *item_dev = NULL;
+		Elm_Object_Item *item = NULL;
+		Elm_Object_Item *next = NULL;
+
+		item = elm_genlist_item_next_get(ad->searched_title_item);
+
+		/* check the RSSI value of searched device list add arrange its order */
+		while (item != NULL) {
+			item_dev =
+			    _bt_get_dev_info(ad->searched_device, item);
+			retv_if(item_dev == NULL, NULL);
+
+			if (item_dev->rssi > dev->rssi) {
+				next = elm_genlist_item_next_get(item);
+				if (next == NULL) {
+					git =
+					    elm_genlist_item_insert_after
+					    (ad->main_genlist,
+					     ad->searched_itc, dev, NULL, item,
+					     ELM_GENLIST_ITEM_NONE,
+					     __bt_searched_item_sel_cb,
+					     ad);
+					break;
+				}
+				item = next;
+			} else {
+				git =
+				    elm_genlist_item_insert_before
+				    (ad->main_genlist, ad->searched_itc, dev,
+				     NULL, item, ELM_GENLIST_ITEM_NONE,
+				     __bt_searched_item_sel_cb, ad);
+				break;
+			}
+		}
+	}
 
 	dev->genlist_item = git;
 	dev->status = BT_IDLE;
@@ -1194,8 +1723,10 @@ bt_dev_t *_bt_create_paired_device_info(void *data)
 
 	dev_info = (bt_device_info_s *) data;
 
-	if (strlen(dev_info->remote_name) == 0)
+	if (strlen(dev_info->remote_name) == 0) {
+		ERR("Invalid device name");
 		return NULL;
+	}
 
 	dev = malloc(sizeof(bt_dev_t));
 	retv_if(dev == NULL, NULL);
@@ -1228,11 +1759,11 @@ bt_dev_t *_bt_create_paired_device_info(void *data)
 						 dev_info->service_count,
 						 &dev->service_list);
 
-	DBG_SECURE("device name [%s]", dev->name);
-	DBG_SECURE("device major class [%x]", dev->major_class);
-	DBG_SECURE("device minor class [%x]", dev->minor_class);
-	DBG_SECURE("device service class [%x]", dev->service_class);
-	DBG_SECURE("%2.2X:%2.2X:%2.2X:%2.2X:%2.2X:%2.2X", dev->bd_addr[0],
+	INFO("device name [%s]", dev->name);
+	DBG("device major class [%x]", dev->major_class);
+	DBG("device minor class [%x]", dev->minor_class);
+	DBG("device service class [%x]", dev->service_class);
+	INFO("%2.2X:%2.2X:%2.2X:%2.2X:%2.2X:%2.2X", dev->bd_addr[0],
 	       dev->bd_addr[1], dev->bd_addr[2], dev->bd_addr[3],
 	       dev->bd_addr[4], dev->bd_addr[5]);
 
@@ -1285,11 +1816,11 @@ bt_dev_t *_bt_create_searched_device_info(void *data)
 
 	memcpy(dev->bd_addr, bd_addr, BT_ADDRESS_LENGTH_MAX);
 
-	DBG("device name [%s]", dev->name);
+	INFO("device name [%s]", dev->name);
 	DBG("device major class [%x]", dev->major_class);
 	DBG("device minor class [%x]", dev->minor_class);
 	DBG("device service class [%x]", dev->service_class);
-	DBG("%2.2X:%2.2X:%2.2X:%2.2X:%2.2X:%2.2X", dev->bd_addr[0],
+	INFO("%2.2X:%2.2X:%2.2X:%2.2X:%2.2X:%2.2X", dev->bd_addr[0],
 	       dev->bd_addr[1], dev->bd_addr[2], dev->bd_addr[3],
 	       dev->bd_addr[4], dev->bd_addr[5]);
 
@@ -1305,8 +1836,8 @@ gboolean _bt_is_matched_profile(unsigned int search_type,
 	if (search_type == 0x000000)
 		return TRUE;
 
-	DBG("search_type: %x", search_type);
-	DBG("service_class: %x", service_class);
+	INFO("search_type: %x", search_type);
+	INFO("service_class: %x", service_class);
 
 	/* Check the major class */
 	switch (major_class) {
@@ -1342,9 +1873,14 @@ gboolean _bt_is_matched_profile(unsigned int search_type,
 		break;
 	}
 
-	DBG("major_mask: %x", major_mask);
+	INFO("major_mask: %x", major_mask);
 
 	if (search_type & major_mask)
+		return TRUE;
+
+	/* PTS AVRCP(CRC/BV-02-I) fail issue. display AVRCP only device in UI */
+	if (search_type & BT_DEVICE_MAJOR_MASK_AUDIO &&
+			service_class == BT_MAJOR_SERVICE_CLASS_AUDIO)
 		return TRUE;
 
 	return FALSE;
@@ -1398,21 +1934,25 @@ int _bt_check_and_update_device(Eina_List *list, char *addr, char *name)
 	retv_if(name == NULL, -1);
 
 	EINA_LIST_FOREACH(list, l, item) {
-		if (item) {
-			if (memcmp(item->addr_str, addr, BT_ADDRESS_STR_LEN) ==
-			    0) {
-				memset(item->name, 0x00,
-				       BT_DEVICE_NAME_LENGTH_MAX);
-				g_strlcpy(item->name, name,
-					  BT_DEVICE_NAME_LENGTH_MAX);
-				return 0;
-			}
-		}
+		if (!item)
+			continue;
+
+		if (memcmp(item->addr_str, addr, BT_ADDRESS_STR_LEN) != 0)
+			continue;
+
+		memset(item->name, 0x00,
+				BT_DEVICE_NAME_LENGTH_MAX);
+		g_strlcpy(item->name, name,
+				BT_DEVICE_NAME_LENGTH_MAX);
+
+		if (item->genlist_item)
+			_bt_update_genlist_item((Elm_Object_Item *)
+					item->genlist_item);
+		return 0;
 	}
 
 	return -1;
 }
-
 
 void _bt_update_genlist_item(Elm_Object_Item *item)
 {
@@ -1424,6 +1964,7 @@ void _bt_update_genlist_item(Elm_Object_Item *item)
 
 void _bt_update_device_list(bt_app_data_t *ad)
 {
+	FN_START;
 	Eina_List *l = NULL;
 	bt_dev_t *dev = NULL;
 
@@ -1432,14 +1973,14 @@ void _bt_update_device_list(bt_app_data_t *ad)
 	EINA_LIST_FOREACH(ad->paired_device, l, dev) {
 		if (dev)
 			_bt_update_genlist_item((Elm_Object_Item *)
-						dev->genlist_item);
+					dev->genlist_item);
 	}
 
-	EINA_LIST_FOREACH(ad->searched_device, l, dev) {
-		if (dev)
-			_bt_update_genlist_item((Elm_Object_Item *)
-						dev->genlist_item);
-	}
+	if (ad->paired_title_item)
+		_bt_update_genlist_item(ad->paired_title_item);
+	if (ad->searched_title_item)
+		_bt_update_genlist_item(ad->searched_title_item);
+	FN_END;
 }
 
 Evas_Object *_bt_create_list_view(bt_app_data_t *ad)
@@ -1460,8 +2001,7 @@ Evas_Object *_bt_create_list_view(bt_app_data_t *ad)
 		if (ad->searched_title_item == NULL)
 			_bt_create_group_title_item(ad, GROUP_SEARCH);
 		if (ad->op_status == BT_ACTIVATED) {
-			ret = bt_adapter_start_discover_devices
-					(BT_ADAPTER_DEVICE_DISCOVERY_BREDR);
+			ret = bt_adapter_start_device_discovery();
 			if (ret == BT_ERROR_NONE || ret == BT_ERROR_NOW_IN_PROGRESS) {
 				ad->op_status = BT_SEARCHING;
 				_bt_lock_display();
@@ -1470,6 +2010,8 @@ Evas_Object *_bt_create_list_view(bt_app_data_t *ad)
 			}
 		}
 	}
+	evas_object_smart_callback_add(ad->main_genlist, "longpressed",
+			__bt_create_ctxpopup_help, ad);
 
 	evas_object_show(ad->main_genlist);
 
@@ -1484,7 +2026,7 @@ int _bt_get_paired_device_count(bt_app_data_t *ad)
 	_bt_get_paired_devices(ad);
 	retvm_if(!ad->paired_device, 0, "paired_device is NULL!");
 	int count = eina_list_count(ad->paired_device);
-	DBG("paired device count : %d", count);
+	INFO("paired device count : %d", count);
 	return count;
 }
 
@@ -1529,7 +2071,7 @@ void _bt_create_autoconnect_popup(bt_dev_t *dev)
 
 	ret = syspopup_launch("bt-syspopup", b);
 	if (0 > ret) {
-		DBG("Popup launch failed...retry %d", ret);
+		ERR("Popup launch failed...retry %d", ret);
 
 		g_timeout_add(BT_AUTO_CONNECT_SYSPOPUP_TIMEOUT_FOR_MULTIPLE_POPUPS,
 				  (GSourceFunc)__bt_auto_connect_system_popup_timer_cb, b);
@@ -1546,22 +2088,32 @@ void _bt_clean_app(bt_app_data_t *ad)
 	if (ad == NULL)
 		return;
 
-	__bt_release_genlist_itc(ad);
+	__bt_clear_genlist(ad);
 
 	if (ad->timer) {
 		ecore_timer_del(ad->timer);
 		ad->timer = NULL;
 	}
 
+
 	if (ad->popup) {
 		evas_object_del(ad->popup);
 		ad->popup = NULL;
 	}
 
+	if (ad->key_release_handler) {
+		ecore_event_handler_del(ad->key_release_handler);
+		ad->key_release_handler = NULL;
+	}
+	if (ad->service) {
+		app_control_destroy(ad->service);
+		ad->service = NULL;
+	}
 	if (ad->window) {
 		evas_object_del(ad->window);
 		ad->window = NULL;
 	}
+
 	FN_END;
 }
 
@@ -1582,4 +2134,3 @@ void _bt_destroy_app(bt_app_data_t *ad)
 	}
 	elm_exit();
 }
-

@@ -1,25 +1,20 @@
 /*
-* ug-setting-bluetooth-efl
-*
-* Copyright 2012 Samsung Electronics Co., Ltd
-*
-* Contact: Hocheol Seo <hocheol.seo@samsung.com>
-*           GirishAshok Joshi <girish.joshi@samsung.com>
-*           DoHyun Pyun <dh79.pyun@samsung.com>
-*
-* Licensed under the Flora License, Version 1.1 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.tizenopensource.org/license
-*
-* Unless required by applicable law or agreed to in writing,
-* software distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
+ * Copyright (c) 2000-2014 Samsung Electronics Co., Ltd.
+ *
+ * Licensed under the Flora License, Version 1.1 (the License);
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://floralicense.org/license/
+
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an AS IS BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 
 #include <glib.h>
 #include <dbus/dbus.h>
@@ -58,7 +53,7 @@ int __bt_get_adapter_path(DBusGConnection *GConn, char *path)
 			G_TYPE_INVALID);
 
 	if (error != NULL) {
-		DBG("Getting DefaultAdapter failed: [%s]", error->message);
+		ERR("Getting DefaultAdapter failed: [%s]", error->message);
 		g_error_free(error);
 		g_object_unref(manager_proxy);
 		return -1;
@@ -72,7 +67,7 @@ int __bt_get_adapter_path(DBusGConnection *GConn, char *path)
 	len = g_strlcpy(path, adapter_path, BT_ADAPTER_PATH_LEN);
 
 	if (len >= BT_ADAPTER_PATH_LEN) {
-		DBG("The copied len is too large");
+		ERR("The copied len is too large");
 		ret = -1;
 	}
 
@@ -97,7 +92,7 @@ DBusGProxy *_bt_get_adapter_proxy(DBusGConnection *conn)
 	retv_if(conn == NULL, NULL);
 
 	if (__bt_get_adapter_path(conn, adapter_path) < 0) {
-		DBG("Could not get adapter path");
+		ERR("Could not get adapter path");
 		return NULL;
 	}
 
@@ -147,7 +142,7 @@ gboolean _bt_is_profile_connected(int connected_type,
 		g_object_unref(adapter);
 
 		if (error != NULL) {
-			DBG("Failed to Find device: %s", error->message);
+			ERR("Failed to Find device: %s", error->message);
 			g_error_free(error);
 			return FALSE;
 		}
@@ -177,7 +172,7 @@ gboolean _bt_is_profile_connected(int connected_type,
 		return FALSE;
 	}
 
-	DBG("Interface: %s", interface);
+	INFO("Interface: %s", interface);
 
 	proxy = dbus_g_proxy_new_for_name(conn, BLUEZ_DBUS_NAME, object_path, interface);
 
@@ -203,7 +198,7 @@ gboolean _bt_is_profile_connected(int connected_type,
 	}
 
 	if (error != NULL) {
-		DBG("Failed to get properties: %s", error->message);
+		ERR("Failed to get properties: %s", error->message);
 		g_error_free(error);
 		g_object_unref(proxy);
 		return FALSE;

@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "已通过蓝牙连接至您的设备。"
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "正在通过蓝牙连接至您的设备…"
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "连接"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "蓝牙错误"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "蓝牙已连接。"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "无法连接至您的手机。蓝牙连接超时。请重试。"
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "重置"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "无法刷新这个应用。蓝牙已中断连接。"
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear 已断开或超出移动设备范围"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "无法打开 %s。蓝牙已中断连接。"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "扫描"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "停止"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "已配对的设备"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "可用设备"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "已配对"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "正在配对..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "已连接"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "连接中..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "正在断开..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "断开？"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "取消配对"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "正在连接到蓝牙立体声耳机..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "扫描中..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "这将结束您与设备的连接"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "这将结束您与 %s 的连接。"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "蓝牙地址"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "取消"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "未找到设备"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "重试?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "确定"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN 不正确。重试"
+
+msgid "IDS_ST_SK_OK"
+msgstr "确定"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "取消"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "在%2$s上输入%1$s以配对，然后点击返回或输入。"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "允许 %s 连接吗？"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "从 %s 接收 %s ？"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s已存在。覆盖？"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "从 %s 收到文件？"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "蓝牙配对请求"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "输入蓝牙密码与%s配对(尝试0000或1234)。"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "确认密码为 %2$s 以与 %1$s 配对。"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "允许%s电话簿访问"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "允许%s接入信息？"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "不再询问"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "蓝牙出错。 重试？"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "无法连接。"
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s 将取消配对。"
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "附近未发现蓝牙设备"
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "无法执行该动作。蓝牙已断开连接。"
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "无法打开该应用程序。蓝牙已断开连接。"
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s 正在尝试连接您的 Gear。若要连接至 %s，Gear 将重置为出厂设置。"
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "连接"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "蓝牙已断开连接。"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "是否从 %1$s 连接断开 %2$s？"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "个人信息"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "取消"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "确定"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "呼叫音频"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "禁用配置文件"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "点击输入。"
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%2$s 的 %1$s 配置文件将被禁用。"
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "配对请求"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "媒体音频"
+

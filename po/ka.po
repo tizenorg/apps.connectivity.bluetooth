@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "დაუკავშირდით მოწყობილობას Bluetooth-ით."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "უკავშირდებით მოწყობილობას Bluetooth-ით..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "კავშირი"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth შეცდ."
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth დაკავშირებულია."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "თქვენს ტელეფონთან დაკავშირება შეუძლებელია. Bluetooth კავშირის დრო გავიდა. კიდევ მოსინჯეთ"
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "გდტვრ."
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ამ პროგრამის განახლება შეუძლებელია. Bluetooth გათიშულია."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear გათიშულია, ან მობილური აპარატის აღქმის დიაპაზონის გარეთაა"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ვერ იხსნება %s. Bluetooth გათიშულია."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "სკანირება"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "შეჩერება"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "დაკავშირებული მოწყობილობები"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "მისაწვდომი მოწყობილობები"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "დაწყვილებული"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "წყვილდება..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "დაკავშირებულია."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "უკავშირდება..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "გამორთვა..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "გათიშავთ?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "დაწყვილების გაუქმება"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "უკავშირდება Bluetooth სტერეო გარნიტურას..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "მიმდ. სკანირება"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "ამით შეწყდება კავშირი მოწყობილობასთან"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "ამით შეწყდება კავშირი %s-თან."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth მისამართი"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "გაუქმება"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "მოწყობილობები ვერ მოიძებნა"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "კიდევ ცდით?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "კი"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN არასწორია. გთხოვთ, თავიდან ცადოთ"
+
+msgid "IDS_ST_SK_OK"
+msgstr "კი"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "გაუქმება"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "ჩაწერეთ %1$s %2$s-ში და დააწყვილეთ, შემდეგ დააკაკუნეთ დაბრუნებაზე ან შესვლაზე."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "დავრთო %s-ს დაკავშირების ნება?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "გსურთ მიიღოთ %s მოწყობილობიდან %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s უკვე არის. გადააწერთ?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "მიიღებთ ფაილს %s-სგან?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth დაწყვილების მოთხოვნა"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "ჩაწერეთ „%s“–თან დაწყვილების PIN (მოსინჯეთ 0000 ან 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "დადასტურების პაროლ-კოდი არის %2$s, რომ მოხდეს დაწყვილება მოწყობილობასთან „%1$s“."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "„%s“ მოწყობილობას მიეცით ტელეფონების წიგნზე წვდომის ნება"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "ჰქონდეს %s-ს წერილებზე წვდომის ნება?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "აღარ მკითხო"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth–ის შეცდომა. ისევ ცდით?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "ვერ დაუკავშირდებით."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s მოწყობილობასთან დაწყვილება გაუქმდება."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Bluetooth მოწყობილობები ვერ მოიძებნა ახლომახლო."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ამ მოქმედების შესრულება შეუძლებელია. Bluetooth გათიშულია."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ამ პროგრამის გახსნა შეუძლებელია. Bluetooth გათიშულია."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s ცდილობს დაუკავშირდეს Gear-ს. იმისათვის რომ დაკავშირდეს %s, Gear-ში უნდა დაბრუნდეს ქარხნული პარამეტრები"
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "დაკავშირება"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth გათიშულია."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%2$s გაითიშოს %1$s დაკავშირებიდან?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "პროფილები"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "გაუქმება"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "აუდიო ზარის განხორციელება"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "პროფილის გამორთვა"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "დააკაკუნე და ჩაწერე."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%1$s პროფილი გაითიშება მოწყობილობაში %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "დაკავშირების მოთხოვნა"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "მედია აუდიო"
+

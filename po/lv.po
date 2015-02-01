@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Savienota ar jūsu ierīci, izmantojot Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Savieno ar jūsu ierīci, izmantojot Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Savien."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth kļūda"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth savienots."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Nevar izveidot savienojumu ar jūsu tālruni. Iestājās Bluetooth savienojuma taimauts. Mēģiniet vēlreiz."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Aties."
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nevar atsvaidzināt šo programmu. Tehnoloģija Bluetooth ir atvienota."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Ierīce Gear ir atvienota vai atrodas ārpus mobilās ierīces uztveršanas diapazona"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nevar atvērt %s. Bluetooth ir atvienots."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Meklēt"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Apturēt"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Pārī savienotas ierīces"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Pieejamās ierīces"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Sapārots"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Savieno pārī..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Savienots."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Savieno..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Atvieno..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Vai atvienot?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Nesavienot pārī"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Notiek savienojuma izveidošana ar Bluetooth stereo austiņām..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Skenē..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Šādi tiks pārtraukts jūsu savienojums ar"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Šādi tiks pārtraukts savienojums ar ierīci %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth adrese"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Atcelt"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Nav atrasta neviena ierīce"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Vai mēģināt vēlreiz?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "Labi"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Nepareizs PIN. Lūdzu, mēģiniet vēlreiz!"
+
+msgid "IDS_ST_SK_OK"
+msgstr "Labi"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Atcelt"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Ierīcē %2$s ievadiet %1$s, lai savienotu pārī, pēc tam pieskarieties pie Atgriezties vai Ievadīt."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Vai atļaut %s savienot?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Vai saņemt failu %s no ierīces %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s jau pastāv. Vai pārrakstīt?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Vai saņemt failu no %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth pieprasījums savienošanai pārī"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Ievadiet PIN kodu, lai izveidotu savienojumu ar %s (izmēģiniet 0000 vai 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Apstipriniet piekļuves kodu %2$s, lai izveidotu savienojumu pārī ar %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Atļaut %s piekļūt tālruņu katalogam"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Vai atļaut ierīcei %s piekļūt ziņai?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Vairs nejautāt"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth kļūda. Vai mēģināt vēlreiz?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Nevar izveidot savienojumu."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "Pāra savienojums ar %s tiks deaktivizēts."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Nav atrasta neviena tuvumā esoša Bluetooth ierīce."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nevar veikt šo darbību. Bluetooth ir atvienots."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nevar atvērt šo programmu. Bluetooth ir atvienots."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "Ierīce %s mēģina izveidot savienojumu ar Gear. Lai izveidotu savienojumu ar ierīci %s, tiks atjaunoti Gear noklusējuma iestatījumi."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Savienot"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth ir atvienots."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Vai atvienot %2$s no %1$s savienojuma?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Profili"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Atcelt"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "Labi"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Zvana audio"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Deaktivizēt profilu"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Pieskar., lai ievadītu."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Ierīces %2$s profils %1$s tiks deaktivizēts."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Pieprasījums savienošanai pārī"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Multiv.aud."
+

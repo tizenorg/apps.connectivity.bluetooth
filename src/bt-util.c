@@ -1,25 +1,19 @@
 /*
-* ug-setting-bluetooth-efl
-*
-* Copyright 2012 Samsung Electronics Co., Ltd
-*
-* Contact: Hocheol Seo <hocheol.seo@samsung.com>
-*           GirishAshok Joshi <girish.joshi@samsung.com>
-*           DoHyun Pyun <dh79.pyun@samsung.com>
-*
-* Licensed under the Flora License, Version 1.1 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.tizenopensource.org/license
-*
-* Unless required by applicable law or agreed to in writing,
-* software distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
+ * Copyright (c) 2000-2014 Samsung Electronics Co., Ltd.
+ *
+ * Licensed under the Flora License, Version 1.1 (the License);
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://floralicense.org/license/
+
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an AS IS BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 
 #include <bluetooth.h>
 #include <vconf.h>
@@ -48,8 +42,6 @@ void _bt_unlock_display()
 		ERR("LCD Unlock failed");
 }
 
-
-
 gboolean _bt_util_get_service_mask_from_uuid_list(char **uuids,
 				      int no_of_service,
 				      bt_service_class_t *service_mask_list)
@@ -64,7 +56,7 @@ gboolean _bt_util_get_service_mask_from_uuid_list(char **uuids,
 	retvm_if(uuids == NULL, FALSE,
 		 "Invalid argument: service_list_array is NULL");
 
-	DBG("no_of_service = %d", no_of_service);
+	INFO("no_of_service = %d", no_of_service);
 
 	for (i = 0; i < no_of_service; i++) {
 		parts = g_strsplit(uuids[i], "-", -1);
@@ -229,7 +221,7 @@ gboolean _bt_util_get_service_mask_from_uuid_list(char **uuids,
 	}
 
 	*service_mask_list = service_mask;
-	DBG("service_mask = %x, service_mask_list = %x", service_mask,
+	INFO("service_mask = %x, service_mask_list = %x", service_mask,
 	       service_mask_list);
 
 	FN_END;
@@ -258,7 +250,7 @@ gboolean _bt_util_update_class_of_device_by_service_list(bt_service_class_t serv
 	else if (service_list & BT_SC_A2DP_SERVICE_MASK)
 			*minor_class = BTAPP_MIN_DEV_CLS_HEADPHONES;
 
-	DBG("Updated major_class = %x, minor_class = %x", *major_class,
+	INFO("Updated major_class = %x, minor_class = %x", *major_class,
 	       *minor_class);
 
 	FN_END;
@@ -279,9 +271,12 @@ void _bt_util_set_value(const char *req, unsigned int *search_type,
 	} else if (!strcasecmp(req, "print")) {
 		*search_type = BT_DEVICE_MAJOR_MASK_IMAGING;
 		*op_mode = BT_LAUNCH_PRINT_IMAGE;
-  	} else if (!strcasecmp(req, "call") || !strcasecmp(req, "sound")) {
+	} else if (!strcasecmp(req, "sound")) {
 		*search_type = BT_DEVICE_MAJOR_MASK_AUDIO;
 		*op_mode = BT_LAUNCH_CONNECT_HEADSET;
+	} else if (!strcasecmp(req, "call")) {
+		*search_type = BT_DEVICE_MAJOR_MASK_AUDIO;
+		*op_mode = BT_LAUNCH_CALL;
 	} else if (!strcasecmp(req, "nfc")) {
 		*search_type = BT_DEVICE_MAJOR_MASK_MISC;
 		*op_mode = BT_LAUNCH_USE_NFC;
@@ -330,7 +325,7 @@ gboolean _bt_util_store_get_value(const char *key, bt_store_type_t store_type,
 		boolean = (gboolean *)value;
 		ret = vconf_get_bool(key, &int_value);
 		if (ret != 0) {
-			DBG("Get bool is failed");
+			ERR("Get bool is failed");
 			*boolean = FALSE;
 			return FALSE;
 		}
@@ -340,7 +335,7 @@ gboolean _bt_util_store_get_value(const char *key, bt_store_type_t store_type,
 		intval = (int *)value;
 		ret = vconf_get_int(key, intval);
 		if (ret != 0) {
-			DBG("Get int is failed");
+			ERR("Get int is failed");
 			*intval = 0;
 			return FALSE;
 		}
@@ -348,7 +343,7 @@ gboolean _bt_util_store_get_value(const char *key, bt_store_type_t store_type,
 	case BT_STORE_STRING:
 		str = vconf_get_str(key);
 		if (str == NULL) {
-			DBG("Get string is failed");
+			ERR("Get string is failed");
 			return FALSE;
 		}
 		if (size > 1)
@@ -457,10 +452,19 @@ int _bt_util_get_timeout_index(int timeout)
 		break;
 	}
 
-	DBG("index: %d", index);
+	INFO("index: %d", index);
 
 	FN_END;
 	return index;
+}
+
+void _bt_util_get_lcd_status(int *val)
+{
+	if(vconf_get_int(VCONFKEY_PM_STATE, val) < 0) {
+		ERR("Cannot get VCONFKEY_PM_STATE");
+	}
+
+	DBG("LCD status : %d", *val);
 }
 
 gboolean _bt_util_is_battery_low(void)
@@ -471,15 +475,15 @@ gboolean _bt_util_is_battery_low(void)
 	int charging = 0;
 
 	if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_CHARGE_NOW, (void *)&charging))
-		DBG("Get the battery charging status fail");
+		ERR("Get the battery charging status fail");
 
 	if (charging == 1)
 		return FALSE;
 
-	DBG("charging: %d", charging);
+	INFO("charging: %d", charging);
 
 	if (vconf_get_int(VCONFKEY_SYSMAN_BATTERY_STATUS_LOW, (void *)&value)) {
-		DBG("Get the battery low status fail");
+		ERR("Get the battery low status fail");
 		return FALSE;
 	}
 
@@ -497,18 +501,18 @@ gboolean _bt_util_is_flight_mode(void)
 	int mode = 0;
 
 	if (vconf_get_bool(VCONFKEY_TELEPHONY_FLIGHT_MODE, &mode)) {
-		DBG("Get the flight mode fail");
+		ERR("Get the flight mode fail");
 		return FALSE;
 	}
 
-	DBG("flight mode: %d", mode);
+	INFO("flight mode: %d", mode);
 
 	FN_END;
 	return mode ? TRUE : FALSE;
 }
 
 void _bt_util_addr_type_to_addr_string(char *address,
-					       unsigned char *addr)
+					unsigned char *addr)
 {
 	FN_START;
 
@@ -521,7 +525,7 @@ void _bt_util_addr_type_to_addr_string(char *address,
 }
 
 void _bt_util_addr_type_to_addr_result_string(char *address,
-					       unsigned char *addr)
+					unsigned char *addr)
 {
 	FN_START;
 
@@ -535,7 +539,7 @@ void _bt_util_addr_type_to_addr_result_string(char *address,
 }
 
 void _bt_util_addr_type_to_addr_net_string(char *address,
-					       unsigned char *addr)
+					unsigned char *addr)
 {
 	FN_START;
 
@@ -549,23 +553,23 @@ void _bt_util_addr_type_to_addr_net_string(char *address,
 }
 
 void _bt_util_addr_string_to_addr_type(unsigned char *addr,
-						  const char *address)
+					const char *address)
 {
 	FN_START
 
-        int i;
-        char *ptr = NULL;
+	int i;
+	char *ptr = NULL;
 
-        ret_if(!address || !addr);
+	ret_if(!address || !addr);
 
-        for (i = 0; i < BT_ADDRESS_LENGTH_MAX; i++) {
-                addr[i] = strtol(address, &ptr, 16);
-		DBG("ptr[0] : %c", ptr[0]);
-                if (ptr[0] != '\0') {
-                        retm_if(ptr[0] != ':', "Unexpected string");
-                        address = ptr + 1;
-                }
-        }
+	for (i = 0; i < BT_ADDRESS_LENGTH_MAX; i++) {
+		addr[i] = strtol(address, &ptr, 16);
+
+		if (ptr[0] != '\0') {
+			retm_if(ptr[0] != ':', "Unexpected string");
+			address = ptr + 1;
+		}
+	}
 
 	FN_END;
 }
@@ -595,28 +599,69 @@ void _bt_util_convert_time_to_string(unsigned int remain_time,
 void _bt_util_launch_no_event(void *data, void *obj, void *event)
 {
 	FN_START;
-	DBG
-	    ("End key is pressed. But there is no action to process in popup");
+	DBG("End key is pressed. But there is no action to process in popup");
 	FN_END;
 }
 
-void _bt_util_set_list_disabled(Evas_Object *genlist, Eina_Bool disable)
+#ifndef TELEPHONY_DISABLED
+void _bt_util_set_list_disabled(bt_profile_view_data *vd,
+							Eina_Bool disabled)
 {
 	FN_START;
-	Elm_Object_Item *item = NULL;
-	Elm_Object_Item *next = NULL;
+	ret_if(!vd);
 
-	item = elm_genlist_first_item_get(genlist);
+	if (vd->unpair_item)
+		elm_object_item_disabled_set(vd->unpair_item, disabled);
+	if (vd->call_item)
+		elm_object_item_disabled_set(vd->call_item, disabled);
+	if (vd->media_item)
+ 		elm_object_item_disabled_set(vd->media_item, disabled);
 
-	while (item != NULL) {
-		next = elm_genlist_item_next_get(item);
-		if(item)
-			elm_object_item_disabled_set(item, disable);
-
-		_bt_update_genlist_item(item);
-		item = next;
-	}
 	FN_END;
+}
+#endif
+
+void _bt_util_disable_genlist_items(bt_app_data_t *ad, Eina_Bool disabled)
+{
+	FN_START;
+
+	retm_if(!ad, "ad is NULL!");
+	retm_if(!ad->paired_device, "paired_device is NULL!");
+
+	Eina_List *l = NULL;
+	Eina_List *l_next = NULL;
+	bt_dev_t *dev = NULL;
+
+	EINA_LIST_FOREACH_SAFE(ad->paired_device, l, l_next, dev) {
+		if (dev)
+			elm_object_item_disabled_set(dev->genlist_item, disabled);
+	}
+
+	l = NULL;
+	l_next = NULL;
+	dev = NULL;
+
+	EINA_LIST_FOREACH_SAFE(ad->searched_device, l, l_next, dev) {
+		if (dev)
+			elm_object_item_disabled_set(dev->genlist_item, disabled);
+	}
+	if (!disabled)
+		ad->connect_req_item = NULL;
+
+	if (ad->scan_btn)
+		elm_object_disabled_set(ad->scan_btn, disabled);
+
+	FN_END;
+}
+
+Eina_Bool _bt_util_update_genlist_item(void *data)
+{
+	FN_START;
+	retv_if(!data, ECORE_CALLBACK_CANCEL);
+	Elm_Object_Item *item = (Elm_Object_Item *)data;
+	elm_genlist_item_update(item);
+	FN_END;
+	return ECORE_CALLBACK_CANCEL;
 }
 
 void _bt_util_free_device_uuids(bt_dev_t *item)
@@ -646,3 +691,38 @@ void _bt_util_free_device_item(bt_dev_t *item)
 	free(item);
 }
 
+gboolean _bt_util_is_profile_connected(int connected_type, unsigned char *addr)
+{
+	FN_START;
+	char addr_str[BT_ADDRESS_STR_LEN + 1] = { 0 };
+	gboolean connected = FALSE;
+	int ret = 0;
+	bt_profile_e profile;
+
+	retv_if(addr == NULL, FALSE);
+
+	_bt_util_addr_type_to_addr_string(addr_str, addr);
+
+	switch (connected_type) {
+	case BT_HEADSET_CONNECTED:
+		profile = BT_PROFILE_HSP;
+		break;
+	case BT_STEREO_HEADSET_CONNECTED:
+		profile = BT_PROFILE_A2DP;
+		break;
+	default:
+		ERR("Unknown type!");
+		return FALSE;
+	}
+
+	ret = bt_device_is_profile_connected(addr_str, profile,
+					(bool *)&connected);
+
+	if (ret < BT_ERROR_NONE) {
+		ERR("failed with [0x%04x]", ret);
+		return FALSE;
+	}
+
+	FN_END;
+	return connected;
+}

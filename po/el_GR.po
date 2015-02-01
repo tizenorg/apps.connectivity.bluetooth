@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Συνδέθηκε στη συσκευή σας μέσω Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Γίνεται σύνδεση στη συσκευή σας μέσω Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Σύνδεση"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Σφάλμα Bluetooth"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Το Bluetooth συνδέθηκε."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Δεν είναι δυνατή η σύνδεση στο τηλέφωνό σας. Το όριο της σύνδεσης Bluetooth έληξε. Δοκιμάστε ξανά."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Επαν."
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Δεν είναι δυνατή η ανανέωση αυτής της εφαρμογής. Το Bluetooth αποσυνδέθηκε."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Το Gear αποσυνδέθηκε ή βρίσκεται εκτός της εμβέλειας της κινητής συσκευής."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Δεν είναι δυνατό το άνοιγμα %s. Το Bluetooth αποσυνδέθηκε."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Σάρωση"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Διακοπή"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Αντιστοιχισμένες συσκευές"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Διαθέσιμες συσκευές"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Δημιουργία ζεύγους"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Δημιουργία ζεύγους..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Συνδέθηκε."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Σύνδεση..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Αποσύνδεση..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Αποσύνδεση;"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Κατάργηση ζεύγους"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Σύνδεση σε στερεοφωνικό σετ ακουστικών Bluetooth..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Σάρωση..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Αυτή η επιλογή θα τερματίσει τη σύνδεσή σας με."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Αυτή η επιλογή θα τερματίσει τη σύνδεσή σας με το %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Διεύθυνση Bluetooth"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Άκυρο"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Δεν βρέθηκαν συσκευές"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Επανάληψη;"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Λάθος PIN. Δοκιμάστε πάλι"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Άκυρο"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Εισαγάγετε τον κωδικό %1$s στη συσκευή %2$s για αντιστοίχιση και πατήστε «Επιστροφή» ή «Εισαγωγή»."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Επιτρέπεται σύνδεση του %s;"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Λήψη %s από %s;"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "Το %s υπάρχει ήδη. Αντικατάσταση;"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Λήψη αρχείου από %s;"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Αίτημα δημιουργίας ζεύγους Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Πληκτρολογήστε το PIN για τη δημιουργία ζεύγους με %s. (Δοκιμάστε 0000 ή 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Επιβεβαιώστε ότι ο κωδικός πρόσβασης για τη δημιουργία ζεύγους με το %1$s είναι %2$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Να επιτρέπεται στη συσκευή %s η πρόσβαση στο ευρετήριο"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Να επιτραπεί η πρόσβαση του %s στα μηνύματα;"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Να μην ερωτηθώ ξανά"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Σφάλμα Bluetooth. Επανάληψη;"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Δεν είναι δυνατή η σύνδεση."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "Θα γίνει κατάργηση της αντιστοίχισης της συσκευής %s."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Δεν βρέθηκαν συσκευές Bluetooth κοντά σας."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Δεν είναι δυνατή η εκτέλεση αυτής της ενέργειας. Το Bluetooth αποσυνδέθηκε."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Δεν είναι δυνατό το άνοιγμα αυτής της εφαρμογής. Το Bluetooth αποσυνδέθηκε."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "Η συσκευή %s προσπαθεί να συνδεθεί με το Gear. Για να συνδεθείτε στη συσκευή %s, θα γίνει επαναφορά των εργοστασιακών ρυθμίσεων του Gear."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Σύνδεση"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Το Bluetooth αποσυνδέθηκε."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Να γίνει αποσύνδεση της συσκευής %2$s από τη σύνδεση %1$s;"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Προφίλ"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Ακύρωση"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Ήχος κλήσης"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Απενεργ. προφίλ"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Πατήστε για καταχώρηση."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Το προφίλ %1$s θα απενεργοποιηθεί για τη συσκευή %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Αίτημα δημιουργίας ζεύγους"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Ήχος πολυμ."
+

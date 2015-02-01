@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Поврзано со уредот преку Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Се поврзува со уредот преку Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Поврзи"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Грешка Bluetooth"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Поврзано со Bluetooth."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Не може да се поврзе со телефонот. Истече времето за поврзување Bluetooth. Обидете се повторно."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Ресет."
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Не може да се обнови апликацијата. Bluetooth е откачено."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Прекината е врската со Gear или е вон опсегот на мобилниот уред."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Не може да се отвори %s. Bluetooth е откачен."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Скенирај"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Запри"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Поврзани уреди"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Достапни уреди"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Поврзано"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Поврзување..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Поврзанo."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Поврзување..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Врската се прекинува..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Да се прекине врската?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Прекини поврзување"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Поврзување со стерео слушалки..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Пребарување..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Со ова ќе ја прекинете врската со."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Со ова ќе заврши поврзувањето со %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Адреса за Bluetooth"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Откажи"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Нема уреди"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Повторен обид?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Неправилен PIN. Обидете се повторно"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Откажи"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Внесете %1$s на %2$s за спојување, па допрете Нов ред или Внеси."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Дозволи поврзување со %s?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Прими %s од %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s веќе постои. Пребриши?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Прими фајл од %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Барање за поврзување Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Внесете PIN за поврзување со %s (Обидете се со 0000 или 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Потврда дека лозинката е %2$s за поврзување со %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Дозволи %s да пристапи кон именикот"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Дозволи %s да пристапи до пораките?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Не прашувај повторно"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Грешка на Bluetooth. Повторен обид?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Не е можно поврзување."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s ќе се отспои."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Не се најдени уреди со Bluetooth во близина."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Не може да се изврши ова дејство. Прекината е врската Bluetooth."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Не може да се отвори апликацијава. Прекината е врската Bluetooth."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s се обидува да се поврзе со Gear. За да се поврзете со %s, Gear ќе се ресетира на фабричките поставки."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Поврзи"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Прекината е врската со Bluetooth."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Да се прекине врската на %2$s со %1$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Профили"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Откажи"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Повикај аудио"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Исклучи профил"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Допрете за внесување."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Профилот %1$s ќе се исклучи за %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Барање за поврзување"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Мед. аудио"
+

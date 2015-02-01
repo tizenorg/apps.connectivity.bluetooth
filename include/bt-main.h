@@ -1,25 +1,19 @@
 /*
-* bluetooth
-*
-* Copyright 2012 Samsung Electronics Co., Ltd
-*
-* Contact: Hocheol Seo <hocheol.seo@samsung.com>
-*           Injun Yang <injun.yang@samsung.com>
-*           Seungyoun Ju <sy39.ju@samsung.com>
-*
-* Licensed under the Flora License, Version 1.1 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.tizenopensource.org/license
-*
-* Unless required by applicable law or agreed to in writing,
-* software distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
+ * Copyright (c) 2000-2014 Samsung Electronics Co., Ltd.
+ *
+ * Licensed under the Flora License, Version 1.1 (the License);
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://floralicense.org/license/
+
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an AS IS BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 
 #ifndef __BT_MAIN_H__
 #define __BT_MAIN_H__
@@ -30,7 +24,7 @@ extern "C" {
 
 #include <glib.h>
 #include <dlog.h>
-#include <app_service.h>
+#include <app_control.h>
 #include <Elementary.h>
 #include <appcore-efl.h>
 #include <vconf.h>
@@ -45,14 +39,18 @@ extern "C" {
 
 #include "bt-type-define.h"
 
+#ifndef TELEPHONY_DISABLED
+#include "bt-profile-view.h"
+#endif
 
 #ifdef LOG_TAG
 #undef LOG_TAG
 #endif
 
-#define LOG_TAG "BLUETOOTH"
+#define LOG_TAG "BLUETOOTH_SETTING"
 #define DBG(format, args...) SLOGD(format, ##args)
 #define ERR(format, args...) SLOGE(format, ##args)
+#define INFO(format, args...) SLOGI(format, ##args)
 #define DBG_SECURE(fmt, args...) SECURE_SLOGD(fmt, ##args)
 
 #define	FN_START DBG("[ENTER FUNC]");
@@ -96,8 +94,8 @@ extern "C" {
 #define PACKAGE "bluetooth"
 #endif
 
-#define BT_COMMON_PKG "bt-connection-popup"
-#define LOCALEDIR "/usr/apps/org.tizen.bt-connection-popup/res/locale/"
+#define BT_COMMON_PKG "bluetooth"
+#define LOCALEDIR "/usr/apps/org.tizen.bluetooth/shared/res/locale/"
 #define GROUP_PAIR "Pair"
 #define GROUP_SEARCH "Search"
 
@@ -116,10 +114,15 @@ typedef struct {
 	/* Dbus connection / proxy */
 	void *conn;
 
+	/* ctxpopup */
+	Evas_Object *ctxpopup;
+	Ecore_Timer *ctxpopup_timer;
+
 	/* Request timer */
 	Ecore_Timer *request_timer;
+	Ecore_Event_Handler *key_release_handler;
 
-	service_h service;
+	app_control_h service;
 	unsigned int launch_mode;
 
 	/* Paired / Searched device list */
@@ -147,11 +150,26 @@ typedef struct {
 	************************ */
 	bool waiting_service_response;
 	bool connect_req;
+	bool disconnect_req;
+	bt_dev_t *connect_req_item;
 	bool search_req;
 	bool a2dp_connected;
+	bool do_auto_connect;
 	unsigned int op_status;
 	unsigned int search_type;
 
+#ifndef TELEPHONY_DISABLED
+	/*************************
+	*           Profile  View Data
+	************************ */
+	bt_profile_view_data *profile_vd;
+	bt_confirm_req_t confirm_req;
+#endif
+	/* Color table */
+	Ea_Theme_Color_Table *color_table;
+
+	/* Font table */
+	Ea_Theme_Font_Table *font_table;
 } bt_app_data_t;
 
 #ifdef __cplusplus

@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Sluttet til din enhed via Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Opretter forbindelse til din enhed via Bluetooth ..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Tilslut"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth-fejl"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth tilsluttet."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Kunne ikke oprette forbindelse til din telefon. Bluetooth-forbindelsen fik time-out. Prøv igen."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Nulst."
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Kan ikke opdatere dette program. Bluetooth er blevet frakoblet."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear frakoblet eller uden for den mobile enheds dækning."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Kunne ikke åbne %s. Bluetooth er blevet frakoblet."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Søg"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stop"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Parrede enheder"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Tilgængelige enheder"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Parret"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Parrer..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Forbundet."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Opretter forbindelse..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Afbryder..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Afbryd?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Ophæv parring"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Slutter til Bluetooth-stereoheadset ..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Scanner ..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Dette vil afslutte din forbindelse til"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Dette afslutter din forbindelse til %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth-adresse"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Annullér"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Ingen enheder fundet"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Prøv igen?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Forkert PIN-kode. Prøv igen"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Annullér"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Indtast %1$s på %2$s for at parre. Tryk derefter på Retur eller Enter."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Vil du tillade, at %s opretter forbindelse?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Modtag %s fra %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s findes allerede. Overskriv?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Modtag fil fra %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Anmodning om Bluetooth-parring"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Angiv PIN-kode for at parre med %s (Prøv 0000 eller 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Bekræft, at koden er %2$s for at parre med %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Tillad %s adgang til telefonbog"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Tillad %s at få adgang til meddelelser?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Spørg ikke igen"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth-fejl. Vil du prøve igen?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Der kan ikke oprettes forbindelse."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s bliver frakoblet."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Fandt ingen Bluetooth-enheder i nærheden."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Kan ikke foretage denne handling. Bluetooth er blevet afbrudt."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Kan ikke åbne denne applikation. Bluetooth er blevet afbrudt."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s forsøger at oprette forbindelse til Gear. For at slutte til %s skal Gear nulstilles til dets fabriksindstillinger."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Tilslut"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth er blevet frakoblet."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Kobl %2$s fra forbindelsen %1$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Profiler"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Annullér"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Opkaldslyd"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Deaktivér profil"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Tryk for at indtaste."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%1$s-profilen vil blive deaktiveret for %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Anmodning om parring"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Medielyd"
+

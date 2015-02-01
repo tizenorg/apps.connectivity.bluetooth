@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Lidhur me pajisjen tënde nëpërmjet Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Duke u lidhur me pajisjen tënde nëpërmjet Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Lidh"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Gabim Bluetooth"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth lidhur."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Nuk mund të lidhem me telefonin tënd. Lidhjes Bluetooth i kaloi afatpritja. Provo sërish."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Ricil."
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nuk mund ta freskoj këtë aplikacion. Bluetooth është shkëputur."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear është shkëputur ose jashtë rrezes së pajisjes celulare."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nuk mund ta hap %s. Bluetooth është shkëputur."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Kërko"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Ndal"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Pajisje të çiftuara"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Pajisjet e disponueshme"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "U çiftua"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Po çiftoj..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Lidhur."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Duke u lidhur ..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Duke u shkëputur..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Të shkëputem?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Shpërçifto"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Po lidhem me kufjen Bluetooth stereo..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Duke skanuar..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Kjo do ta mbyllë lidhjen tënde me."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Kjo do ta mbyllë lidhjen tënde me %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Adresa Bluetooth"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Anullo"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Nuk u gjetën pajisje"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Të provoj përsëri?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "Ok"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN jokorrekt. Provoj përsëri"
+
+msgid "IDS_ST_SK_OK"
+msgstr "Ok"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Anullo"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Fut %1$s në %2$s për çiftim, pastaj prek mbi Kthehu ose Fut."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Të lejohet lidhja për %s?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Ta marr %s nga %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s ekziston tashmë. Të mbishkruhet?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Të marr një skedë nga %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Kërkesë çiftimi Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Fut kodin PIN për t'u çiftuar me %s (provo 0000 ose 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Konfirmo që fjalëkalimi është %2$s për t'u çiftuar me %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Lejo %s të hyjë në numërator"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "T'i lejohet %s të hapë mesazhet?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Mos më pyet më"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Gabim Bluetooth. Të provoj përsëri?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Nuk lidhem dot."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s do të hiqet nga çiftimi."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Nuk u gjetën pajisje Bluetooth në rrethina."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nuk mund ta kryej këtë veprim. Bluetooth është shkëputur."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nuk mund ta hap këtë aplikacion. Bluetooth është shkëputur."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s po përpiqet të lidhet me Gear. Që të mund të lidhet me %s, Gear do të rikthehet në cilësimet e fabrikës."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Lidhu"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth u shkëput."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Ta shkëput %2$s nga lidhja %1$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Profilet"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Anullo"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Audio e thirrjes"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Paaftëso profilin"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Prek për të hyrë."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Profili %1$s do të paaftësohet për %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Kërkesë për çiftim"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Audio media"
+

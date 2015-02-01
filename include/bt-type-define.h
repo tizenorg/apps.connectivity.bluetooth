@@ -1,25 +1,20 @@
 /*
-* ug-setting-bluetooth-efl
-*
-* Copyright 2012 Samsung Electronics Co., Ltd
-*
-* Contact: Hocheol Seo <hocheol.seo@samsung.com>
-*           GirishAshok Joshi <girish.joshi@samsung.com>
-*           DoHyun Pyun <dh79.pyun@samsung.com>
-*
-* Licensed under the Flora License, Version 1.1 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.tizenopensource.org/license
-*
-* Unless required by applicable law or agreed to in writing,
-* software distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
+ * Copyright (c) 2000-2014 Samsung Electronics Co., Ltd.
+ *
+ * Licensed under the Flora License, Version 1.1 (the License);
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://floralicense.org/license/
+
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an AS IS BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 
 #ifndef __BT_TYPE_DEFINE_H__
 #define __BT_TYPE_DEFINE_H__
@@ -193,6 +188,7 @@ typedef enum {
 	BT_LAUNCH_HELP = 0x08,
 	BT_LAUNCH_SETTING = 0x09,
 	BT_LAUNCH_SPP = 0x0A,
+	BT_LAUNCH_CALL = 0x0B,
 } bt_launch_mode_t;
 
 typedef enum {
@@ -304,6 +300,15 @@ typedef enum {
 } bt_profile_view_item_type_t;
 
 typedef enum {
+	BT_AUDIO_DEVICE,
+	BT_HEADSET_DEVICE,
+	BT_STEREO_HEADSET_DEVICE,
+	BT_HID_DEVICE,
+	BT_NETWORK_DEVICE,
+	BT_DEVICE_MAX,
+} bt_device_type;
+
+typedef enum {
 	BT_DEVICE_MAJOR_MASK_MISC = 0x00,
 	BT_DEVICE_MAJOR_MASK_COMPUTER = 0x0001,
 	BT_DEVICE_MAJOR_MASK_PHONE = 0x0002,
@@ -316,37 +321,6 @@ typedef enum {
 	BT_DEVICE_MAJOR_MASK_HEALTH = 0x0100,
 } bt_device_major_mask_t;
 
-
-/**
- * This enum indicates Service class Type.
- */
-typedef enum {
-	BT_SC_NONE = 0,
-	BT_SC_RES_SERVICE_MASK = 0x00000001,
-	BT_SC_SPP_SERVICE_MASK = 0x00000002,
-	BT_SC_DUN_SERVICE_MASK = 0x00000004,
-	BT_SC_FAX_SERVICE_MASK = 0x00000008,
-	BT_SC_LAP_SERVICE_MASK = 0x00000010,
-	BT_SC_HSP_SERVICE_MASK = 0x00000020,
-	BT_SC_HFP_SERVICE_MASK = 0x00000040,
-	BT_SC_OPP_SERVICE_MASK = 0x00000080,
-	BT_SC_FTP_SERVICE_MASK = 0x00000100,
-	BT_SC_CTP_SERVICE_MASK = 0x00000200,
-	BT_SC_ICP_SERVICE_MASK = 0x00000400,
-	BT_SC_SYNC_SERVICE_MASK = 0x00000800,
-	BT_SC_BPP_SERVICE_MASK = 0x00001000,
-	BT_SC_BIP_SERVICE_MASK = 0x00002000,
-	BT_SC_PANU_SERVICE_MASK = 0x00004000,
-	BT_SC_NAP_SERVICE_MASK = 0x00008000,
-	BT_SC_GN_SERVICE_MASK = 0x00010000,
-	BT_SC_SAP_SERVICE_MASK = 0x00020000,
-	BT_SC_A2DP_SERVICE_MASK = 0x00040000,
-	BT_SC_AVRCP_SERVICE_MASK = 0x00080000,
-	BT_SC_PBAP_SERVICE_MASK = 0x00100000,
-	BT_SC_HID_SERVICE_MASK = 0x00200000,
-	BT_SC_ALL_SERVICE_MASK = 0x00FFFFFF,
-	BT_SC_MAX
-} bt_service_class_t;
 
 /*
  * Major device class (part of Class of Device)
@@ -551,6 +525,7 @@ typedef struct {
 	int authorized;    /**< authorized ? */
 	bt_cod_service_class_t service_class; /**< service class of device */
 	int rssi;	 /**< Received signal strength indicator */
+	int is_connected;
 	int connected_mask;
 	int status;
 	int item_type;
@@ -560,6 +535,7 @@ typedef struct {
 	void *entry;
 	void *genlist_item;
 	void *net_profile;
+	gboolean is_longpressed;
 	gboolean is_bonded;
 	gboolean call_checked;
 	gboolean media_checked;

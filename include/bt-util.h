@@ -1,25 +1,20 @@
 /*
-* ug-setting-bluetooth-efl
-*
-* Copyright 2012 Samsung Electronics Co., Ltd
-*
-* Contact: Hocheol Seo <hocheol.seo@samsung.com>
-*           GirishAshok Joshi <girish.joshi@samsung.com>
-*           DoHyun Pyun <dh79.pyun@samsung.com>
-*
-* Licensed under the Flora License, Version 1.1 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.tizenopensource.org/license
-*
-* Unless required by applicable law or agreed to in writing,
-* software distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
+ * Copyright (c) 2000-2014 Samsung Electronics Co., Ltd.
+ *
+ * Licensed under the Flora License, Version 1.1 (the License);
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://floralicense.org/license/
+
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an AS IS BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 
 #ifndef __BT_UTIL_H__
 #define __BT_UTIL_H__
@@ -70,7 +65,14 @@ gboolean _bt_util_store_get_value(const char *key,
 
 void _bt_util_launch_no_event(void *data, void *obj, void *event);
 
-void _bt_util_set_list_disabled(Evas_Object *genlist, Eina_Bool disable);
+#ifndef TELEPHONY_DISABLED
+void _bt_util_set_list_disabled(bt_profile_view_data *vd,
+						Eina_Bool disabled);
+#endif
+
+void _bt_util_disable_genlist_items(bt_app_data_t *ad, Eina_Bool disabled);
+
+Eina_Bool _bt_util_update_genlist_item(void *data);
 
 void _bt_util_set_phone_name(void);
 
@@ -81,6 +83,8 @@ char * _bt_util_get_timeout_string(int timeout);
 int _bt_util_get_timeout_value(int index);
 
 int _bt_util_get_timeout_index(int timeout);
+
+void _bt_util_get_lcd_status(int *val);
 
 gboolean _bt_util_is_battery_low(void);
 
@@ -104,6 +108,8 @@ void _bt_util_convert_time_to_string(unsigned int remain_time,
 void _bt_util_free_device_uuids(bt_dev_t *item);
 
 void _bt_util_free_device_item(bt_dev_t *item);
+
+gboolean _bt_util_is_profile_connected(int connected_type, unsigned char *addr);
 
 #ifdef __cplusplus
 }

@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Tersambung ke perangkat Anda lewat Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Menyambung ke perangkat Anda lewat Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Sambung"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Kslhn Bluetooth"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth tersambung."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Tidak dapat menyambung ke telepon Anda. Koneksi Bluetooth kehabisan waktu. Coba lagi."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Reset"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Tidak dapat menyegarkan aplikasi ini. Bluetooth telah terputus."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear terputus atau berada di luar jangkauan perangkat seluler"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Tidak dapat membuka %s. Bluetooth telah diputus sambungannya."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Pindai"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Berhenti"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Perangkat terpasang"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Perangkat yang tersedia"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Terpasang"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Pemasangan..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Terhubung."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Menyambungkan"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Memutuskan..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Putus?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Pisahkan"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Menghubungkan ke headset stereo Bluetooth..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Memindai..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Ini akan mengakhiri koneksi Anda dengan."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Ini akan mengakhiri koneksi Anda dengan %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Alamat Bluetooth"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Batal"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Tidak ditemukan perangkat"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Coba lagi?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN salah. Coba lagi?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Batal"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Masukkan %1$s pada %2$s untuk memasangkan, lalu ketuk Kembali atau Masukkan."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Bolehkan %s menyambung?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Terima %s dari %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s telah ada. Timpa?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Terima file dari %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Permintaan pemasangan Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Masukkan PIN untuk dipasangkan dengan %s (Coba 0000 atau 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Kunci sandi konfirmasi adalah %2$s untuk berpasangan dengan %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Bolehkan akses buku telepon %s"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Bolehkan %s untuk mengakses pesan?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Jangan tanya lagi"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth terganggu. Coba lagi?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Tidak bisa menyambung."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s akan dipisahkan."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Tidak ditemukan perangkat Bluetooth terdekat."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Tidak dapat melakukan tindakan ini. Koneksi Bluetooth putus."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Tidak dapat membuka aplikasi ini. Koneksi Bluetooth putus."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s berusaha menyambung ke Gear. Untuk menyambung ke %s, Gear akan direset ke pengaturan pabrik."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Sambung"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth telah diputus sambungannya."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Putuskan %2$s dari koneksi %1$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Profil"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Batal"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Audio panggilan"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Nonaktifkan profil"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Ketuk untuk memasukkan."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Profil %1$s akan dinonaktifkan untuk %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Permintaan pairing"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Audio media"
+

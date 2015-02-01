@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Qurilmangizga Bluetooth orqali ulangan."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Qurilmangizga Bluetooth orqali ulanmoqda..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Ulanish"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth xatosi"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth ulangan."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Telefoningizga ulanib bo‘lmayapti. Bluetooth ulanishi uchun belgilangan vaqt tugadi. Qayta urinib ko‘ring"
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Tashla"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Ushbu ilovani yangilab bo‘lmaydi. Bluetooth uzilgan."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear uzilgan yoki u mobil qurilmaning xizmat doirasidan tashqarida"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "%sni ochib bo‘lmayapti. Bluetooth uzilgan."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Qidirish"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "To‘xtatish"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Bog‘langan qurilmalar"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Mavjud qurilmalar"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Bog‘langan"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Biriktirish..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Ulangan."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Ulanmoqda..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Uzilmoqda..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Uzilsinmi?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Bog‘lanishni uzish"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Bluetooth stereo quloq karnayiga ulanmoqda..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Ko'rib chiqilmoqda…"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Bu Sizning quyidagi bilan ulanishingizni yakunlaydi"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Bu Sizning %s bilan ulanishingizni yakunlaydi."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth manzili"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Bekor q."
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Qurilmalar topilmadi"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Qayta urinib ko‘rmoqchimisiz?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Noto‘g‘ri PIN. Qayta urinib ko‘rmoqchimisiz?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Bekor q."
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Bog‘lanish uchun %2$sda %1$sni kiriting, so‘ngra Qaytish yoki Kiritishga teging."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%sga ulanish ruxsati berilsinmi?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s %sdan qabul qilinsinmi?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s avvaldan mavjud. Qayta yozilsinmi?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%sdan fayl qabul qilinsinmi?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth bog‘lanish so‘rovi"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s bilan juftlash uchun PIN-kodni kiriting. (0000 yoki 1234 kiritib ko‘ring)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "%2$s- bu tasdiqlash kirish kaliti, %1$s bilan bog‘lanish uchun."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%s telefon raqamlari kitobiga kirish"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "%sga xabarlarga kirish uchun ruxsat berilsinmi?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Boshqa so'ramang"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth xatosi. Qayta urinib ko‘rmoqchimisiz?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Ulanib bo‘lmaydi."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s bilan aloqa uziladi."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Yaqin-atrofda Bluetooth qurilmalari topilmadi."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Ushbu harakatni amalga oshirib bo‘lmaydi. Bluetooth uzildi."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Ushbu ilovani ochib bo‘lmaydi. Bluetooth uzildi."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s Gearingizga ulanishga urinmoqda. %sga ulanish uchun Gear ishlab chiqaruvchi parametrlariga tashlanadi"
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Ulanish"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth uzildi."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%1$s ulanishidan %2$s uzilsinmi?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Profillar"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Bekor qilish"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "audio qo'ng'iroq"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Profilni o‘chirish"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Kiritish uchun teging."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%1$s profili %2$s uchun o‘chiriladi."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Biriktirish so‘rovi"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Media audio"
+

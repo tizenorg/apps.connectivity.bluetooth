@@ -1,0 +1,55 @@
+ #define RESOURCE_IMAGE( FILE_NAME ) \
+   group { \
+      name: FILE_NAME; \
+      images.image: FILE_NAME COMP; \
+      parts { \
+         part { name: "image"; \
+            repeat_events: 1; \
+            description { \
+               state: "default" 0.0; \
+               image.normal: FILE_NAME; \
+               aspect: 0 0; \
+               aspect_preference: BOTH; \
+            } \
+         } \
+      } \
+   }
+
+/* Icon size */
+#define HOR_SIZE (320)
+#define VER_SIZE (320)
+#define WTCH_WIDTH (61)
+#define WTCH_HEIGHT (133)
+#define PHN_WIDTH (87)
+#define PHN_HEIGHT (133)
+#define DOT_WIDTH (26)
+#define DOT_HEIGHT (8)
+#define UNPAIRED_ICON_WIDTH (80)
+#define UNPAIRED_ICON_HEIGHT (80)
+#define PAIRED_ICON_WIDTH (52)
+#define PAIRED_ICON_HEIGHT (52)
+#define BUTTON_HEIGHT (76)
+
+/* Connecting popup */
+#define CONNECTING_WTCH_PAD_LEFT (29)
+#define CONNECTING_WTCH_PAD_TOP (14)
+#define CONNECTING_PHN_PAD_LEFT (204)
+#define CONNECTING_PHN_PAD_TOP (14)
+#define CONNECTING_UNPAIRED_PAD_LEFT (107)
+#define CONNECTING_UNPAIRED_PAD_TOP (40)
+#define LABEL_PAD_LEFT (12)
+#define CONNECTING_LABEL_PAD_TOP (157)
+
+/* Connected popup */
+#define CONNECTED_WTCH_PAD_LEFT (29)
+#define CONNECTED_WTCH_PAD_TOP (44)
+#define CONNECTED_PHN_PAD_LEFT (208)
+#define CONNECTED_PHN_PAD_TOP (44)
+#define CONNECTED_PAIRED_ICON_PAD_LEFT (123)
+#define CONNECTED_PAIRED_ICON_PAD_TOP (85)
+#define CONNECTED_PAIRED_DOT_PAD_LEFT (96)
+#define CONNECTED_PAIRED_DOT_PAD_RIGHT (176)
+#define CONNECTED_PAIRED_DOT_PAD_TOP (106)
+#define CONNECTED_LABEL_PAD (12)
+#define CONNECTED_LABEL_PAD_TOP (185)
+

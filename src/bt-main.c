@@ -1,25 +1,19 @@
 /*
-* bluetooth
-*
-* Copyright 2012 Samsung Electronics Co., Ltd
-*
-* Contact: Hocheol Seo <hocheol.seo@samsung.com>
-*           Injun Yang <injun.yang@samsung.com>
-*           Seungyoun Ju <sy39.ju@samsung.com>
-*
-* Licensed under the Flora License, Version 1.1 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.tizenopensource.org/license
-*
-* Unless required by applicable law or agreed to in writing,
-* software distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
+ * Copyright (c) 2000-2014 Samsung Electronics Co., Ltd.
+ *
+ * Licensed under the Flora License, Version 1.1 (the License);
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://floralicense.org/license/
+
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an AS IS BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 
 #include <app.h>
 #include <efl_assist.h>
@@ -30,11 +24,18 @@
 #include "bt-util.h"
 #include "bt-string.h"
 
+#define COLOR_TABLE "/usr/apps/org.tizen.bluetooth/shared/res/tables/org.tizen.bluetooth_ChangeableColorTable.xml"
+#define FONT_TABLE "/usr/apps/org.tizen.bluetooth/shared/res/tables/org.tizen.bluetooth_FontInfoTable.xml"
+
 static bool app_create(void *data)
 {
 	FN_START;
 
 	bt_app_data_t *ad;
+	Ea_Theme_Color_Table *color_table = NULL;
+	Ea_Theme_Font_Table *font_table = NULL;
+
+
 	ad = (bt_app_data_t *)data;
 	ad->window = _bt_create_win(PACKAGE);
 	if (ad->window == NULL)
@@ -52,6 +53,23 @@ static bool app_create(void *data)
 	ad->conn = (void *)dbus_g_bus_get(DBUS_BUS_SYSTEM, NULL);
 
 	_bt_init(ad);
+
+	/* Set Changeable color table */
+	ea_theme_changeable_ui_enabled_set(EINA_TRUE);
+	color_table = ea_theme_color_table_new(COLOR_TABLE);
+	if (color_table) {
+		ea_theme_colors_set(color_table, EA_THEME_STYLE_DEFAULT);
+		ad->color_table = color_table;
+	} else
+		ERR("ea_theme_color_table_new fail!");
+
+	font_table = ea_theme_font_table_new(FONT_TABLE);
+	if (font_table) {
+		ea_theme_fonts_set(font_table);
+		ad->font_table = font_table;
+	} else
+		ERR("ea_theme_color_table_new fail!");
+
 	FN_END;
 	return TRUE;
 }
@@ -59,6 +77,17 @@ static bool app_create(void *data)
 static void app_terminate(void *data)
 {
 	DBG("");
+	ret_if(!data);
+
+	bt_app_data_t *ad = (bt_app_data_t *)data;
+	if (ad->color_table) {
+		ea_theme_color_table_free(ad->color_table);
+		ad->color_table = NULL;
+	}
+	if (ad->font_table) {
+		ea_theme_font_table_free(ad->font_table);
+		ad->font_table = NULL;
+	}
 	return;
 }
 
@@ -74,7 +103,36 @@ static void app_resume(void *data)
 	return;
 }
 
-static void app_service(service_h service, void *data)
+static Eina_Bool key_release_event_cb(void *data, int type, void *event)
+{
+	bt_app_data_t *ad = (bt_app_data_t *)data;
+	Evas_Event_Key_Down *ev = event;
+	int val = -1;
+
+	if (!ev) {
+		ERR("Invalid event object");
+		return ECORE_CALLBACK_RENEW;
+	}
+
+	if (!ev->keyname) {
+		ERR("key_release_event_cb : Invalid event keyname object");
+		return ECORE_CALLBACK_RENEW;
+	} else {
+		DBG("key_release_event_cb : %s Down", ev->keyname);
+	}
+
+	if (!strcmp(ev->keyname, KEY_POWER)) {
+		_bt_util_get_lcd_status(&val);
+		DBG("%d", val);
+		if (val <= 2) {
+			_bt_destroy_app((void *)ad);
+		}
+	}
+
+	return ECORE_CALLBACK_RENEW;
+}
+
+static void app_service(app_control_h service, void *data)
 {
 	FN_START;
 
@@ -85,49 +143,29 @@ static void app_service(service_h service, void *data)
 	if (ad == NULL)
 		return;
 
-	if (ad->main_genlist != NULL) {
-		DBG("Window raise");
+	if (ad->window && ad->layout_main != NULL) {
+		INFO("raise window");
 		elm_win_raise(ad->window);
 		return;
 	}
 
-	service_clone(&ad->service, service);
+	app_control_clone(&ad->service, service);
 
-	ret = service_get_extra_data(service, "launch-type", &value);
-	retm_if (ret != SERVICE_ERROR_NONE, "service failed [%d]", ret);
+	ad->key_release_handler = ecore_event_handler_add(ECORE_EVENT_KEY_UP,
+					key_release_event_cb, ad);
+	ret = app_control_get_extra_data(service, "launch-type", &value);
+	retm_if (ret != APP_CONTROL_ERROR_NONE, "service failed [%d]", ret);
 
 	_bt_util_set_value(value, &ad->search_type, &ad->launch_mode);
+	INFO("Launch-type: %s, launch_mode: %d", value, ad->launch_mode);
 
-	if (ad->launch_mode == BT_LAUNCH_CONNECT_HEADSET) {
-		if (_bt_get_paired_device_count(ad) == 1) {
-			DBG("Launch mode is Headset");
-			bt_dev_t *dev = eina_list_nth(ad->paired_device, 0);
-			if(dev != NULL) {
-				/* Check whether the only paired device is Headset */
-				if (dev->major_class == BT_MAJOR_DEV_CLS_AUDIO &&
-					(dev->service_list & BT_SC_A2DP_SERVICE_MASK) > 0) {
-					DBG("Paired Item is Headset");
-					if ((dev->connected_mask & BT_STEREO_HEADSET_CONNECTED) == 0) {
-						DBG("Paired device count is 1. Autoconnecting [%s]",
-							dev->name);
-						_bt_connect_device(ad, dev);
-						DBG("dev->status : %d", dev->status);
-						if (dev->status == BT_CONNECTING) {
-							_bt_create_autoconnect_popup(dev);
-							return;
-						}
-					}
-				}
-			}
-			_bt_destroy_app(ad);
-			return;
-		}
+	if (ad->do_auto_connect == TRUE) {
+		DBG("auto headset called");
+		_bt_auto_headset_connect(ad);
 	}
 
-	if (_bt_initialize_view(ad) < 0) {
-		ERR("_bt_initialize_view failed");
-		_bt_destroy_app(ad);
-	}
+	if (value)
+		free(value);
 
 	FN_END;
 	return;
@@ -144,6 +182,27 @@ static void app_lang_changed(void *data)
 		else
 			elm_object_text_set(ad->scan_btn, STR_SCAN);
 	}
+
+	if ((ad->searched_device == NULL ||
+		eina_list_count(ad->searched_device) == 0) &&
+		(ad->paired_device == NULL ||
+		eina_list_count(ad->paired_device) == 0))
+			_bt_show_no_devices(ad);
+	else
+		_bt_update_device_list(ad);
+
+#ifndef TELEPHONY_DISABLED
+	if (ad->profile_vd) {
+		if (ad->profile_vd->title_item)
+			_bt_update_genlist_item(ad->profile_vd->title_item);
+		if (ad->profile_vd->unpair_item)
+			_bt_update_genlist_item(ad->profile_vd->unpair_item);
+		if (ad->profile_vd->call_item)
+			_bt_update_genlist_item(ad->profile_vd->call_item);
+		if (ad->profile_vd->media_item)
+			_bt_update_genlist_item(ad->profile_vd->media_item);
+	}
+#endif
 	FN_END;
 	return;
 }
@@ -171,7 +230,7 @@ DLL_DEFAULT int main(int argc, char *argv[])
 	event_callback.terminate = app_terminate;
 	event_callback.pause = app_pause;
 	event_callback.resume = app_resume;
-	event_callback.service = app_service;
+	event_callback.app_control = app_service;
 	event_callback.low_memory = NULL;
 	event_callback.low_battery = NULL;
 	event_callback.device_orientation = NULL;
