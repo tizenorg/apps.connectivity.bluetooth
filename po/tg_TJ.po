@@ -1,0 +1,183 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Ба воситаи Bluetooth ба дастгоҳи шумо пайваст шудааст."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Ба воситаи Bluetooth ба дастгоҳи шумо пайваст мешавад..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Пайваст"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Хатои Bluetooth"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth пайваст шуд."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Ба телефони шумо пайваст шуда наметавонад. Вақти пайвастагии Bluetooth хотима ёфт. Аз нав кӯшиш кунед."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Барқарор кардан"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Ин барномаро таҷдид карда наметавонад. Bluetooth ҷудо карда шуд."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear ҷудо карда шуд ё аз диапазони дастгоҳи мобилӣ берун аст."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "%s -ро кушода натавонист. Bluetooth ҷудо карда шудааст."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Ковиш"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Қатъ кардан"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Дастгоҳҳои ҳамроҳ"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Дастгоҳҳои дастрас"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Ҷуфтшуда"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Ҳамроҳкунӣ иҷро мешавад..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Пайвастшуда."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Пайваст барпо карда мешавад..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Пайваст пароканда карда мешавад..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Ҷудо мекунед?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Ҷудо кардан"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Пайвастшавӣ ба гӯшмонаки стереоии Bluetooth..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Хондагирӣ иҷро мешавад..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Ин пайвастагии шуморо хотима медиҳад."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Ин пайвастагии шуморо бо %s хотима медиҳад."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Суроғаи Bluetooth"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "No devices found"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Аз нав кӯшиш мекунед?"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Рамзи PIN нодуруст аст. Амалро такрор мекунед?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Бекор кардан"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "%1$s дар %2$s ворид карда, ҷуфт кунед, пас Бозгашт ё Вурудро зарба занед."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Ба %s иҷозати пайваст медиҳед?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Аз %s %s гирем?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s already exists. Overwrite?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Файлро аз %s мегиред?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Дархости ҳамроҳкунии Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Барои ҷуфт шудан бо %s PIN -ро ворид кунед (0000 ё 1234-ро санҷед)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Тасдиқ кунед ки калиди рамзӣ %2$s барои ҷуфт шудан бо %1$s аст."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Ба %s кушодани китоби телефониро иҷозат медиҳед"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Ба %s иҷозат медиҳед, то ки паёмҳоро кушояд?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Дигар напурс"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth error. Try again?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Пайваст шудан намешавад."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "Ҷуфтшавии %s қатъ карда мешавад."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Дар наздикӣ ягон дастгоҳи Bluetooth ёфт нашуд."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Иҷро кардани ин амал ғайриимкон аст. Bluetooth пароканда карда шуд."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Кушодани ин барнома ғайриимкон аст. Bluetooth пароканда карда шуд."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s кӯшиш мекунад, ки ба Gear-и шумо пайваст шавад. Барои пайваст шудан ба %s, Gear ба танзимоти коргоҳии он дубора танзим карда мешавад."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Пайваст шудан"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth ҷудо карда шуд."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Disconnect %2$s from the %1$s connection?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Профилҳо"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Бекор кардан"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Аудиои суҳбат"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Ғайрифаъ. к-и профил"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Барои дохил кардан, зарба занед."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Профили %1$s барои %2$s ғайрифаъол карда мешавад."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Дархости ҳамроҳшавӣ"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Аудиои медиа"
+

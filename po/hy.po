@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Կապակցվել է Ձեր սարքին Bluetooth-ի միջոցով:"
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Կապակցվում է Ձեր սարքին Bluetooth-ի միջոցով..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Միացնել"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth-ի սխալ"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth-ը միացված է:"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Անհնար է միանալ Ձեր հեռախոսին: Bluetooth-ի միացման համար հատկացված ժամանակը սպառվել է: Նորից փորձեք"
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Հտդրձլ"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Անհնար է թարմացնել այս գործադիրը: Bluetooth-ը կապախզվեց:"
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear-ն անջատվել է կամ շարժական սարքի տիրույթից դուրս է"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Անհնար է բացել %s. Bluetooth-ն անջատվել է:"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Տեսածրել"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Կանգնել"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Նախկինում զուգակցված սարքեր"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Մատչելի սարքեր"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Զուգակցված է"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Զուգակցում..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Միացված է"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Միացում..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Անջատվում է..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Անջատե՞լ"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Ապազուգակցել"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Միացում Bluetooth ստերեո ականջակալին..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Սկանավորում է..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Սա կավարտի Ձեր միացումը հետևյալի հետ"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Սա կավարտի Ձեր միացումը %s-ի հետ:"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth հասցե"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Չեղարկել"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Սարքեր չեն գտնվել"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Կրկին փորձե՞լ:"
+
+msgid "IDS_MP_SK_OK"
+msgstr "Ընդունել"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Սխալ PIN: Փորձեք կրկին"
+
+msgid "IDS_ST_SK_OK"
+msgstr "Ընդունել"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Չեղարկել"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Մուտքագրել %1$s %2$s-ում՝ զուգտակելու համար, հետո թակեք Վերադարձ կամ Մուտքագրել:"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Թույլատրե՞լ %s-ին միանալ"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Ստանա՞լ %s-ը %s-ից:"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%sն արդեն գոյություն ունի: Վերագրանցե՞լ:"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Ստանա՞լ ֆայլը %s-ից"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth-ի զուգակցման հարցում"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s-ի հետ զուգտակելու համար մուտքագրեք PIN (փորձեք 0000 կամ 1234):"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Հաստատել, որ մուտքի բանալին%2$s է՝ %1$s-ի հետ զուգտակելու համար:"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Թույլ տալ, որ %s մուտք գործի հեռախոսագիրք"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Թույլ տա՞լ, որ %s մուտք գործի հաղորդագրություններ:"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Այլևս չհարցնել"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth-ի սխալ։ Կրկի՞ն փորձել"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Հնարավոր չէ միանալ:"
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s-ը զուգտակումից կհանվի:"
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Մոտակայքում Bluetooth սարքեր չեն գտնվել:"
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Անհնար է կատարել այս գործողությունը: Bluetooth-ը կապախզվեց:"
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Անհնար է բացել այս ծրագիրը. Bluetooth-ը կապախզվեց:"
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s-ը փորձում է կապակցվել Ձեր Gear-ի հետ: %s-ի հետ կապակցելու համար Gear-ը կհետադարձվի իր գործարանային կարգավորումներին"
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Միանալ"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth-ն անջատվել է:"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%2$s-ն անջատե՞լ %1$s-ի հետ կապակցումից:"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Պրոֆիլներ"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Չեղարկել"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Զանգել ձայնային"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Կասեցնել պրոֆիլը"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Թակել մուտքագրելու համար:"
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%1$s պրոֆիլը կկասեցվի %2$s-ի համար:"
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Զուգակցման հարցում"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Մեդիա ձայն."
+

@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Tengt við tækið þitt um Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Tengist við tækið þitt um Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Tengja"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth-villa"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth tengt."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Ekki var hægt að tengjast símanum. Bluetooth-tengingin rann út á tíma. Reyndu aftur."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Núllst"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Ekki er hægt að endurnýja þetta forrit. Bluetooth hefur verið aftengt."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear er aftengt eða of langt frá fartækinu."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Ekki er hægt að opna %s. Bluetooth hefur verið aftengt."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Leita"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stöðva"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Pöruð tæki"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Tiltæk tæki"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Parað"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Parast..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Tengt."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Verið er að tengjast..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Verið er að aftengja..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Á að aftengjast?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Afpara"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Tengist Bluetooth-steríóhöfuðtóli..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Verið er að skrá..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Þetta rýfur tenginguna við."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Þetta slítur tengingunni við %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth-vistfang"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Hætta við"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Engin tæki fundust"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Á að reyna aftur?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "Í lagi"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Rangt PIN-númer. Reynið aftur"
+
+msgid "IDS_ST_SK_OK"
+msgstr "Í lagi"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Hætta við"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Sláðu inn %1$s á %2$s og ýttu síðan á færsluhnapp til að para."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Á að leyfa %s að tengjast?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Taka við %s frá %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s er þegar til. Skrifa yfir?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Á að taka við skrá frá %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Beiðni um Bluetooth-pörun"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Sláðu inn PIN-númer til að para við %s (prófaðu 0000 eða 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Staðfesta að aðgangslykill sé %2$s til að para við %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Veita %s aðgang að símaskrá"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Veita %s aðgang að skeytum?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Ekki spyrja aftur"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Villa í Bluetooth-tengingu. Viltu reyna aftur?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Mistókst að tengja."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s verður afparað."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Engin nálæg Bluetooth-tæki fundust."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Ekki er hægt að framkvæma þessa aðgerð. Bluetooth hefur verið aftengt"
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Ekki er hægt að opna þetta forrit. Bluetooth hefur verið aftengt"
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s er að reyna að tengjast Gear. Til að tengjast %s verður Gear endurstillt á frumstillingar sínar."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Tengjast"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth hefur verið aftengt."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Slíta %1$s-tengingu við %2$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Forstillingar"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Hætta v."
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "Í lagi"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Hljóð símtals"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Slökkva á sniði"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Pikkaðu til að færa inn."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Sniðið %1$s verður gert óvirkt fyrir %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Pörunarbeiðni"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Hljóðefni"
+

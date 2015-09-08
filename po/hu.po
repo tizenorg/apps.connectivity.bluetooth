@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Bluetooth-on kapcsolódva az eszközéhez."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Kapcsolódás az eszközéhez Bluetooth-on..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Kapcs."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth-hiba"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth csatlakoztatva."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Nem lehet kapcsolódni a telefonhoz. A Bluetooth-kapcsolat időtúllépés miatt megszakadt. Próbálja újra."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Vi.áll."
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Az alkalmazás nem frissíthető. Megszakadt a Bluetooth-kapcsolat."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear leválasztva vagy a mobileszköz tartományán kívül."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "A(z) %s nem nyitható meg. Bluetooth-kapcsolat bontva."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Keresés"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Leállít"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Párosított eszközök"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Elérhető eszközök"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Párosítva"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Párosítás..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Csatlakoztatva."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Kapcsolódás..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Szétkapcsolás..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Szétkapcsol?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Párosítás megszüntetése"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Kapcsolódás a Bluetooth sztereó fejhallgatóhoz..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Ellenőrzés..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Így megszakad a kapcsolata a következő eszközzel:"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Így megszakad a kapcsolata a(z) %s eszközzel."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth-cím"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Mégse"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Nem található eszköz"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Megpróbálja újra?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Hibás PIN-kód. Próbálja újra"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Mégse"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "A párosításhoz adja meg a(z) %1$s kódot a(z) %2$s eszközön, majd érintse meg a Return vagy Enter gombot."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Engedélyezi %s-nek a csatlakozást?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Fogadja a(z) %s fájlt a(z) %s eszközről?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "A(z) %s tétel már létezik. Felülírja?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Fogad fájlt ettől: %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth-párosítás kérése"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Adja meg a PIN-t a(z) %s eszköz párosításához. (Próbálkozzon a 0000 vagy az 1234 kóddal.)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Erősítse meg, hogy %2$s a jelszó a(z) %1$s eszközzel való párosításhoz."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Névjegyzék-hozzáférés engedélyezése a(z) %s számára"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Engedélyezi a(z) %s számára az üzenetek hozzáférését?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Máskor ne legyen kérdés"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth-hiba. Megpróbálja újra?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "A csatlakozás sikertelen."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "Megszünteti %s párosítását."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Nem található Bluetooth-eszköz a közelben."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Az alkalmazás nem hajtható végre. Megszakadt a Bluetooth-kapcsolat."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Az alkalmazás nem nyitható meg. Megszakadt a Bluetooth-kapcsolat."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "A(z) %s kapcsolódni próbál a Gearhez. A(z) %s kapcsolódása érdekében visszaállnak a Gear gyári beállításai."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Kapcsolódás"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth-kapcsolat bontva."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Bontja a(z) %2$s %1$s kapcsolatát?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Profilok"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Mégse"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Hívás hangja"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Profil tiltása"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Érintse meg a bevitelhez."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "A(z) %1$s profil ki lesz kapcsolva a(z) %2$s eszközön."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Párosítás kérése"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Méd. hangja"
+

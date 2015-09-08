@@ -1,0 +1,183 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Enjamyňyza Bluetooth üsti bilen baglanyşylan."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Enjamyňyza Bluetooth üsti bilen baglanyşylýar..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Birik"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth säwlik"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth birikdirilen."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Siziň telefonyňyza birikmäge ukypsyz. Bluetooth aragatnaşygynyň wagty geçdi. Ýene-de synanyşyň."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Nol et"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bu goşundyny täzelemäge ukypsyz. Bluetooth birikmesi kesildi."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Abzal birikdirilmedikdir ýa-da ykjam aragatnaşyk enjamlaryna hyzmat ediş çäginden daşdadyr."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "%s açyp bolmaýar. Bluetooth birikmesi kesildi."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Skan et"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Sakla"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Jübütleşdirilen enjamlar"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Elýeterli enjamlar"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Jübüt"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Jübütleşdirilýär..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Birikdirildi"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Baglanyşýar..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Baglanyşyk kesilýär..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Baglanyşygy kesmelimi?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Jübüt baglanyşygy pozuň"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Bluetooth stereo garniturasyna birigilýär..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Skanirlenýär..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Bu siziň baglanyşygyňyzy keser."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Bu siziň %s bilen aragatnaşygyňyzy tamamlar."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth salgysy"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "No devices found"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Gaýtadan synanyşmalymy?"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Nädogry PIN. Täzeden synanyşmalymy?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Ýatyr"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "%1$s-i %2$s-niň üstüne jübütlemäge giriz, soňra Yzyňa dolanma ýa-da Girizme düwmesine bas"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%s birikmesine rugsat bermelimi?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s -dan %s -i kabul etmelimi?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s already exists. Overwrite?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s-dan/den faýl almalymy?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth jübütleme teklibi"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s bilen baglamak üçin PIN giriziň (0000 ýa-da 1234 ýazyp görüň)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Tassyklanan açar %1$s bilen %2$s"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%s telefon kitapçasyny girişe rugsat ber"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "%s enjamynyň hatlara girmegine rugsat bermelimi?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Täzeden sorama"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth error. Try again?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Birigip bolmaýar."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s jübütlenmekden aýrylar."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Ýakynda Bluetooth enjamy tapylmady."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bu amaly berjaý edip bolmaýar. Bluetooth birikmeden aýryldy."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bu gollanmany açyp bolmaýar. Bluetooth birikmeden aýryldy."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s siziň Mehanizimiňize birikmeklige synanyşýar. %s-e birikdirmek üçin, Mehanizm zawod sazlamalaryna geçiriler."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Birikdir"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetoothyň baglanyşygy kesildi."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Disconnect %2$s from the %1$s connection?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Profiller"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Ýatyr"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Audio jaň"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Profili ýap"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Girmek üçin bas"
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%1$s profili %2$s üçin ýapylar."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Jübüt baglanyşmak teklibi"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Media audio"
+

@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "ब्लुटूथ मार्फत तपाईको यन्त्रसँग कनेक्ट गरिएको छ।"
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "ब्लुटूथ मार्फत तपाईको यन्त्रसँग कनेक्ट गर्दै..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "कनेक्ट गर्नुहोस्"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "ब्लुटूथ त्रुटि"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "ब्लुटूथ कनेक्ट गरिएको छ।"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "तपाईको फोनसँग कनेक्ट गर्न असक्षम। ब्लुटूथ कनेक्शनको समय सकियो। पुन: प्रयास गर्नुहोस्।"
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "रिसेट गर्नुहोस्"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "यो अनुप्रयोग रिफ्रेश गर्न असक्षम। ब्लुटूथ विच्छेद गरिएको छ।"
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "गियर डिस्कनेक्ट भएको छ वा मोबाइल यन्त्रको सीमाभन्दा बाहिर छ।"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "%s खोल्न असक्षम। ब्लुटूथ विच्छेद गरिएको छ।"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "स्क्यान"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "रोक्‍नुहोस्"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "जोडी मिलाइका उपकरणहरू"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "उपलब्ध यन्त्रहरू"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "जोडी मिलाइएको"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "जोडा मिलाउँदै..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "जोड्यो।"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "जोडिँदै छ..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "जोडन विच्छेद हुँदै छ..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "जडान विच्छेद गरूँ?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "जोडी हटाउनुहोस्"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "ब्लुटूथ स्‍टेरियो हेडसेटमा जोडिदैं..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "स्क्यान गर्दैछ..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "यसले तपाईको यससँगको कनेक्‍शन बंद हुनेछ।"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "जडान बिच्छेद गर्नाले %s सँग रहेको तपाईको जडानलाई अन्त्य गर्नेछ।"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "ब्लुटूथ ठेगाना"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "रद्द"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "कुनै यन्त्रहरू फेला परेनन्"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "पुनः प्रयास गर्नुहोस्?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "ठीक छ"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "गलत PIN । पुनः प्रयास गर्नुहोस्?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "ठीक छ"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "रद्द"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "जोडा मिलाउन %2$s मा %1$s प्रविष्ट गर्नुहोस्, त्यसपछि फर्कनुहोस् वा प्रविष्ट गर्नुहोस् ट्याप गर्नुहोस्।"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%s लाई जोड्न दिउँ?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s बाट %s प्राप्त गरूँ?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s पहिल्यै छ । माथि लेखूँ?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s बाट फाइल प्राप्त गर्ने?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "ब्लुटूथ जोडा मिलाउने अनुरोध"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s का साथ जोडी बनाउने पिन प्रविष्ट गर्नुहोस् (0000 अथवा 1234 प्रयास गर्नुहोस्)।"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "%1$s सँग जोडा मिलाउनको लागि पुष्टि गरिएको पासकुञ्जी %2$s हो।"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "लाई %s फोनबुक मा पहुँच बनाउने अनुमति देउ"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "%s लाई संदेशमा पहुँच बनाउन दिने?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "पुनः नसोध्नुहोस्"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "ब्लुटूथ अवरूद्ध। पुनः प्रयास गरूँ?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "जडान गर्न सकिएन।"
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s को जोडा हट्नेछ।"
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "छेउमा कुनै ब्लुटूथ यन्त्र भेट्टाइएन।"
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "यो काम गर्न सकिएन। ब्लुटूथ जडान विच्छेद भएको छ।"
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "यो अनुप्रयोग खोल्न सकिएन। ब्लुटूथ जडान विच्छेद भएको छ।"
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s तपाईको गियरसँग कनेक्ट गर्ने प्रयास गर्दैछ। %s सँग कनेक्ट गर्नको लागि, गियर आफ्नो फ्याक्ट्री सेटिङगहरूमा रिसेट हुनेछ।"
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "जोडन"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ब्लुटूथ जडान विच्छेद गरिएको छ।"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%2$s लाई %1$s जडान बाट विच्छेद गर्ने?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "प्रोफाइलहरू"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "रद्द"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "ठीक छ"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "अडियो कल गर"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "प्रोफाइल असक्षम"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "प्रविष्ट गर्न ट्याप गर्नुहोस्।"
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%2$s को लागि %1$s प्रोफाइल असक्षम गरिनेछ।"
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "जोड़ी बनाउने अनुरोध"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "मिडिया अडियो"
+

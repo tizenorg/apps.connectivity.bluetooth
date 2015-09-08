@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Prie jūsų įrenginio prisijungta per „Bluetooth“."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Prie jūsų įrenginio prisijungiama per „Bluetooth“..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Jungtis"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth klaida"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "„Bluetooth“ prijungtas."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Neįmanoma prisijungti prie jūsų telefono. Baigėsi „Bluetooth“ ryšiui skirtas laikas. Bandykite dar kartą."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Atkurt"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Neįmanoma atnaujinti šios programos. „Bluetooth“ ryšys nutrauktas."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "„Gear“ atjungtas arba yra už mobiliojo įrenginio veikimo ribų"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Neįmanoma atidaryti %s. „Bluetooth“ ryšys nutrauktas."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Nuskait."
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stabdyti"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Suporuoti įrenginiai"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Galimi įrenginiai"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Susieta"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Siejama..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Prijungta."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Jungiamasi..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Atjungiama..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Ar atsijungti?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Atsieti"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Jungiamasi prie „Bluetooth“ stereofoninių ausinių..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Ieškoma..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Bus nutrauktas jūsų ryšys su"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Dėl to bus nutrauktas jūsų ryšys su %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "„Bluetooth“ adresas"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Atšaukti"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Įrenginių nerasta"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Bandyti dar kartą?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "Gerai"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Neteisingas PIN. Bandykite dar."
+
+msgid "IDS_ST_SK_OK"
+msgstr "Gerai"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Atšaukti"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Norėdami susieti, %2$s įveskite %1$s, tada bakstelėkite „Grįžti“ arba „Įvesti“."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Leisti %s prisijungti?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Priimti %s iš %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s jau yra. Perrašyti?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Priimti failą iš %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Prašymas susieti naudojant „Bluetooth“"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Įveskite PIN norėdami susieti su %s (bandykite 0000 arba 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Kad būtų galima sujungti su %1$s, patvirtinkite, kad slaptažodis yra %2$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Leisti %s pasiekti telefonų knygą"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Leisti %s pasiekti žinutes?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Daugiau neklausti"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "„Bluetooth“ klaida. Bandyti dar kartą?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Neįmanoma prijungti."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s bus atsieta."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Neaptikta netoliese esančių „Bluetooth“ įrenginių."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Neįmanoma atlikti šio veiksmo. „Bluetooth“ ryšys nutrauktas."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Šios programos atidaryti neįmanoma. „Bluetooth“ ryšys nutrauktas."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s bando prisijungti prie „Gear“. Jungiantis prie %s bus atkurti gamykliniai „Gear“ nustatymai."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Jungtis"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "„Bluetooth“ ryšys nutrauktas."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Atjunkite %2$s nuo %1$s jungties?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Profiliai"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Atšaukti"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "Gerai"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Skambučio garsas"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Išjungti profilį"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Bakstelėkite ir įveskite."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%1$s profilis bus išjungtas dėl %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Prašymas susieti"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Medij.gars."
+

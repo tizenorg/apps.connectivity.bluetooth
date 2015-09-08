@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "تم الاتصال بجهازك عبر البلوتوث."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "جار الاتصال بجهازك عبر البلوتوث..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "اتصال"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "خطأ في البلوتوث"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "تم الاتصال بالبلوتوث."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "يتعذر الاتصال بالهاتف. انتهت مهلة الاتصال بالبلوتوث. حاول مرة أخرى."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "إعادة الضبط"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "يتعذر تحديث هذا التطبيق. تم قطع اتصال البلوتوث."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "تم قطع اتصال Gear أو أصبح خارج نطاق الجهاز المحمول"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "يتعذر فتح %s. تم قطع اتصال البلوتوث."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "بحث"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "إيقاف"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "الأجهزة المقترنة"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "الأجهزة المتاحة"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "تم الإقتران"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "جاري الإقتران..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "تم التوصيل."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "جاري التوصيل..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "جاري الفصل..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "فصل؟"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "الغاء الاقتران"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "جار الاتصال بسماعة رأس استريو Bluetooth..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "جاري البحث..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "سوف يؤدي ذلك إلى إنهاء اتصالك بـ."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "سيؤدي ذلك إلى إنهاء اتصالك بـ ‎%s"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "عنوان البلوتوث"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "إلغاء"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "لم يتم العثور على أجهزة"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "حاول ثانية؟"
+
+msgid "IDS_MP_SK_OK"
+msgstr "موافق"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "رمز PIN غير صحيح. أعد المحاولة"
+
+msgid "IDS_ST_SK_OK"
+msgstr "موافق"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "إلغاء"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "أدخل %1$s على %2$s للإقتران ثم انقر فوق رجوع أو إدخال."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "السماح ﻟ%s بالتوصيل؟"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "تلقي %s من %s؟"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "يوجد %s بالفعل. استبداله؟"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "هل تريد استلام ملف من %s؟"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "طلب إقتران بلوتوث"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "أدخل رمز PIN للإقران مع %s (جرب 0000 أو 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "‫قم بتأكيد أن مفتاح المرور هو %2$s للإقران مع %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "السماح لـ %s بالوصول إلى سجل هاتف"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "السماح لـ %s بالوصول إلى الرسائل؟"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "عدم السؤال مرة أخرى"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "خطأ Bluetooth. المحاولة ثانية؟"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "يتعذر التوصيل."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "سيتم إلغاء اقتران ‎%s"
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "لم يتم العثور على أجهزة بلوتوث مجاورة."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "يتعذر تنفيذ هذا الإجراء. تم قطع اتصال Bluetooth."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "يتعذر فتح هذا التطبيق. تم قطع اتصال Bluetooth."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "يحاول %s الاتصال بالساعة Gear. للاتصال بـ %s، ستتم إعادة ضبط الساعة Gear إلى إعدادات المصنع الافتراضية."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "توصيل"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "تم قطع اتصال البلوتوث‬."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "هل تريد فصل %2$s عن اتصال %1$s؟"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "الأوضاع"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "إلغاء"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "موافق"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "صوت الاتصال"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "إلغاء تفعيل ملف التعريف"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "انقر للإدخال."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "سيتم إلغاء تفعيل ملف تعريف %1$s عن %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "طلب الإقتران"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "صوت الوسائط"
+

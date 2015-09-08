@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Nasctha le do ghléas trí Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Nascadh le do ghléas trí Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Nasc"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Earráid Bluetooth"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth nasctha."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Ní féidir nascadh le d'fhón. Am istigh ar an nasc Bluetooth. Triail arís."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Athshoc."
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Ní féidir an feidhmchlár seo a athnuachan. Dínascadh Bluetooth."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear dínasctha nó as raon an ghléis mhóibíligh."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Ní féidir %s a oscailt. Bluetooth dínasctha."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Scan"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stop"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Gléasanna péireáilte"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Gléasanna atá ar fáil"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Péireáilte"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Ag péireáil..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Nasctha."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Ag nascadh..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Ag dínascadh..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Dínasc?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Díphéireáil"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Ag ceangáil le gléas cinn steirió Bluetooth"
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Ag scanadh..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "Scoirfidh seo do nasc le"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Cuirfidh seo deireadh le do nasc le %s"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Seoladh Bluetooth"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Cuir ar ceal"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Níor aimsíodh gléasanna"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Triail arís?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN mícheart. Triail arís"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Cuir ar ceal"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Iontráil %1$s ar %2$s le péireáil, ansin tapáil Fill nó Iontráil"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Ceadaigh do %s ceangail?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Faigh %s ó %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "Tá %s ann cheana. Forscríobh?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Faigh comhad ó %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Iarratas péireála Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Iontráil PIN le péireáil le %s (Triail 0000 nó 1234)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Deimhnigh gurb í %2$s an phaseochair le péireáil le %1$s"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Ceadaigh do %s an leabhar fóin a rochtain"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Ceadaigh do %s teachtaireachtaí a rochtain?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Ná hiarr arís"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Earráid Bluetooth. Triail arís?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Ní féidir nascadh."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "Díphéireálfar %s"
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Níor aimsíodh aon ghléasanna Bluetooth in aice láimhe."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Ní féidir an beart seo a dhéanamh. Dínascadh Bluetooth."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Ní féidir an feidhmchlár seo a oscailt. Dínascadh Bluetooth."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "Tá %s ag iarraidh nascadh le do Gear. Le nascadh le %s, fillfear Gear ar na socruithe monarchan."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Nasc"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Dínascadh Bluetooth"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Dínasc %2$s ón nasc %1$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Próifílí"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Cealaigh"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Fuaim glao"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Díchumasaigh próifíl"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Tapáil le hiontráil"
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Díchumasófar an phróifíl %1$s don %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Iarratas péireála"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Fuaim meán"
+

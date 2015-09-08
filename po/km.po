@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "បាន​ភ្ជាប់​ទៅ​ឧបករណ៍​របស់​អ្នក​តាម Bluetooth។"
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "កំពុង​ភ្ជាប់​ទៅ​ឧបករណ៍​របស់​អ្នក​តាម Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "ភ្ជាប់"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "កំហុស Bluetooth"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "បាន​ភ្ជាប់ Bluetooth។"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "មិន​អាច​ភ្ជាប់​ទៅ​ទូរសព្ទ​របស់​អ្នក ការភ្ជាប់ Bluetooth បាន​អស់ពេល។ សាកល្បង​ម្តងទៀត។"
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "កំណត់ឡើងវិញ"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "មិន​អាច​ធ្វើ​ឲ្យ​កម្មវិធី​នេះ​ស្រស់។ Bluetooth បាន​ដាច់។"
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear បាន​ដាច់ ឬ នៅ​ក្រៅ​វិសាលភាព​នៃ​ឧបករណ៍​ចល័ត"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "មិន​អាច​បើក %s។ បាន​ផ្ដាច់ Bluetooth។"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "ស្កេន"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "ឈប់"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "ឧបករណ៍​បាន​ផ្គូ"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "ឧបករណ៍​ដែល​អាច​រក​បាន"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "បាន​ផ្គូ"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "កំពុង​ផ្គូ..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "បាន​ភ្ជាប់។"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "កំពុង​ភ្ជាប់..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "កំពុង​ផ្តាច់..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "ផ្តាច់?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "ឈប់​ផ្គូ"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "កំពុង​ភ្ជាប់​ទៅ​កាស​ស្តេរេអូ Bluetooth..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "កំពុង​ស្កេន..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "នេះ​នឹង​បញ្ចប់​ការភ្ជាប់​របស់​អ្នក​ជាមួយ។"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "នេះ​នឹង​បញ្ចប់​ការភ្ជាប់​របស់​អ្នក​ជាមួយ %s។"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "អាសយដ្ឋាន Bluetooth"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "បោះបង់"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "រក​មិន​ឃើញ​ឧបករណ៍​ណា​មួយ"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "សាក​ល្បង​ម្តង​ទៀត?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "ព្រម"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN មិន​ត្រឹមត្រូវ។ សាក​ល្បង​ម្តង​ទៀត?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "ព្រម"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "បោះបង់"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "វាយបញ្ចូល %1$s លើ %2$s ដើម្បី​ផ្គូ​គ្នា រួច​ប៉ះ ត្រឡប់ ឬ ចូល។"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "អនុញ្ញាត %s ឲ្យ​ភ្ជាប់?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "ទទួល %s ពី %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s មាន​ហើយ។ សរសេរ​ជាន់?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "ទទួល​ឯកសារ​ពី %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "សំណើ​ផ្គូ Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "វាយបញ្ចូល PIN ដើម្បី​ផ្គូ​ជាមួយ %s (សាកល្បង 0000 ឬ 1234)។"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "សោ​សម្ងាត់​បញ្ជាក់​គឺ %2$s ដើម្បី​ផ្គូ​ជាមួយ %1$s។"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "អនុញ្ញាត %s ឲ្យ​ចូល​ប្រើ​សៀវភៅ​ទូរសព្ទ"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "អនុញ្ញាត​ឲ្យ %s ចូល​ប្រើ​សារ?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "កុំ​សួរ​ម្តង​ទៀត"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "កំហុស Bluetooth។ សាក​ល្បង​ម្តង​ទៀត?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "មិន​អាច​ភ្ជាប់។"
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "នឹង​ឈប់​ផ្គូ %s។"
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "រក​មិន​ឃើញ​ឧបករណ៍ Bluetooth នៅ​ក្បែរ។"
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "មិន​អាច​ធ្វើ​សកម្មភាព​នេះ។ Bluetooth បាន​ដាច់។"
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "មិន​អាច​បើក​កម្មវិធី​នេះ។ Bluetooth បាន​ដាច់។"
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s កំពុង​ប៉ុនប៉ង​ភ្ជាប់​ទៅ Gear របស់​អ្នក។ ដើម្បី​ភ្ជាប់​ទៅ %s Gear នឹង​កំណត់​ឡើងវិញ​ទៅ​ការកំណត់​ពី​រោងចក្រ​របស់​វា។"
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "ភ្ជាប់"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "បាន​ផ្តាច់ Bluetooth។"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "ផ្ដាច់ %2$s ពី​ការភ្ជាប់ %1$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "ទម្រង់"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "បោះ​បង់"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "ព្រម"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "អូឌីយ៉ូ​ហៅ"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "បិទ​ទម្រង់"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "ប៉ះ​ដើម្បី​វាយបញ្ចូល។"
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "ទម្រង់ %1$s នឹង​ត្រូវ​បាន​បិទ​សម្រាប់ %2$s។"
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "សំណើ​ផ្គូ"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "អូឌីយ៉ូ​មេឌៀ"
+

@@ -1,0 +1,15 @@
+<manifest>
+	<define>
+		<domain name="org.tizen.bluetooth" />
+	<request>
+		<smack request="aul::launch" type="x"/>
+		<smack request="syspopup::db" type="rwx"/>
+	</request>
+	</define>
+	<assign>
+		<filesystem path="/usr/share/locale/*" label="_" />
+		<filesystem path="/usr/apps/org.tizen.bluetooth/shared/res/*" label="_" />
+		<filesystem path="/usr/apps/org.tizen.bluetooth/shared/res/tables/org.tizen.bluetooth_ChangeableColorTable.xml" label="_"/>
+		<filesystem path="/usr/apps/org.tizen.bluetooth/shared/res/tables/org.tizen.bluetooth_FontInfoTable.xml" label="_"/>
+	</assign>
+</manifest>

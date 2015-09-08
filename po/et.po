@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Ühendatud teie seadmega Bluetoothi kaudu."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Ühenduse loomine teie seadmega Bluetoothi kaudu..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Ühenda"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetoothi tõrge"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Bluetooth-ühendus on loodud."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Teie telefoniga ei saa ühendust luua. Bluetooth-ühendus on aegunud. Proovige uuesti."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Läht."
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Seda rakendust ei saa varskendada. Bluetooth-uhendus on katkenud."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Seadme Gear ühendus on katkest. või see on väljaspool mob.seadme levipiirkonda"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Rakendust %s ei saa avada. Bluetooth-uhendus on katkenud."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Otsi"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Lõpeta"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Seotud seadmed"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Saadaolevad seadmed"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Ühildatud"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Ühildamine..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Ühendatud."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Ühendamine..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Ühenduse katkestamine..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Katkestada ühendus?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Seo lahti"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Ühenduse loomine Bluetoothi stereo-peakomplektiga..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Skaneerimine..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "See lopetab jargmise uhenduse"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "See lopetab teie uhenduse seadmega %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth-aadress"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Tühista"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Seadmeid ei leitud"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Proovida uuesti?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Vale PIN. Palun proovige uuesti"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Tühista"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Sisestage sidumiseks %1$s seadmes %2$s, seejarel toksake nupul Tagasta voi Sisesta."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Lubada seadmel %s luus ühendus?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Võtta vastu %s saatjalt %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s on juba olemas. Kas kirjutada üle?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Võtta vastu fail seadmelt %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetoothi sidumistaotlus"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Sisestage PIN-kood, et siduda seadmega %s (proovige 0000 voi 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Kinnituse paasukood on %2$s, et siduda seadmega %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Luba seadmele %s juurdepääs telefoniraamatule"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Kas lubada seadmele %s juurdepääs sõnumitele?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Ära küsi enam"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetoothi tõrge. Kas proovida uuesti?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Ei saa ühendada."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "Uhendus seadmega %s katkestatakse."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Läheduses ei leitud Bluetoothi seadmeid."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Seda toimingut ei saa teostada. Bluetooth-ühendus on katkenud."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Seda rakendust ei saa avada. Bluetooth-ühendus on katkenud."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s proovib luua ühendust teie seadmega Gear. Seadmega %s ühenduse loomiseks lähtestatakse Gear tehase vaikeseadetele."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Ühenda"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Bluetooth-uhendus on katkenud."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Kas katkestada %1$s ühendus üksusega %2$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Profiilid"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Tühista"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Kõne heli"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Desaktiveeri profiil"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Toksake sisestamiseks."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Üksuse %1$s profiil desaktiveeritakse seadme %2$s jaoks."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Sidumise taotlus"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Meed. heli"
+

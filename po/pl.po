@@ -1,0 +1,159 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Podłączono do urządzenia przez Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Trwa podłączanie do urządzenia przez Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Połącz"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Błąd Bluetooth"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Połączenie Bluetooth nawiązane."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Nie można połączyć z telefonem. Upłynął limit czasu połączenia Bluetooth. Spróbuj ponownie."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Zeruj"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nie można odświeżyć tej aplikacji. Połączenie Bluetooth zostało zakończone."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Zegarek Gear został odłączony lub jest poza zasięgiem urządzenia przenośnego."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nie można otworzyć aplikacji %s. Połączenie Bluetooth zostało zakończone."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Skanuj"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Stop"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Połączone urządzenia"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Dostępne urządzenia"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Powiązano"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Łączenie..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Połączono."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Łączenie..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Rozłączanie..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Rozłączyć?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Anuluj powiązanie"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Trwa podłączanie do słuchawek stereo Bluetooth..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Skanowanie..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "To spowoduje zakończenie połączenia z."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Spowoduje to zakończenie połączenia z urządzeniem %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Adres Bluetooth"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Anuluj"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Nie znaleziono żadnych urządzeń"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Spróbować ponownie?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Zły kod PIN. Spróbuj ponownie"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Anuluj"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Aby powiązać, wprowadź %1$s w urządzeniu %2$s i dotknij przycisku Powrót lub OK."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Zezwolić %s na nawiązanie połączenia?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Pobrać plik %s z urządzenia %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s już istnieje. Zamienić?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Odebrać plik od %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Żądanie powiązania Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Wpisz kod PIN, aby powiązać z %s (spróbuj 0000 lub 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Potwierdź, że klucz dostępu to %2$s, aby powiązać z urządzeniem %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Zezwalaj urządzeniu %s na dostęp do książki telefonicznej"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Zezwolić urządzeniu %s na dostęp do wiadomości?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Nie pytaj ponownie"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Błąd Bluetooth. Spróbować ponownie?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Nie można połączyć."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "Urządzenie %s zostanie odłączone."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Nie znaleziono urządzeń Bluetooth w pobliżu."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nie można wykonać tej czynności. Połączenie Bluetooth zostało zakończone."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nie można otworzyć tej aplikacji. Połączenie Bluetooth zostało zakończone."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "Urządzenie %s próbuje połączyć się z zegarkiem Gear. Aby połączyć z urządzeniem %s, zegarek Gear zostanie wyzerowany do ustawień fabrycznych"
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Połącz"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Połączenie Bluetooth zostało zakończone."
+

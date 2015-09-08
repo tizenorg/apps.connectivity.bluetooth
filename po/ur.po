@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "آپ کے آلہ سے براستہ بلیو ٹوتھ جڑا ہوا ہے۔"
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "آپ کے آلہ سے براستہ بلیو ٹوتھ جڑرہا ہے..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "جڑیں"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "بلیو ٹوتھ غلطی"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "بلیو ٹوتھ جڑگیا۔"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "آپ کے فون سے جڑنے سے قاصر۔ بلیو ٹوتھ کنکشن کا وقت ختم ہوگیا ہے۔ دوبارہ کوشش کریں.۔"
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "پھرسیٹ"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "اس ایپلیکیشن کو پھر تازہ کرنے سے قاصر۔ بلیو ٹوتھ منقطع ہوچکا ہے۔"
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear منقطع ہوگیا یا موبائل آلہ کی پہنچ سے باہر ہے"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "%s کھولنے سے قاصر۔ بلیو ٹوتھ منقطع ہوچکا ہے۔"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "اسکین"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "رکیں"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "جوڑی دار آلے"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "دستیاب آلہ جات"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "جوڑی دار"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "جوڑ رہا ہے..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "منسلک ہوگیا۔"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "کنیکٹ کرہا ہے…"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "کنیکشن توڑ رہا ہے۔۔۔"
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "غیر متصل کریں؟"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "جوڑی ختم کردیں"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Bluetooth اسٹریو ہیڈسیٹ سے متصل کررہا ہے..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "سکین کر رہا ہے۔۔۔۔"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "یہ آپ کے ساتھ والے کنکشن کو ختم کردیگا"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "یہ آپ کے %s کے ساتھ کنکشن کو ختم کردے گا"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "بلوٹوتھ ایڈریس"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "منسوخ"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "کوئی آلہ جات نہیں ملے"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "دوبارہ کوشش؟"
+
+msgid "IDS_MP_SK_OK"
+msgstr "ٹھیک ہے"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "غلط PIN۔ دوبارہ کوشش کریں"
+
+msgid "IDS_ST_SK_OK"
+msgstr "ٹھیک ہے"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "منسوخ"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "جوڑی بنانے کے لئے %1$s پر %2$s داخل کریں، پھر واپسی کلید یا اینٹر پر تھپتھپائیں"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "اجازت %s کو کنیکٹ کریں؟"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s سے %s وصول کریں؟"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "‏%s پہلے سے موجود ہے۔ اوپر لکھ دیں?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s سے فائل وصول کریں؟"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Bluetooth جوڑی بنانے کی درخواست"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "‏%s کے ساتھ جوڑی بنانے کے لئے PIN داخل کریں (آزمائیں 0000 یا 1234)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "تصدیق کریں کہ یہ پاس کی %2$s کی %1$s کے ساتھ جوڑی بنانے کے لئے ہے"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%s کو فون بک پر رسائی کی اجازت دیں"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "%s کو پیغامات پر رسائی کی اجازت دیں؟"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "دوبارہ مت پوچھیں"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Bluetooth غلطی۔ دوبارہ کوشش کریں؟"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "کنیکٹ کرنے میں ناکامی۔"
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s جوڑی سے الگ کردیا جائے گا"
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "قرب وچوار میں بلیو ٹوتھ آلہ جات نہیں پائے گئے۔"
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "یہ عمل سر انجام دینے سے قاصر ہیں۔ بلوٹوتھ منقطع کر دی گئی۔"
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ہم یہ ایپلی کیشن کھولنے سے قاصر ہیں۔ بلوٹوتھ منقطع کر دی گئی۔"
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s آپ کے Gear سے جڑنے کی کوشش کر رہا ہے۔ %s سے جڑنے کیلئے Gear اپنی فیکٹری سیٹنگز پر سیٹ کیا جائے گا۔"
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "منسلک"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "بلیوٹوتھ منقطع ہو چکا ہے"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%2$s کو ‎%1$s کنکشن سے منقطع کریں؟"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "پروفائلز"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "منسوخ"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "ٹھیک ہے"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "آڈیو کال کریں"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "پروفائل غیر فعال کریں"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "داخل ہونے کے لئے تھپکیں"
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%1$s پروفائل کو %2$s کے لیے غیر فعال کردیا جائے گا۔"
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "جوڑی بنانے کی درخواست"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "میڈیا آڈیو"
+

@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "เชื่อมต่อกับอุปกรณ์ของคุณ ผ่าน Bluetooth แล้ว"
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "กำลังเชื่อมต่อกับ อุปกรณ์ของคุณ ผ่าน Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "เชื่อมต่อ"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetoothผิดพลาด"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "เชื่อมต่อ Bluetooth แล้ว"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "ไม่สามารถเชื่อมต่อกับโทรศัพท์ของคุณ การเชื่อมต่อ Bluetooth หมดเวลาแล้ว ลองอีกครั้ง"
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "รีเซ็ท"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ไม่สามารถรีเฟรช แอพพลิเคชั่นนี้ เลิกเชื่อมต่อ Bluetooth แล้ว"
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "หยุดเชื่อมต่อกับ Gear หรืออุปกรณ์มือถืออยู่นอกพื้นที่"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ไม่สามารถเปิด %s ได้ ยกเลิกการเชื่อมต่อ Bluetooth แล้ว"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "ค้น​หา"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "หยุด"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "อุปกรณ์​ที่​จับ​คู่"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "อุปกรณ์​ที่​ใช้​งาน​ได้"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "จับ​คู่แล้ว"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "กำลัง​จับ​คู่..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "เชื่อม​ต่อ​แล้ว"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "กำลัง​เชื่อม​ต่อ..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "เลิก​กำลัง​เชื่อม​ต่อ..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "หยุด​เชื่อม​ต่อ?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "เลิก​จับ​คู่"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "กำลัง​เชื่อม​ต่อ​หู​ฟัง​สเตอริโอบลูทูธ​..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "กำลัง​ค้น​หา..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "ซึ่งจะเป็นการสิ้นสุดการเชื่อมต่อของคุณกับ"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "ทำให้การเชื่อมต่อระหว่างคุณกับ %s สิ้นสุดลง"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "ที่อยู่ Bluetooth"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "ยกเลิก"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "ไม่พบอุปกรณ์ใดๆ"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "ลองอีก​ครั้ง?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "ตกลง"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN ​ผิด ลอง​อีก​ครั้ง?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "ตกลง"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "ยกเลิก"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "ป้อน %1$s ​ใน %2$s ​เพื่อ​จับ​คู่ แล้ว​สัมผัส​รี​เทิร์น​หรือ​ใส่"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "อนุญาต %s ​ให้​เชื่อม​ต่อ?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "รับ %s ​จาก %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s ​มี​อยู่​แล้ว เขียน​ทับ?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "ได้​รับ​ไฟล์​จาก %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "การ​ขอ​จับ​คู่บลูทูธ​"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "ใส่ PIN ​เพื่อ​จับ​คู่​กับ %s (​ให้​ลอง 0000 ​หรือ 1234)"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "ยืน​ยัน​รหัส​ผ่าน %2$s ​เพื่อ​จับ​คู่​กับ %1$s"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "อนุญาต​ให้​เข้า​ใช้​สมุด​โทรศัพท์ %s"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "อนุญาต​ให้ %s ​เข้า​ถึง​ข้อ​ความ?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "ห้ามถาม​อีก"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "บลูทูธ ​ผิด​พลาด ลอง​อีก​ครั้ง?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "ไม่​สามารถ​เชื่อม​ต่อ"
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s จะถูกยกเลิกการจับคู่"
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "ไม่​พบ​อุปกรณ์ Bluetooth ​ใกล้​เคียง"
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ไม่สามารถดำเนินการนี้ ยกเลิกการเชื่อมต่อ Bluetooth แล้ว"
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ไม่สามารถเปิดแอพพลิเคชั่นนี้ได้ ยกเลิกการเชื่อมต่อ Bluetooth แล้ว"
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s กำลังพยายามเชื่อมต่อกับ Gear ของคุณ Gear จะถูกรีเซ็ทไปเป็นค่าจากโรงงาน เพื่อเชื่อมต่อกับ %s"
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "เชื่อม​ต่อ"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ยกเลิกการเชื่อมต่อ Bluetooth แล้ว"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "ยกเลิก %2$s จากการเชื่อมต่อ %1$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "รูป​แบบ"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "ยกเลิก"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "ตกลง"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "เสียง​การ​โทร"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "ปิดใช้งานโปรไฟล์"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "สัมผัส​เพื่อ​ใส่"
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "โปรไฟล์ %1$s จะถูกปิดใช้งานสำหรับ %2$s"
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "การ​ขอ​จับ​คู่"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "เสียงมีเดีย"
+

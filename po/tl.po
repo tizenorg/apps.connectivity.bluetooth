@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "Nakakonekta sa device mo sa pamamagitan ng Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "Kumokonekta sa device mo sa pamamagitan ng Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "Kumonekta"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "Bluetooth error"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "Nakakonekta ang Bluetooth."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "Hindi makakonekta sa iyong telepono. Nag-time out ang koneksyon sa Bluetooth. Subukang muli."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "Reset"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Hindi ma-refresh ang application na ito. Nadiskonekta na ang Bluetooth."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Ang Gear ay nadiskonekta o di inaabot ng mobile device."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Hindi mabuksan ang %s. Nadiskonekta ang Bluetooth."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "Mag-scan"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "Ihinto"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "Mga na-pair na device"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "Mga available na device"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "Paired"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "Pini-pair..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "Nakakonekta."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "Kumokonekta..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "Nagdidiskonekta..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "Magdiskonekta?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "Alisin sa pagkaka-pair"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Kumokonekta sa Bluetooth stereo headset..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "Ini-i-scan..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "This will end your connection with."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "Wawakasan nito ang iyong koneksyon sa %s."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "Bluetooth address"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "Ikansela"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "Walang mga device na nakita"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "Subukang muli?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "Mali ang PIN. Subukang muli?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "OK"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "Ikansela"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "Ilagay ang %1$s sa %2$s na ipe-pair, pagkatapos ay i-tap ang Bumalik o ang Enter."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "Payagan ang %s na kumonekta?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "Receive %s from %s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s already exists. Overwrite?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "Tumanggap ng file mula sa %s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "Kahilingan sa pagpe-pair sa Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "Maglagay ng PIN na ipe-pair sa %s (Subukan ang 0000 o ang 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "Ang passkey sa pagkumpirma ay %2$s upang i-pair sa %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "Allow %s phonebook access"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Payagan ang %s na i-access ang mga mensahe?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "Huwag nang magtanong muli."
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "Error sa Bluetooth. Subukang muli?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "Hindi makakonekta."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "Aalisin sa pagkaka-pair ang %s."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "Walang mga nakitang kalapit na Bluetooth device."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Hindi maisagawa ang aksyon na ito. Nadiskonekta ang Bluetooth."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Hindi mabuksan ang application na ito. Nadiskonekta ang Bluetooth."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "Sinusubukan ng %s na kumonekta sa iyong Gear. Upang kumonekta sa %s, mare-reset ang Gear sa mga setting nito sa factory."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "Kumonekta"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "Nadiskonekta ang bluetooth."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "Idiskonekta ang %2$s mula sa koneksyon sa %1$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "Mga Profile"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "Ikansela"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "Call audio"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "Di paganahin profile"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "Tap to enter."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "Hindi papaganahin ang profile ng %1$s para sa %2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "Kahilingan sa pagpe-pair"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "Audio ng media"
+

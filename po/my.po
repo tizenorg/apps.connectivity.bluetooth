@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "ဘလူးတုသ္ မွတဆင့္ သင့္ကိရိယာကို ဆက္သြယ္ပါ။"
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "ဘလူးတုသ္ မွတဆင့္ သင့္ကိရိယာကို ဆက္သြယ္ေနသည္…"
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "ခ်ိတ္ဆက္ပါ"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "ဘလူးတုသ္ အမွား"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "ဘလူးတုသ္ ခ်ိတ္ဆက္ထားသည္။"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "သင့္ဖုန္းသို႔ ခ်ိတ္ဆက္၍ မရပါ။ ဘလူးတုသ္ ခ်ိတ္ဆက္မႈ နားထားသည္။ ျပန္ၾကိဳးစားပါ။"
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "ျပန္သတ္မွတ္ပါ"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ဤအပလီေကးရွင္း ျပန္ဆန္းသစ္၍ မရပါ။ ဘလူးတုသ္ အဆက္ျပတ္သြားသည္။"
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "ဂီယာ အဆက္ျပတ္သြားသည္ (သို႔) မိုဘိုင္းကိရိယာ တတ္ႏိုင္မႈ ျပင္ပ ျဖစ္ေနသည္"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "%s ကို ဖြင့္၍မရပါ။ ဘလူးတုသ္ အဆက္ျပတ္သြားသည္။"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "ရွာေဖြပါ"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "ရပ္ပါ"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "တြဲဖက္ထားသည့္ကိရိယာမ်ား"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "ရရွိႏုိင္ေသာ ကိရိယာမ်ား"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "ယွဥ္တြဲၿပီး"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "ယွဥ္တြဲသုံးစြဲေနပါသည္…"
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "ခ်ိတ္ဆက္ၿပီးၿပီ"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "ဆက္သြယ္ေနပါသည္…"
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "ဆက္သြယ္ထားမႈကုိ ျဖတ္ေတာက္ေနပါသည္.."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "ဆက္သြယ္မႈ ျဖတ္ရမည္လား?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "ယွဥ္တြဲအသုံးျပဳေနမႈ ရပ္ပါ"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "Connecting to Bluetooth stereo headset..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "ရွာေဖြေနပါသည္…."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "ဤဟာသည္ ျဖင့္သတ္မွတ္ျခင္းထားျခင္းကို ရပ္ေစမည္။"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "ဤအရာက %s ႏွင့္ ခ်ိတ္ဆက္မႈကို ျဖဳတ္လိမ့္မည္။"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "ဘလူးတုသ္ လိပ္စာ"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "ပယ္ဖ်က္ပါ"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "ကိရိယာမ်ား မေတြ႕ပါ"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "ထပ္မံႀကိဳးစားလိုပါသလား?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "အုိေက"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN မွားေနပါသည္။ ထပ္မံႀကိဳးစားလုိပါသလား?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "အုိေက"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "ပယ္ဖ်က္ပါ"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "%1$s သည္ %2$s အေပၚ၌ တြဲခ်ိတ္ရန္၊ ၿပီးေနာက္ ျပန္ထားပါ (သို႔) ထည့္သြင္းပါ ကို ႏွိပ္ပါ။"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%s ကုိ ခ်ိတ္ဆက္ခြင့္ျပဳ လုိပါသလား?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s မွ %s လက္ခံမလား?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s already exists. Overwrite?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s မွဖိုင္လက္ခံလိုပါသလား?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "ဘလူးတုသ္ ယွဥ္တြဲသုံးစြဲမႈ ေမတၱာရပ္ခံခ်က္"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s ျဖင့္တြဲရန္ PIN ထည့္ပါ (၀၀၀၀ သို႔မဟုတ္ ၁၂၃၄ စမ္းၾကည့္ပါ)။"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "%1$s ႏွင့္ တြဲရန္ ပတ္စ္ကီးမွာ %2$s ဟုတ္မဟုတ္ ေသခ်ာေစပါ။"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%s ဖုန္းစာအုပ္ ဝင္ေရာက္မႈ ခြင့္ျပဳပါ"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "Allow %s to access messages?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "ေနာက္တစ္ၾကိမ္ ထပ္မေမးပါႏွင့္"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "ဘလူးတူးသ္ အမွား။ ထပ္ စမ္းရမည္လား?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "ဆက္သြယ္၍မရပါ။"
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s ကို အတြဲျဖဳတ္လိမ့္မည္"
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "အနီးအနားတြင္ ဘလူးတုသ္ ကိရိယာမ်ား မေတြ႔ပါ။"
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ဤလုပ္ေဆာင္မႈ ေဆာင္ရြက္မရႏိုင္ပါ။ ဘလူးတုသ္ အဆက္ျပတ္သြားသည္။"
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ဤအပလီေကးရွင္း ဖြင့္မရႏိုင္ပါ။ ဘလူးတုသ္ အဆက္ျပတ္သြားသည္။"
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s က သင့္ဂီယာကို ခ်ိတ္ဆက္ရန္ ၾကိဳးစားေနသည္။ %s သို႔ ခ်ိတ္ဆက္ရန္ ဂီယာကို ၎၏စက္ရံုထုတ္ ဆက္တင္မ်ားသို႔ ျပန္သတ္မွတ္မည္။"
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "ခ်ိတ္ဆက္ပါ"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "ဘလူးတုစ္ ကို အဆက္အသြယ္ျဖတ္ထားၿပီး ျဖစ္သည္။"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%1$s ဆက္သြယ္မႈမွ %2$s ကို အဆက္ျဖတ္မလား?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "ျပ႐ုပ္မ်ား"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "ပယ္ဖ်က္ပါ"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "အုိေက"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "အသံ ေခၚပါ"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "ပရိုဖိုင္းကို ပိတ္ပါ"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "ထည့္သြင္းရန္ ႏွိပ္ပါ။"
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%1$s ၏ ပရိုဖိုင္းကို %2$s အတြက္ ပိတ္ပါလိမ့္မည္။"
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "ယွဥ္တြဲသုံးစြဲယူမႈ ေမတၱာရပ္ခံခ်က္"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "မီဒီယာ အသံ"
+

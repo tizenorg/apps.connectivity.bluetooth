@@ -1,0 +1,416 @@
+/*
+*
+* Copyright 2012  Samsung Electronics Co., Ltd
+*
+* Licensed under the Flora License, Version 1.0 (the License);
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.tizenopensource.org/license
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an AS IS BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+#include "bt-connection.edc"
+
+collections {
+RESOURCE_IMAGE("b_connectivity_dot_pair.png");
+RESOURCE_IMAGE("b_connectivity_bluetooth_paired.png");
+RESOURCE_IMAGE("b_connectivity_bluetooth_phone.png");
+RESOURCE_IMAGE("b_connectivity_bluetooth_unpaired.png");
+RESOURCE_IMAGE("b_connectivity_bluetooth_watch.png");
+
+	group {
+		name: "connect_popup";
+		parts{
+			part {
+				name: "background";
+				type: RECT;
+				mouse_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0;
+					min: HOR_SIZE VER_SIZE;
+					max: HOR_SIZE VER_SIZE;
+					fixed: 1 1;
+					color: 0 0 0 255;
+				}
+			}
+			part {
+				name: "scroller";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					rel1 {
+						relative: 0.0 0.0;
+						to:"background";
+					}
+					rel2 {
+						relative: 1.0 0.0;
+						to:"btn";
+					}
+					align: 0.0 0.0;
+				}
+			}
+			part {
+				name: "btn";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					fixed: 1 1;
+					rel1 {
+						relative: 0.0 1.0;
+					}
+					rel2 {
+						relative: 1.0 1.0;
+					}
+					min: 0 BUTTON_HEIGHT;
+					align: 0.5 1;
+				}
+			}
+		}
+	}
+
+	group {
+		name: "connect_popup_scroller";
+		parts{
+			part {
+				name: "background";
+				type: RECT;
+				mouse_events: 1;
+				description {
+					state: "default" 0;
+					color: 0 0 0 255;
+				}
+			}
+			part {
+				name: "elm.swallow.img.watch";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0;
+					visible: 1;
+					fixed: 1 1;
+					min: WTCH_WIDTH WTCH_HEIGHT;
+					max: WTCH_WIDTH WTCH_HEIGHT;
+					rel1 {
+						relative: 0 0;
+						offset: CONNECTING_WTCH_PAD_LEFT CONNECTING_WTCH_PAD_TOP;
+						to:"background";
+					}
+					rel2 {
+						relative: 0 0;
+						offset: (CONNECTING_WTCH_PAD_LEFT+WTCH_WIDTH) (CONNECTING_WTCH_PAD_TOP+WTCH_HEIGHT);
+						to:"background";
+					}
+				}
+			}
+			part {
+				name: "elm.swallow.img.phone";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0;
+					visible: 1;
+					fixed: 1 1;
+					min: PHN_WIDTH PHN_HEIGHT;
+					max: PHN_WIDTH PHN_HEIGHT;
+					rel1 {
+						relative: 0.0 0.0;
+						offset: CONNECTING_PHN_PAD_LEFT CONNECTING_PHN_PAD_TOP;
+						to:"background";
+					}
+					rel2 {
+						relative: 0.0 0.0;
+						offset: (CONNECTING_PHN_PAD_LEFT+PHN_WIDTH) (CONNECTING_PHN_PAD_TOP+PHN_HEIGHT);
+						to:"background";
+					}
+				}
+			}
+			part {
+				name: "elm.swallow.img.icon";
+				type: IMAGE;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					visible: 1;
+					fixed: 1 1;
+					min: UNPAIRED_ICON_WIDTH UNPAIRED_ICON_HEIGHT;
+					max: UNPAIRED_ICON_WIDTH UNPAIRED_ICON_HEIGHT;
+					image.normal: "b_connectivity_bluetooth_unpaired.png";
+					rel1 {
+						relative: 0.0 0.0;
+						offset: CONNECTING_UNPAIRED_PAD_LEFT CONNECTING_UNPAIRED_PAD_TOP;
+						to:"background";
+					}
+					rel2 {
+						relative: 0.0 0.0;
+						offset: (CONNECTING_UNPAIRED_PAD_LEFT+UNPAIRED_ICON_WIDTH) (CONNECTING_UNPAIRED_PAD_TOP+UNPAIRED_ICON_HEIGHT);
+						to:"background";
+					}
+					map {
+						on: 1;
+						smooth: 0;
+						rotation {
+							z:0;
+						}
+					}
+				}
+				description {
+					state: "state1" 0.1;
+					inherit: "default" 0.0;
+					map {
+						on: 1;
+						smooth: 0;
+						rotation {
+							z:180;
+						}
+					}
+				}
+				description {
+					state: "state2" 0.2;
+					inherit: "default" 0.0;
+					map {
+						on: 1;
+						smooth: 0;
+						rotation {
+							z:360;
+						}
+					}
+				}
+			}
+			part {
+				name: "elm.text.block";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					rel1 {
+						relative: 0.0 0.0;
+						offset: LABEL_PAD_LEFT CONNECTING_LABEL_PAD_TOP;
+						to:"background";
+					}
+					rel2 {
+						relative: 1.0 1.0;
+						to:"background";
+					}
+					align: 0.0 0.0;
+				}
+			}
+		}
+		programs {
+			program {
+				signal: "load";
+				source: "";
+				in: 0.0 0.0;
+				after: "animation";
+			}
+			program {
+				name: "animation";
+				action: STATE_SET "default" 0.0;
+				target: "elm.swallow.img.icon";
+				transition: LINEAR 0.0;
+				after: "animation1";
+			}
+			program {
+				name: "animation1";
+				action: STATE_SET "state1" 0.1;
+				target: "elm.swallow.img.icon";
+				transition: LINEAR 0.7;
+				after: "animation2";
+			}
+			program {
+				name: "animation2";
+				action: STATE_SET "state2" 0.2;
+				target: "elm.swallow.img.icon";
+				transition: LINEAR 0.7;
+				after: "animation";
+			}
+		}
+	}
+
+	group {
+		name: "connected_popup";
+		parts{
+			part {
+				name: "background";
+				type: RECT;
+				mouse_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0;
+					min: HOR_SIZE VER_SIZE;
+					max: HOR_SIZE VER_SIZE;
+					fixed: 1 1;
+					color: 0 0 0 255;
+				}
+			}
+			part {
+				name: "scroller";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					rel1 {
+						relative: 0.0 0.0;
+						to:"background";
+					}
+					rel2 {
+						relative: 1.0 1.0;
+						to:"background";
+					}
+					align: 0.0 0.0;
+				}
+			}
+		}
+	}
+
+	group {
+		name: "connected_popup_scroller";
+		parts{
+			part {
+				name: "background";
+				type: RECT;
+				mouse_events: 1;
+				description {
+					state: "default" 0;
+					color: 0 0 0 255;
+				}
+			}
+			part {
+				name: "elm.swallow.img.watch";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0;
+					visible: 1;
+					fixed: 1 1;
+					min: WTCH_WIDTH WTCH_HEIGHT;
+					max: WTCH_WIDTH WTCH_HEIGHT;
+					rel1 {
+						relative: 0.0 0.0;
+						offset: CONNECTED_WTCH_PAD_LEFT CONNECTED_WTCH_PAD_TOP;
+						to:"background";
+					}
+					rel2 {
+						relative: 0.0 0.0;
+						offset: (CONNECTED_WTCH_PAD_LEFT+WTCH_WIDTH) (CONNECTED_WTCH_PAD_TOP+WTCH_HEIGHT);
+						to:"background";
+					}
+				}
+			}
+			part {
+				name: "elm.swallow.img.phone";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0;
+					visible: 1;
+					fixed: 1 1;
+					min: PHN_WIDTH PHN_HEIGHT;
+					max: PHN_WIDTH PHN_HEIGHT;
+					rel1 {
+						relative: 0.0 0.0;
+						offset: CONNECTED_PHN_PAD_LEFT CONNECTED_PHN_PAD_TOP;
+						to:"background";
+					}
+					rel2 {
+						relative: 0.0 0.0;
+						offset: CONNECTED_PHN_PAD_LEFT+PHN_WIDTH (CONNECTED_PHN_PAD_TOP+PHN_HEIGHT);
+						to:"background";
+					}
+				}
+			}
+			part {
+				name: "elm.swallow.img.icon";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0;
+					visible: 1;
+					fixed: 1 1;
+					min: PAIRED_ICON_WIDTH PAIRED_ICON_HEIGHT;
+					max: PAIRED_ICON_WIDTH PAIRED_ICON_HEIGHT;
+					rel1 {
+						relative: 0.0 0.0;
+						offset: CONNECTED_PAIRED_ICON_PAD_LEFT CONNECTED_PAIRED_ICON_PAD_TOP;
+						to:"background";
+					}
+					rel2 {
+						relative: 0.0 0.0;
+						offset: (CONNECTED_PAIRED_ICON_PAD_LEFT+PAIRED_ICON_WIDTH) (CONNECTED_PAIRED_ICON_PAD_TOP+PAIRED_ICON_HEIGHT);
+						to:"background";
+					}
+				}
+			}
+			part {
+				name: "elm.swallow.img.dot1";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0;
+					visible: 1;
+					fixed: 1 1;
+					min: DOT_WIDTH DOT_HEIGHT;
+					max: DOT_WIDTH DOT_HEIGHT;
+					rel1 {
+						relative: 0.0 0.0;
+						offset: CONNECTED_PAIRED_DOT_PAD_LEFT CONNECTED_PAIRED_DOT_PAD_TOP;
+						to:"background";
+					}
+					rel2 {
+						relative: 0.0 0.0;
+						offset: (CONNECTED_PAIRED_DOT_PAD_LEFT+DOT_WIDTH) (CONNECTED_PAIRED_DOT_PAD_TOP+DOT_HEIGHT);
+						to:"background";
+					}
+				}
+			}
+			part {
+				name: "elm.swallow.img.dot2";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0;
+					visible: 1;
+					fixed: 1 1;
+					min: DOT_WIDTH DOT_HEIGHT;
+					max: DOT_WIDTH DOT_HEIGHT;
+					rel1 {
+						relative: 0.0 0.0;
+						offset: CONNECTED_PAIRED_DOT_PAD_RIGHT CONNECTED_PAIRED_DOT_PAD_TOP;
+						to:"background";
+					}
+					rel2 {
+						relative: 0.0 0.0;
+						offset: (CONNECTED_PAIRED_DOT_PAD_RIGHT+DOT_WIDTH) (CONNECTED_PAIRED_DOT_PAD_TOP+DOT_HEIGHT);
+						to:"background";
+					}
+				}
+			}
+			part {
+				name: "elm.text.block";
+				type: SWALLOW;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					rel1 {
+						relative: 0.0 0.0;
+						offset: LABEL_PAD_LEFT CONNECTED_LABEL_PAD_TOP;
+						to:"background";
+					}
+					rel2 {
+						relative: 1.0 1.0;
+						to:"background";
+					}
+					align: 0.0 0.0;
+				}
+			}
+		}
+	}
+}

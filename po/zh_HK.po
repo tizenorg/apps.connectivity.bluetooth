@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "已透過藍牙連接至您的裝置。"
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "正在透過藍牙連接至您的裝置..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "連接"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "藍牙錯誤"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "藍牙已連接。"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "無法連接至您的手機。藍牙連線逾時。請重試。"
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "重設"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "無法重新整理此應用程式。藍牙已中斷連接。"
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "Gear 已斷開或超出流動裝置範圍"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "無法開啟 %s。藍牙已中斷連接。"
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "掃描"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "停止"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "已配對裝置"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "可用的裝置"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "已配對"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "正在配對..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "已連接"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "連接中..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "正在中斷連接..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "中斷連接嗎？"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "取消配對"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "正在連接到藍牙立體聲耳機..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "正在掃描..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "這將終止您與...的連線"
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "這將終止您與 %s 的連線。"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "藍牙地址"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "取消"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "找不到裝置"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "要重試嗎？"
+
+msgid "IDS_MP_SK_OK"
+msgstr "確定"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN 碼不正確。要重試嗎？"
+
+msgid "IDS_ST_SK_OK"
+msgstr "確定"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "取消"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "於 %2$s 上輸入 %1$s 以配對，然後輕觸返回或輸入。"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "允許 %s 連接？"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "要從 %s 接收 %s 嗎？"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s 已存在。覆寫嗎？"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "要從 %s 接收檔案嗎？"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "藍牙配對請求"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "輸入密碼與%s配對 (嘗試0000或1234)。"
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "確認密碼為 %2$s 以與 %1$s 配對。"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "允許 %s 電話簿存取"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "允許 %s 存取訊息嗎？"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "不再詢問"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "藍牙錯誤。要重試嗎？"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "無法連接。"
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s 將取消配對。"
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "並未找到附近的藍牙裝置。"
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "無法執行此動作。藍牙已中斷連接。"
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "無法開啟此應用程式。藍牙已中斷連接。"
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s 正在嘗試連接至您的 Gear。若要連接至 %s，Gear 將重設為原廠設定。"
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "連接"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "藍牙已中斷連接。"
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "從 %1$s 連接中斷 %2$s 的連接嗎？"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "手機設定"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "取消"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "確定"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "撥打音訊"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "停用設定檔"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "輕觸以輸入。"
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%2$s 的 %1$s 設定檔將被停用。"
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "配對請求"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "媒體音訊"
+

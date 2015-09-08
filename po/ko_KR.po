@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "블루투스로 디바이스에 연결하였습니다."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "블루투스로 디바이스에 연결 중..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "연결"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "블루투스 오류"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "블루투스를 연결하였습니다."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "블루투스 연결 시간이 초과되어 내 디바이스에 연결할 수 없습니다. 다시 시도하세요."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "초기화"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "블루투스 연결이 해제되어 애플리케이션을 새로고침할 수 없습니다."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "모바일 디바이스와의 거리가 멀어졌거나, Gear와의 연결을 해제하였습니다."
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "블루투스 연결이 해제되어 %s 앱을 실행할 수 없습니다."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "찾기"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "중지"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "등록된 디바이스"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "사용 가능한 디바이스"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "등록됨"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "등록 중…"
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "연결하였습니다."
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "연결 중..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "연결을 끊는 중..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "연결을 해제할까요?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "등록 해제"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "블루투스 스테레오 헤드셋 연결 중..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "찾는 중…"
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "디바이스와의 연결을 종료합니다."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "%s 디바이스와의 연결을 종료합니다."
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "블루투스 주소"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "취소"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "연결할 수 있는 디바이스가 없습니다"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "다시 시도할까요?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "확인"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN이 바르지 않습니다. 다시 시도할까요?"
+
+msgid "IDS_ST_SK_OK"
+msgstr "확인"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "취소"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "등록하려면 %2$s 디바이스에서 %1$s 키를 입력한 후, [뒤로가기] 또는 [입력]을 누르세요."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "%s 디바이스가 연결되도록 허용할까요?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "%s을(를) %s에서 수신할까요?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "동일한 %s 파일이 있습니다. 대체할까요?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "%s에서 보낸 파일을 수신할까요?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "블루투스 등록 요청"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "%s 디바이스를 등록하려면 비밀번호(0000 또는 1234)를 입력하세요."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "%1$s 디바이스와 등록하려면 패스키를 확인하세요.\n패스키: %2$s"
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "%s 연락처 연결 허용"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "%s 디바이스에서 메시지에 접속하는 것을 허용할까요?"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "다시 묻지 않기"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "블루투스 오류가 발생하였습니다. 다시 시도할까요?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "연결할 수 없습니다."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "%s의 등록을 해제합니다."
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "사용 가능한 디바이스가 없습니다"
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "블루투스 연결이 해제되어 작업을 실행할 수 없습니다."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "블루투스 연결이 해제되어 애플리케이션을 실행할 수 없습니다."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "%s 디바이스에서 Gear에 연결하려고 합니다. %s에 연결하기 위해 Gear를 기본으로 초기화합니다."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "연결"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "블루투스 연결을 해제하였습니다."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "%1$s에서 %2$s 연결을 해제할까요?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "프로필"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "취소"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "확인"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "통화 오디오"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "프로필 해제"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "입력하려면 누르세요."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "%1$s 프로필을 %2$s 디바이스에서 해제합니다."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "등록 요청"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "미디어 오디오"
+

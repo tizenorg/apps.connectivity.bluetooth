@@ -1,0 +1,189 @@
+msgid "IDS_BT_BODY_CONNECTED_TO_YOUR_DEVICE_VIA_BLUETOOTH"
+msgstr "מחובר להתקן שלך דרך Bluetooth."
+
+msgid "IDS_BT_BODY_CONNECTING_TO_YOUR_DEVICE_VIA_BLUETOOTH_ING"
+msgstr "מתחבר להתקן שלך דרך Bluetooth..."
+
+msgid "IDS_BT_BUTTON_CONNECT_ABB2"
+msgstr "התחבר"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ERROR_ABB"
+msgstr "שגיאת Bluetooth"
+
+msgid "IDS_BT_POP_BLUETOOTH_CONNECTED"
+msgstr "&#x200f;Bluetooth מחובר."
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT_TO_YOUR_PHONE_THE_BLUETOOTH_CONNECTION_TIMED_OUT_TRY_AGAIN"
+msgstr "לא ניתן להתחבר לטלפון. חיבור ה-Bluetooth הופסק. נסה שוב."
+
+msgid "IDS_ST_BUTTON_RESET_ABB2"
+msgstr "איפוס"
+
+msgid "IDS_WMGR_POP_UNABLE_TO_REFRESH_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "לא ניתן לרענן יישום זה. Bluetooth נותק."
+
+msgid "IDS_WMGR_TPOP_GEAR_DISCONNECTED_OR_OUT_OF_RANGE_OF_MOBILE_DEVICE_ABB"
+msgstr "&#x200f;Gear נותק מההתקן הנייד שלך או לא נמצא בטווח שלו"
+
+msgid "IDS_BT_POP_UNABLE_TO_OPEN_PS_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "לא ניתן לפתוח את %s‏. Bluetooth נותק."
+
+msgid "IDS_BT_SK_SCAN"
+msgstr "סרוק"
+
+msgid "IDS_BT_SK_STOP"
+msgstr "עצור"
+
+msgid "IDS_BT_BODY_PAIRED_DEVICES"
+msgstr "התקנים מותאמים"
+
+msgid "IDS_BT_BODY_AVAILABLE_DEVICES"
+msgstr "התקנים זמינים"
+
+msgid "IDS_BT_BODY_PAIRED"
+msgstr "מותאם"
+
+msgid "IDS_BT_BODY_PAIRING_ING"
+msgstr "מבצע התאמה..."
+
+msgid "IDS_BT_POP_CONNECTED"
+msgstr "מחובר"
+
+msgid "IDS_BT_BODY_CONNECTING"
+msgstr "מתחבר..."
+
+msgid "IDS_BT_BODY_DISCONNECTING"
+msgstr "מתנתק..."
+
+msgid "IDS_BT_POP_DISCONNECT"
+msgstr "להתנתק?"
+
+msgid "IDS_BT_OPT_UNPAIR"
+msgstr "בטל התאמה"
+
+msgid "IDS_BT_POP_CONNECTING_TO_BLUETOOTH_STEREO_HEADSET_ING"
+msgstr "מתחבר לאוזניית סטריאו של Bluetooth..."
+
+msgid "IDS_BT_BODY_SCANNING_ING"
+msgstr "סורק..."
+
+msgid "IDS_BT_POP_THIS_WILL_END_YOUR_CONNECTION_WITH"
+msgstr "פעולה זו תסיים את החיבור עם."
+
+msgid "IDS_WMGR_POP_THIS_WILL_END_YOUR_CONNECTION_WITH_PS"
+msgstr "פעולה זו תסיים את החיבור עם %s"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_ADDRESS"
+msgstr "כתובת Bluetooth"
+
+msgid "IDS_MUSIC_SK_CANCEL"
+msgstr "ביטול"
+
+msgid "IDS_BT_BODY_NO_DEVICES_FOUND_ABB"
+msgstr "לא נמצאו התקנים"
+
+msgid "IDS_BT_POP_PAIRRETRY"
+msgstr "לנסות שוב?"
+
+msgid "IDS_MP_SK_OK"
+msgstr "אישור"
+
+msgid "IDS_BT_POP_INCORRECT_PIN_TRY_AGAIN_Q"
+msgstr "PIN שגוי. נסה שוב"
+
+msgid "IDS_ST_SK_OK"
+msgstr "אישור"
+
+msgid "IDS_ST_SK_CANCEL"
+msgstr "ביטול"
+
+msgid "IDS_BT_BODY_ENTER_P1SS_ON_P2SS_TO_PAIR_THEN_TAP_RETURN_OR_ENTER"
+msgstr "הזן %1$s ב-%2$s כדי לבצע התאמה, ולאחר מכן הקש Return או Enter."
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_CONNECT_Q"
+msgstr "לאפשר ל-%s להתחבר?"
+
+msgid "IDS_BT_POP_RECEIVE_PS_FROM_PS_Q"
+msgstr "לקבל את %s מ-%s?"
+
+msgid "IDS_BT_POP_PS_ALREADY_EXISTS_OVERWRITE_Q"
+msgstr "%s כבר קיים. להחליף?"
+
+msgid "IDS_BT_POP_RECEIVE_FILE_FROM_PS_Q"
+msgstr "לקבל קובץ מ-%s?"
+
+msgid "IDS_BT_HEADER_BLUETOOTH_PAIRING_REQUEST"
+msgstr "בקשת התאמה של Bluetooth"
+
+msgid "IDS_BT_POP_ENTER_PIN_TO_PAIR_WITH_PS_HTRY_0000_OR_1234"
+msgstr "הקלד PIN להתאמה עם %s (נסה את 0000 או 1234)."
+
+msgid "IDS_BT_POP_CONFIRM_PASSKEY_IS_P2SS_TO_PAIR_WITH_P1SS"
+msgstr "אשר שהסיסמה היא %2$s כדי לבצע התאמה עם %1$s."
+
+msgid "IDS_BT_BODY_ALLOW_PS_PHONEBOOK_ACCESS"
+msgstr "אפשר ל-%s גישה לספר טלפונים"
+
+msgid "IDS_BT_POP_ALLOW_PS_TO_ACCESS_MESSAGES_Q"
+msgstr "לאפשר ל-%s לגשת להודעות?‏"
+
+msgid "IDS_BT_BODY_DONT_ASK_AGAIN"
+msgstr "אל תשאל שוב"
+
+msgid "IDS_BT_POP_BLUETOOTH_ERROR_TRY_AGAIN_Q"
+msgstr "שגיאת Bluetooth. לנסות שוב?"
+
+msgid "IDS_BT_POP_UNABLE_TO_CONNECT"
+msgstr "לא ניתן להתחבר."
+
+msgid "IDS_ST_POP_PS_WILL_BE_UNPAIRED"
+msgstr "ההתאמה של %s תבוטל"
+
+msgid "IDS_ST_BODY_NO_NEARBY_BLUETOOTH_DEVICES_FOUND"
+msgstr "לא נמצאו התקני Bluetooth בקרבת מקום."
+
+msgid "IDS_CMV_POP_UNABLE_TO_PERFORM_THIS_ACTION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "לא ניתן לבצע פעולה זו. Bluetooth נותק."
+
+msgid "IDS_CMV_POP_UNABLE_TO_OPEN_THIS_APPLICATION_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "לא ניתן לפתוח יישום זה. Bluetooth נותק."
+
+msgid "IDS_WMGR_BODY_PS_IS_ATTEMPTING_TO_CONNECT_TO_YOUR_GEAR_TO_CONNECT_TO_PS_THE_GEAR_WILL_BE_RESET_TO_ITS_FACTORY_SETTINGS"
+msgstr "&#x200f;%s מנסה להתחבר ל-Gear שלך. כדי להתחבר אל %s, ‏Gear יאופס להגדרות היצרן שלו."
+
+msgid "IDS_BT_HEADER_CONNECT"
+msgstr "התחבר"
+
+msgid "IDS_BT_POP_BLUETOOTH_HAS_BEEN_DISCONNECTED"
+msgstr "‏Bluetooth נותק."
+
+msgid "IDS_BT_BODY_DISCONNECT_P2SS_FROM_THE_P1SS_CONNECTION_Q"
+msgstr "לנתק את %2$s מהחיבור אל %1$s?"
+
+msgid "IDS_ST_HEADER_PROFILES"
+msgstr "פרופילים"
+
+msgid "IDS_BT_BUTTON_CANCEL"
+msgstr "ביטול"
+
+msgid "IDS_BT_BUTTON_OK_ABB"
+msgstr "אישור"
+
+msgid "IDS_BT_BODY_CALL_AUDIO"
+msgstr "שמע שיחה"
+
+msgid "IDS_ST_HEADER_DISABLE_PROFILE_ABB"
+msgstr "השבתת פרופיל"
+
+msgid "IDS_SIM_BODY_TAP_TO_ENTER_ABB"
+msgstr "הקש כדי להזין."
+
+msgid "IDS_ST_POP_THE_P1SS_PROFILE_WILL_BE_DISABLED_FOR_THE_P2SS"
+msgstr "פרופיל %1$s יושבת ב-%2$s."
+
+msgid "IDS_BT_BODY_PAIRING_REQUEST"
+msgstr "בקשת התאמה"
+
+msgid "IDS_ST_MBODY_MEDIA_AUDIO_ABB"
+msgstr "שמע מדיה"
+
